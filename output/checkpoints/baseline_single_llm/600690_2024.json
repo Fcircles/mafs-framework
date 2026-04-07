@@ -1,0 +1,146 @@
+{
+  "company_code": "600690",
+  "company_name": "海尔智家",
+  "year": 2024,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 94,
+      "source_text": "文本提供了净利润（19,575,612,501.68元），但缺失净资产数据，无法计算。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 94,
+      "source_text": "文本提供了净利润（19,575,612,501.68元），但缺失营业收入数据，无法计算。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 94,
+      "source_text": "文本缺失营业收入和总资产数据，无法计算。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 净资产",
+      "source_page": 94,
+      "source_text": "文本缺失总资产和净资产数据，无法计算。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 94,
+      "source_text": "文本缺失流动负债、总资产、留存收益、总负债、股东权益市值、营业收入等关键数据，无法计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 94,
+      "source_text": "文本缺失流动负债数据，无法计算。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 94,
+      "source_text": "文本缺失流动负债数据，无法计算。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 94,
+      "source_text": "文本缺失总负债和总资产数据，无法计算。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 94,
+      "source_text": "文本缺失营业收入和营业成本数据，无法计算。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 94,
+      "source_text": "文本提供了净利润（19,575,612,501.68元），但缺失营业收入数据，无法计算。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 94,
+      "source_text": "文本提供了净利润（19,575,612,501.68元），但缺失总资产数据，无法计算。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 94,
+      "source_text": "文本提供了净利润（19,575,612,501.68元），但缺失净资产数据，无法计算。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 94,
+      "source_text": "文本提供了应收账款期初期末数据，但缺失营业收入数据，无法计算。",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 94,
+      "source_text": "文本提供了存货期初期末数据，但缺失营业成本数据，无法计算。",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 94,
+      "source_text": "文本缺失营业收入和总资产数据，无法计算。",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "由于提供的年报片段仅包含部分资产负债表科目（主要为流动资产）、现金流量表补充资料及部分附注，缺失营业收入、营业成本、总资产、总负债、所有者权益等关键财务数据，导致杜邦分析、Z-Score模型及大部分偿债、盈利、营运能力指标无法计算。从已知数据来看，公司2024年实现净利润195.76亿元，较上年170.88亿元有所增长，盈利绝对值表现良好。期末货币资金高达555.84亿元，现金储备充裕。存货和应收账款规模较大，分别达到430.44亿元和264.73亿元，且较期初均有增长，可能占用较多营运资金。此外，公司经营活动产生的现金流量净额为265.43亿元，远高于净利润，表明公司盈利质量较高，现金流状况良好。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      94,
+      106,
+      114,
+      117,
+      126,
+      163,
+      170,
+      204,
+      206,
+      239
+    ],
+    "text_length": 9420
+  }
+}

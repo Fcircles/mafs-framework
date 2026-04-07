@@ -12,7 +12,12 @@ env/
 
 .env
 
-output/
+output/experiment.log
+output/*.log
+output/reextract_errors.json
+output/regression_*.json
+output/smoke_test_*.json
+output/final_*.json
 
 *.faiss
 *.index

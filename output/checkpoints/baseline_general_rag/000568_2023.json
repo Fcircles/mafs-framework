@@ -1,0 +1,271 @@
+{
+  "company_code": "000568",
+  "company_name": "泸州老窖",
+  "year": 2023,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 11247827134.3,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落2] 四、净利润（净亏损以“－”号填列） 11,247,827,134.30",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "检索到的段落中未包含营业收入的具体数值。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "检索到的段落（如段落4）仅列示了部分流动资产科目，未提供资产总计数值。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（归属于母公司）",
+      "value": 41391410494.89,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落5] 归属于母公司所有者权益合计 41,391,410,494.89",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.2976,
+      "formula": "净利润 / [(期初归母所有者权益 + 期末归母所有者权益) / 2]",
+      "source_page": 7,
+      "source_text": "净利润见段落2（11,247,827,134.30元）；归母所有者权益期末值见段落5（41,391,410,494.89元），期初值见段落5（34,207,871,130.03元）。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 40658983896.76,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 86,
+      "source_text": "非流动资产合计 9,080,470,994.44；资产总计 49,739,454,891.20",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 2424419293.44,
+      "formula": "直接提取",
+      "source_page": 86,
+      "source_text": "流动负债合计 2,424,419,293.44",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 49739454891.2,
+      "formula": "直接提取",
+      "source_page": 86,
+      "source_text": "资产总计 49,739,454,891.20",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 13996028918.45,
+      "formula": "直接提取",
+      "source_page": 86,
+      "source_text": "负债合计 13,996,028,918.45",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 38234564603.32,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 86,
+      "source_text": "计算所得流动资产 40,658,983,896.76；流动负债合计 2,424,419,293.44",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 35287554343.75,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 86,
+      "source_text": "盈余公积 1,471,987,769.00；未分配利润 33,815,566,574.75 (取自合并报表权益部分)",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 所得税 + 利息费用",
+      "source_page": 86,
+      "source_text": "文本未提供利息费用、所得税等完整数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2(营运资本/总资产) + 1.4(留存收益/总资产) + 3.3(EBIT/总资产) + 0.6(权益市值/总负债) + 1.0(营业收入/总资产)",
+      "source_page": 86,
+      "source_text": "缺少EBIT、营业收入、权益市值等关键数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 45358404336.27,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "流动资产合计 45,358,404,336.27",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 2424419293.44,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "流动负债合计 2,424,419,293.44",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 11622043947.46,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "存货 11,622,043,947.46",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 63294455201.6,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "资产总计 63,294,455,201.60",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 13996028918.45,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "负债合计 13,996,028,918.45",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 4.5,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 82,
+      "source_text": "流动比率 4.50",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 3.31,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 82,
+      "source_text": "速动比率 3.31",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.3438,
+      "formula": "总负债 / 总资产",
+      "source_page": 82,
+      "source_text": "资产负债率 34.38%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "利息保障倍数",
+      "value": 37.49,
+      "formula": "EBIT / 利息支出",
+      "source_page": 82,
+      "source_text": "利息保障倍数 37.49",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "提供的段落中未包含公司合并报表的营业收入总额（段落2中的营业收入3,180,917,154.72元属于联营企业相关财务数据）。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "提供的段落中未包含营业成本数据。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 11247827134.3,
+      "formula": "利润总额(11,727,298,413.62) - 所得税费用(479,471,279.32)",
+      "source_page": 7,
+      "source_text": "四、净利润（净亏损以“－”号填列） 11,247,827,134.30",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "提供的段落中仅列示了部分流动资产（如货币资金、交易性金融资产等），未包含总资产数据。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 35743425972.75,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "所有者权益合计 35,743,425,972.75（注：段落1另提及归属于上市公司股东的净资产为41,391,410,494.89元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 9145460581.25,
+      "formula": "无",
+      "source_page": 171,
+      "source_text": "合计 9,145,460,581.25 6,915,061,972.96 8,410,433,537.26 6,178,065,196.37",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 6915061972.96,
+      "formula": "无",
+      "source_page": 171,
+      "source_text": "合计 9,145,460,581.25 6,915,061,972.96 8,410,433,537.26 6,178,065,196.37",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 17461378.98,
+      "formula": "无",
+      "source_page": 171,
+      "source_text": "应收账款 17,461,378.98 5,939,420.78",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 171,
+      "source_text": "无",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 171,
+      "source_text": "无",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "泸州老窖2023年度财务状况表现卓越，呈现出高盈利、低风险与强现金流的典型特征。\n\n**盈利能力方面**，公司净利润实现24.4%的显著增长，ROE（净资产收益率）高达29.76%左右，显示出极强的资本回报能力和品牌溢价水平，盈利质量处于行业领先地位。\n\n**偿债能力方面**，财务结构极其稳健。资产负债率维持在34.38%的较低水平，流动比率与速动比率均远超安全边界，配合极高的利息保障倍数，说明公司自有资金充裕，几乎不存在短期或长期偿债风险。\n\n**营运效率方面**，应收账款周转率表现惊人（约781.64次），反映出公司在产业链中拥有极强的议价地位，基本实现了“先款后货”的销售模式，资金回笼极快，营运资金占用极少。\n\n**风险提示**：尽管核心财务指标优异，但投资者仍需关注白酒行业竞争加剧、消费环境变化对高端白酒需求的潜在影响。此外，由于本次分析中存货及总资产周转数据缺失，未能全面评估整体资产运营效率，建议后续关注存货规模变动及行业去库存压力可能带来的经营波动。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "company_code": "002304",
+  "company_name": "洋河股份",
+  "year": 2020,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润（归属于上市公司股东的净利润）",
+      "value": 7481998651.11,
+      "formula": "基本每股收益 * (非经常性损益合计 / (基本每股收益 - 扣除非经常性损益后的基本每股收益))",
+      "source_page": 6,
+      "source_text": "根据段落5，基本每股收益为4.9843元，扣除非经常性损益后的基本每股收益为3.7651元，非经常性损益合计为1,830,159,691.65元。推算出总股本约为1,501,115,233股，进而计算出净利润。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "检索到的段落中未提供营业收入的具体数值。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 53866259306.59,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "段落1：总资产（元） 53,866,259,306.59",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（归属于上市公司股东的净资产）",
+      "value": 38484583983.54,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "段落1：归属于上市公司股东的净资产（元） 38,484,583,983.54",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.202,
+      "formula": "加权平均净资产收益率",
+      "source_page": 6,
+      "source_text": "段落5：归属于公司普通股股东的净利润加权平均净资产收益率为20.20%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数 (杜邦分解指标)",
+      "value": 1.431,
+      "formula": "平均总资产 / 平均归属于上市公司股东的净资产",
+      "source_page": 6,
+      "source_text": "根据段落1，2020年总资产为53,866,259,306.59元，2019年为53,455,037,840.98元；2020年净资产为38,484,583,983.54元，2019年为36,508,835,491.47元。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 53866259306.59,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "[段落1] 总资产（元） 53,866,259,306.59",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 6,
+      "source_text": "提供的段落中未包含计算所需数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股东权益市值/总负债) + 0.999*(销售收入/总资产)",
+      "source_page": 6,
+      "source_text": "提供的段落中未包含计算所需数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 53866259306.59,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "[段落1] 总资产（元） 53,866,259,306.59",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 15381675323.05,
+      "formula": "总资产 - 归属于上市公司股东的净资产",
+      "source_page": 6,
+      "source_text": "[段落1] 总资产（元） 53,866,259,306.59；归属于上市公司股东的净资产（元） 38,484,583,983.54",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 6,
+      "source_text": "检索到的段落中未包含流动资产总额的具体数值。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 6,
+      "source_text": "检索到的段落中仅提及合同负债、预收款项等部分科目，未提供流动负债总额。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 6,
+      "source_text": "检索到的段落中仅包含存货跌价准备的计提与余额数据（如原材料跌价准备期末余额9,565,908.51元），未提供存货账面价值总额。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "未在提供的段落中找到直接数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 5851904596.71,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "其中：营业成本 5,851,904,596.71 6,626,362,251.24",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "未在提供的段落中找到直接数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 53866259306.59,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "总资产（元） 53,866,259,306.59 53,455,037,840.98 0.77% 49,563,767,816.22",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 38484583983.54,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净资产\n38,484,583,983.54 36,508,835,491.47 5.41% 33,644,530,266.23",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 21101051131.79,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "营业收入（元） 21,101,051,131.79",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 53866259306.59,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "总资产（元） 53,866,259,306.59",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.3932,
+      "formula": "营业收入 / [(期初总资产 + 期末总资产) / 2]",
+      "source_page": 6,
+      "source_text": "营业收入（元） 21,101,051,131.79；总资产（元） 53,866,259,306.59 53,455,037,840.98",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合以上分项数据，洋河股份（002304）2020年度整体财务状况稳健，呈现出“高盈利、低杠杆”的特征，但现金流与部分非经常性损益指标提示了潜在风险。\n\n**盈利能力**：公司盈利能力强劲，加权平均ROE高达20.20%，归母净利润约74.82亿元。营业利润（98.95亿元）远超营业成本，但投资收益与公允价值变动收益合计贡献超24亿元，占比较高，需关注主业实际盈利的纯度。\n\n**偿债能力**：公司长期偿债风险极小。资产负债率仅为28.55%，财务杠杆较低（权益乘数1.431）。此外，负债中包含143.73亿元的合同负债（主要为预收货款），不构成实际现金流出压力，真实债务负担更轻。\n\n**营运效率**：全年实现营收约211亿元，总资产周转率约为0.39次，整体资产周转效率表现平稳。但由于缺乏存货与应收账款数据，核心营运资产的周转健康度仍需进一步验证。\n\n**风险提示**：需重点关注两大隐患。一是经营活动现金流量净额同比大幅下滑41.47%至39.79亿元，表明主业获取现金的能力正在减弱；二是报告中提及的“持续经营能力存在不确定性”与当前稳健的资产负债表存在矛盾，需高度警惕潜在的审计风险或非经常性损益带来的重大影响。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

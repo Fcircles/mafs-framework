@@ -1,0 +1,16 @@
+{
+  "company_code": "002507",
+  "company_name": "涪陵榨菜",
+  "year": 2023,
+  "industry": "消费行业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "涪陵榨菜 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "流动负债合计": 430339832.28,
+      "总负债": 430339832.28,
+      "应收账款": 10502991.4
+    }
+  }
+}

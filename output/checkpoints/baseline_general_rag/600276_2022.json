@@ -1,0 +1,271 @@
+{
+  "company_code": "600276",
+  "company_name": "恒瑞医药",
+  "year": 2022,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 3815070903.04,
+      "formula": "直接提取",
+      "source_page": 220,
+      "source_text": "五、净利润（净亏损以“－”号填列） 3,815,070,903.04",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于母公司股东的净利润",
+      "value": 3906304390.78,
+      "formula": "直接提取",
+      "source_page": 220,
+      "source_text": "1.归属于母公司股东的净利润（净亏损以“-”号填列） 3,906,304,390.78",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 220,
+      "source_text": "未在提供的段落中找到",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 220,
+      "source_text": "未在提供的段落中找到",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 220,
+      "source_text": "未在提供的段落中找到",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（加权平均净资产收益率）",
+      "value": 0.1089,
+      "formula": "直接提取",
+      "source_page": 220,
+      "source_text": "加权平均净资产收益率（%） 归属于公司普通股股东的净利润 10.89",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 29698121072.11,
+      "formula": "直接提取",
+      "source_page": 129,
+      "source_text": "流动资产合计 29,698,121,072.11",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 129,
+      "source_text": "原文仅列出短期借款、应付票据等部分明细，未提供流动负债合计",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 39229947917.12,
+      "formula": "直接提取",
+      "source_page": 129,
+      "source_text": "资产总计 39,229,947,917.12",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 129,
+      "source_text": "原文未提供",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 129,
+      "source_text": "缺少流动负债完整数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无",
+      "source_page": 129,
+      "source_text": "原文未提供盈余公积、未分配利润等相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 所得税费用 + 利息费用 (或 营业收入 - 营业成本 - 期间费用等)",
+      "source_page": 129,
+      "source_text": "缺少营业收入、净利润、所得税费用等关键数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(股票市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 129,
+      "source_text": "缺少计算所需的流动负债、总负债、留存收益、营业收入、市值等多个关键变量",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 30934054194.94,
+      "formula": null,
+      "source_page": 129,
+      "source_text": "流动资产合计 30,934,054,194.94",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 3639219602.64,
+      "formula": null,
+      "source_page": 129,
+      "source_text": "流动负债合计 3,639,219,602.64",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 2450574758.45,
+      "formula": null,
+      "source_page": 129,
+      "source_text": "存货 9 2,450,574,758.45",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 42355009127.7,
+      "formula": null,
+      "source_page": 129,
+      "source_text": "资产总计 42,355,009,127.70",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 3941852984.53,
+      "formula": null,
+      "source_page": 129,
+      "source_text": "负债合计 3,941,852,984.53",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 8.5,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 129,
+      "source_text": "流动资产合计 30,934,054,194.94，流动负债合计 3,639,219,602.64",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 7.83,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 129,
+      "source_text": "流动资产合计 30,934,054,194.94，存货 2,450,574,758.45，流动负债合计 3,639,219,602.64",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.0931,
+      "formula": "总负债 / 总资产",
+      "source_page": 129,
+      "source_text": "负债合计 3,941,852,984.53，资产总计 42,355,009,127.70",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "文本未直接提供总营业收入，仅提供主营业务中医药制造业营业收入21,213,025,401.29元",
+      "source_page": 130,
+      "source_text": "医药制造业 21,213,025,401.29",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 3486638890.09,
+      "formula": "直接提取",
+      "source_page": 130,
+      "source_text": "其中：营业成本 61 3,486,638,890.09",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 3815070903.04,
+      "formula": "直接提取",
+      "source_page": 130,
+      "source_text": "五、净利润（净亏损以“－”号填列） 3,815,070,903.04",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "文本未提供相关数据",
+      "source_page": 130,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "文本未直接提供期末所有者权益，但可估算加权平均净资产 = 归属于母公司股东的净利润 / 加权平均净资产收益率 = 3,906,304,390.78 / 10.89% ≈ 35,870,563,735.35元",
+      "source_page": 130,
+      "source_text": "归属于母公司股东的净利润 3,906,304,390.78；加权平均净资产收益率（%） 10.89",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 21213025401.29,
+      "formula": "主营业务分行业情况中的医药制造业营业收入",
+      "source_page": 132,
+      "source_text": "医药制造业 21,213,025,401.29 3,459,724,923.57",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 3486638890.09,
+      "formula": "利润表中的营业成本本期发生额",
+      "source_page": 132,
+      "source_text": "其中：营业成本 61 3,486,638,890.09 3,741,798,550.11",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 132,
+      "source_text": "提供的段落中未包含应收账款数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 1585150685.58,
+      "formula": "资产负债表中的存货期末余额",
+      "source_page": 132,
+      "source_text": "存货 1,585,150,685.58 1,680,371,964.03",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 39229947917.12,
+      "formula": "资产负债表中的资产总计期末余额",
+      "source_page": 132,
+      "source_text": "资产总计 39,229,947,917.12 36,098,378,894.05",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，恒瑞医药2022年整体财务状况十分稳健，展现出典型创新药企的经营特征。\n\n在盈利能力方面，公司产品附加值极高，整体毛利率达83.69%（核心抗肿瘤药高达90.18%），ROE为10.89%，实现归母净利润39.06亿元，盈利基础扎实。同时，高额的研发（48.87亿元）与销售费用（73.48亿元）表明其高毛利模式依赖于持续的研发创新与市场营销投入。\n\n在偿债能力方面，公司表现极其优异。流动比率高达8.50，速动比率为7.83，资产负债率仅为9.31%，说明公司短期资金极其充沛，长期债务负担极轻，对外部融资依赖度低，财务结构具备极高的安全垫。\n\n在营运效率方面，存货周转率约2.14次，总资产周转率约0.56次，整体资产流转保持平稳，但实际营运健康度仍需结合缺失的应收账款数据及行业均值作进一步验证。\n\n风险提示：首先，受限于部分核心数据（如应收账款、完整负债等）缺失，无法进行完整的杜邦分解与Z-Score模型测算，存在局部评估盲区；其次，需密切关注高额研发与销售投入的最终转化效率，若新药研发失败或商业化不及预期，高企的期间费用将对未来的净利润空间造成显著压制。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

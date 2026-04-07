@@ -1,0 +1,263 @@
+{
+  "company_code": "000538",
+  "company_name": "云南白药",
+  "year": 2020,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 5516072178.81,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净利润（元） 5,516,072,178.81",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 32742766763.79,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "营业收入（元） 32,742,766,763.79",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 55219448243.0,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "总资产（元） 55,219,448,243.00",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 38052550013.05,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净资产（元） 38,052,550,013.05",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.145,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净利润（元） 5,516,072,178.81；归属于上市公司股东的净资产（元） 38,052,550,013.05",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.1685,
+      "formula": "净利润 / 营业收入",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净利润（元） 5,516,072,178.81；营业收入（元） 32,742,766,763.79",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.593,
+      "formula": "营业收入 / 总资产",
+      "source_page": 6,
+      "source_text": "营业收入（元） 32,742,766,763.79；总资产（元） 55,219,448,243.00",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.4511,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 6,
+      "source_text": "总资产（元） 55,219,448,243.00；归属于上市公司股东的净资产（元） 38,052,550,013.05",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 55219448243.0,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "2020年末 总资产（元） 55,219,448,243.00",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 0.999*(营业收入/总资产)",
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "文本中未直接提供流动资产合计的具体数值。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 13354989761.08,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "流动负债合计 13,354,989,761.08",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 10990346685.44,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "存货 10,990,346,685.44 19.90%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 55219448243.0,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "总资产（元） 55,219,448,243.00",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 15154567588.72,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "负债合计 15,154,567,588.72",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 32742766763.79,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "合计 32,742,766,763.79 23,655,878,134.56 29,664,673,868.68 21,191,364,351.40",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 23655878134.56,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "合计 32,742,766,763.79 23,655,878,134.56 29,664,673,868.68 21,191,364,351.40",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 5511036221.02,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "五、净利润（净亏损以“－”号填列） 5,511,036,221.02 4,173,051,971.90",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 55219448243.0,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 55,219,448,243.00 49,658,049,118.83 11.20% 53,948,473,940.32",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益（归属于上市公司股东的净资产）",
+      "value": 38052550013.05,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净资产（元） 38,052,550,013.05 37,938,097,253.00 0.30% 39,662,058,574.09",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 32742766763.79,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "合计 32,742,766,763.79 23,655,878,134.56 29,664,673,868.68 21,191,364,351.40",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 23655878134.56,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "合计 32,742,766,763.79 23,655,878,134.56 29,664,673,868.68 21,191,364,351.40",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "信用减值损失（损失以“-”号填列） -205,456,429.36 -3.02% 主要构成是计提的应收款项坏账准备。",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "资产减值 -125,480,222.61 -1.84% 主要构成是存货跌价准备。",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 55219448243.0,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 55,219,448,243.00 49,658,049,118.83 11.20% 53,948,473,940.32",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2020年云南白药整体财务状况稳健，资金极其充裕，但利润结构存在一定隐忧。\n\n**盈利能力**：公司全年实现营收327.43亿元，归母净利润55.16亿元，加权ROE达14.46%（同比提升4.15个百分点），净利率达16.85%，展现出良好的产品盈利与资本回报能力。\n\n**偿债能力**：公司流动性极强，期末货币资金与交易性金融资产合计占总资产近48%，高流动性资产足以轻松覆盖日常经营与短期债务需求。财务杠杆（权益乘数1.45）适中，不存在显著的偿债风险。\n\n**营运效率**：总资产周转率约为0.62次，资产营运效率整体平稳，能够有效支撑现有销售规模的创造。\n\n**风险提示**：公司当期利润对非经常性损益高度依赖。利润总额中超38%（约26.32亿元）来源于公允价值变动及投资收益，主要受证券及基金净值波动影响。此类收益明确不具备可持续性，若未来资本市场出现剧烈波动，将对公司净利润造成显著冲击。建议投资者重点关注其主营业务的实际盈利质量与内生增长动力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

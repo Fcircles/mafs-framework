@@ -1,0 +1,263 @@
+{
+  "company_code": "000338",
+  "company_name": "潍柴动力",
+  "year": 2023,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 213958475631.13,
+      "formula": null,
+      "source_page": 9,
+      "source_text": "营业收入（元） 213,958,475,631.13",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 9013894024.19,
+      "formula": null,
+      "source_page": 9,
+      "source_text": "归属于上市公司股东的净利润（元） 9,013,894,024.19",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 334247213024.91,
+      "formula": null,
+      "source_page": 9,
+      "source_text": "负债和所有者权益总计 334,247,213,024.91",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于母公司所有者权益",
+      "value": 79335199814.41,
+      "formula": null,
+      "source_page": 9,
+      "source_text": "归属于母公司所有者权益合计 79,335,199,814.41",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "期末净资产收益率(ROE)",
+      "value": 0.1136,
+      "formula": "归属于上市公司股东的净利润 / 归属于母公司所有者权益",
+      "source_page": 9,
+      "source_text": "归属于上市公司股东的净利润（元） 9,013,894,024.19；归属于母公司所有者权益合计 79,335,199,814.41",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.0421,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 9,
+      "source_text": "归属于上市公司股东的净利润（元） 9,013,894,024.19；营业收入（元） 213,958,475,631.13",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.6401,
+      "formula": "营业收入 / 总资产",
+      "source_page": 9,
+      "source_text": "营业收入（元） 213,958,475,631.13；负债和所有者权益总计 334,247,213,024.91",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 4.2131,
+      "formula": "总资产 / 归属于母公司所有者权益",
+      "source_page": 9,
+      "source_text": "负债和所有者权益总计 334,247,213,024.91；归属于母公司所有者权益合计 79,335,199,814.41",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 197925301358.43,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 214,
+      "source_text": "非流动资产合计 136,321,911,666.48...资产总计 334,247,213,024.91",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 214,
+      "source_text": "无完整流动负债数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 334247213024.91,
+      "formula": "无",
+      "source_page": 214,
+      "source_text": "资产总计 334,247,213,024.91",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 214,
+      "source_text": "无2023年总负债数据（段落1中189,555,435,692.08为2022年数据）",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 214,
+      "source_text": "缺少流动负债数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 214,
+      "source_text": "缺少盈余公积和未分配利润数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "税前利润 + 利息费用",
+      "source_page": 214,
+      "source_text": "缺少利息费用数据，且仅有2022年税前利润",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 214,
+      "source_text": "缺少营运资本、留存收益、EBIT、总负债、市值等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 197925301358.43,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 191,
+      "source_text": "非流动资产合计 136,321,911,666.48...资产总计 334,247,213,024.91",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 191,
+      "source_text": "文本中列出了部分流动负债科目（如短期借款、应付票据、应付账款等），但未提供流动负债合计金额",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 191,
+      "source_text": "文本中未提及存货数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 334247213024.91,
+      "formula": "无",
+      "source_page": 191,
+      "source_text": "资产总计 334,247,213,024.91",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 191,
+      "source_text": "文本中未提供资产负债表中的负债合计金额",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 213958475631.13,
+      "formula": "无",
+      "source_page": 95,
+      "source_text": "营业收入（元） 213,958,475,631.13",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 95,
+      "source_text": "提供的段落中未提及营业成本数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 9013894024.19,
+      "formula": "无",
+      "source_page": 95,
+      "source_text": "归属于上市公司股东的净利润（元） 9,013,894,024.19",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 334247213024.91,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 95,
+      "source_text": "负债和所有者权益总计 334,247,213,024.91",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 112685734885.46,
+      "formula": "无",
+      "source_page": 95,
+      "source_text": "所有者权益合计 112,685,734,885.46",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 213958475631.13,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "营业收入（元） 213,958,475,631.13",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 168842269935.85,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "合计 213,958,475,631.13 168,842,269,935.85",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "提供的文本中未包含应收账款余额数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "提供的文本中未包含存货余额数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 293666087852.49,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "总资产 293,666,087,852.49",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，潍柴动力（000338）2023年的整体财务状况呈现出“盈利强劲复苏、高杠杆驱动回报”的典型重资产制造业特征。\n\n**盈利能力**：公司表现极为优异。2023年实现营收2139.58亿元（同比+22.15%），归母净利润激增83.77%至90.14亿元，扣非净利润更是大增146.13%。加权平均ROE跃升至11.69%，各项核心利润指标的全面爆发，彰显了公司在规模扩张的同时，盈利质量与股东回报水平得到了实质性增强。\n\n**营运效率**：公司整体资产周转率保持在0.64至0.73次之间，资产运转效率良好。但杜邦分析显示其销售净利率仅为4.21%，处于相对较低水平，说明公司高度依赖规模效应与较快的资产周转来维持整体收益。\n\n**偿债能力**：资产端流动性较好，流动资产占总资产比例达59.22%。然而，高达4.21的权益乘数表明，公司在很大程度上利用了较高的财务杠杆来放大ROE，资本结构具有一定的激进性。\n\n**风险提示**：由于当前数据缺失完整的负债明细、存货及留存收益等关键指标，无法准确计算流动比率、资产负债率及Altman Z-Score，短期与长期偿债风险尚属盲区。鉴于公司呈现“低净利率+高财务杠杆”的财务特征，对宏观经济波动和资金链的敏感度较高。建议投资者密切关注其完整的资产负债表数据，警惕潜在的流动性压力与债务风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "company_code": "600079",
+  "company_name": "人福医药",
+  "year": 2024,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "检索内容中未提供净利润的具体数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "检索内容中未提供营业收入的具体数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 19155871236.16,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "负债和所有者权益（或股东权益）总计 19,155,871,236.16",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 13057591754.46,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "所有者权益（或股东权益）合计 13,057,591,754.46",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.0767,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "加权平均净资产收益率（%） 归属于公司普通股股东的净利润 7.67",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.467,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 8,
+      "source_text": "基于提取的总资产19,155,871,236.16和所有者权益13,057,591,754.46计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 118,
+      "source_text": "未在提供的段落中找到",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 13339976221.94,
+      "formula": null,
+      "source_page": 118,
+      "source_text": "流动负债合计 13,339,976,221.94",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 19155871236.16,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 118,
+      "source_text": "负债和所有者权益（或股东权益）总计 19,155,871,236.16",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 15815264995.25,
+      "formula": null,
+      "source_page": 118,
+      "source_text": "负债合计 15,815,264,995.25",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 118,
+      "source_text": "缺乏流动资产数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 118,
+      "source_text": "段落1提供未分配利润为2,562,606,492.31，但段落5中盈余公积数据缺失，无法准确计算完整的留存收益",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": null,
+      "source_page": 118,
+      "source_text": "未在提供的段落中找到",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 118,
+      "source_text": "缺乏流动资产、息税前利润、销售收入等关键数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 115,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 13339976221.94,
+      "formula": null,
+      "source_page": 115,
+      "source_text": "流动负债合计 13,339,976,221.94 13,225,866,187.12",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 115,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 19155871236.16,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 115,
+      "source_text": "负债和所有者权益（或股东权益）总计 19,155,871,236.16 18,811,610,617.59",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 15815264995.25,
+      "formula": null,
+      "source_page": 115,
+      "source_text": "负债合计 15,815,264,995.25 16,105,685,461.71",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 25435484349.43,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "营业收入 25,435,484,349.43",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 14103261109.49,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "营业成本 14,103,261,109.49",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 1330000000.0,
+      "formula": "直接提取（归属于上市公司股东的净利润）",
+      "source_page": 8,
+      "source_text": "实现归属于上市公司股东的净利润13.30亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 19155871236.16,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 8,
+      "source_text": "负债和所有者权益（或股东权益）总计 19,155,871,236.16",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 13057591754.46,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "所有者权益（或股东权益）合计 13,057,591,754.46",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 8,
+      "source_text": "营业收入 25,435,484,349.43；营业成本 14,103,261,109.49",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 8,
+      "source_text": "营业收入 25,435,484,349.43；实现归属于上市公司股东的净利润13.30亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 8,
+      "source_text": "实现归属于上市公司股东的净利润13.30亿元；所有者权益（或股东权益）合计 13,057,591,754.46",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 25435484349.43,
+      "formula": "直接提取",
+      "source_page": 19,
+      "source_text": "营业收入 25,435,484,349.43",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 14103261109.49,
+      "formula": "直接提取",
+      "source_page": 19,
+      "source_text": "营业成本 14,103,261,109.49",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 9198217900.0,
+      "formula": "919,821.79万元 * 10000",
+      "source_page": 19,
+      "source_text": "2024年12月31日，贵公司应收账款账面价值为 919,821.79万元",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "提供的文本中未包含存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "提供的文本中未包含总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，人福医药（600079）2024年度财务状况呈现出“主业规模稳健，但盈利与资金链显著承压”的特征。\n\n在**盈利能力**方面，公司营业收入（254.35亿元）实现3.71%的增长，毛利率维持在44.55%的较高水平，说明核心业务获利基础依然稳固。然而，受期间费用大幅攀升及高达6.77亿元的信用与资产减值损失双重拖累，归母净利润同比大降37.70%，陷入明显的“增收不增利”困境，净利率仅为5.23%，ROE为7.67%，整体盈利质量受到严重侵蚀。\n\n在**偿债与营运能力**方面，公司面临严峻的短期资金周转考验。合并报表显示流动负债高达133.40亿元，占总负债的84.35%，债务结构严重短期化，短期偿债压力巨大。同时，期末应收账款高达91.98亿元，占营收比重超36%，粗略估算周转率仅约2.76次。高额的应收账款不仅沉淀了大量营运资金，还直接导致了巨额信用减值，严重拖累了整体营运效率。\n\n**风险提示**：投资者需高度警惕公司债务结构失衡带来的短期流动性风险；同时，应密切关注其应收账款的实际催收进度、期间费用的管控成效，以及未来是否仍存在大额资产减值计提的潜在风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "company_code": "603288",
+  "company_name": "海天味业",
+  "year": 2021,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 5957350791.29,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "四、净利润（净亏损以“－”号填列） 5,957,350,791.29",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "提供的段落中未包含此数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": 0.3163,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "加权平均净资产收益率（%） 31.63",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 6,
+      "source_text": "因缺少营业收入数据无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 6,
+      "source_text": "因缺少营业收入和总资产数据无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "平均总资产 / 平均所有者权益",
+      "source_page": 6,
+      "source_text": "因缺少总资产和所有者权益数据无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 162,
+      "source_text": "段落3提供了利润总额（6,153,789,804.77），但未提供利息费用，无法准确计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 1.0*(销售收入/总资产)",
+      "source_page": 162,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 24200136687.33,
+      "formula": "直接提取",
+      "source_page": 162,
+      "source_text": "流动资产合计 24,200,136,687.33",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "文本未提供合计数据",
+      "source_page": 162,
+      "source_text": "无直接数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 2099920921.86,
+      "formula": "直接提取",
+      "source_page": 162,
+      "source_text": "存货 2,099,920,921.86",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 29533620038.66,
+      "formula": "直接提取",
+      "source_page": 162,
+      "source_text": "资产总计 29,533,620,038.66",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "文本未提供合计数据",
+      "source_page": 162,
+      "source_text": "无直接数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 5957350791.29,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "四、净利润（净亏损以“－”号填列） 5,957,350,791.29 3,470,141,719.25",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 23596521063.82,
+      "formula": "线下渠道营业收入 + 线上渠道营业收入 = 22,892,290,113.16 + 704,230,950.66",
+      "source_page": 14,
+      "source_text": "线下渠道 22,892,290,113.16... 线上渠道 704,230,950.66",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 14209092734.96,
+      "formula": "线下渠道营业成本 + 线上渠道营业成本 = 13,767,576,985.39 + 441,515,749.57",
+      "source_page": 14,
+      "source_text": "线下渠道 22,892,290,113.16 13,767,576,985.39... 线上渠道 704,230,950.66 441,515,749.57",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "检索内容中未提供应收账款余额，仅有经营性应收项目的减少（-84,096,738.71）",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "检索内容中未提供存货余额，仅有存货的减少（-126,898,038.82）",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 14,
+      "source_text": "检索内容中未提供总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，海天味业（603288）2021年度展现出极为优异的财务基本面，整体经营稳健且高效。\n\n在**盈利能力**方面，公司全年实现净利润约59.57亿元，加权平均净资产收益率（ROE）高达31.63%，扣非后ROE也达到30.48%。这表明公司拥有极强的核心获利能力，能够高效利用自有资本为股东创造丰厚回报，整体盈利水平处于行业高位。\n\n在**偿债能力**上，公司财务结构极其稳健。其流动资产高达242.00亿元，远超目前已知的约87.43亿元流动负债，且短期借款规模极小（仅0.92亿元）。公司资金充裕，资产流动性极强，短期债务压力极低，具备优异的短期偿债能力。\n\n在**营运效率**方面，尽管缺乏量化的周转率指标，但公司通过强化产销协同、推进供应链互联互通，成功实现了期末产成品库存的良性下降。这反映出公司在库存管控和内部运营管理上取得了显著成效，营运效率持续优化。\n\n**风险提示**：本次评价受限于部分关键财务数据（如营业收入、总资产、完整负债等）的缺失，导致无法完成完整的杜邦分析与Z-Score破产风险测算。建议投资者在决策时，需结合完整财报数据进一步评估长期偿债风险，同时密切关注上游原材料价格波动及市场竞争加剧对公司未来利润空间可能产生的不利影响。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

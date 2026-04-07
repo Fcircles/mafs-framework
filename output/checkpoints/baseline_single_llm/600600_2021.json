@@ -1,0 +1,115 @@
+{
+  "company_code": "600600",
+  "company_name": "青岛啤酒",
+  "year": 2021,
+  "industry": "消费行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "销售净利率",
+      "value": 10.47,
+      "formula": "归属于上市公司股东的净利润 / 营业收入 * 100%",
+      "source_page": 9,
+      "source_text": "营业收入30,166,805千元，归属于上市公司股东的净利润31.6亿元",
+      "category": "杜邦分析/盈利能力"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均资产总额",
+      "source_page": 9,
+      "source_text": "文本未提供资产总额数据",
+      "category": "杜邦分析/营运能力"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "资产总额 / 股东权益总额",
+      "source_page": 9,
+      "source_text": "文本未提供资产及权益总额数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE (净资产收益率)",
+      "value": null,
+      "formula": "销售净利率 * 资产周转率 * 权益乘数",
+      "source_page": 9,
+      "source_text": "文本未提供资产及权益总额数据",
+      "category": "杜邦分析/盈利能力"
+    },
+    {
+      "name": "Altman Z-Score (Z'')",
+      "value": null,
+      "formula": "6.56X1 + 3.26X2 + 6.72X3 + 1.05X4",
+      "source_page": 9,
+      "source_text": "文本未提供流动资产、流动负债、总负债及留存收益等必要资产负债表科目",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 9,
+      "source_text": "文本未提供流动资产及流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 9,
+      "source_text": "文本未提供流动资产、存货及流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产 * 100%",
+      "source_page": 9,
+      "source_text": "文本未提供总负债及总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 36.71,
+      "formula": "(营业收入 - 营业成本) / 营业收入 * 100%",
+      "source_page": 9,
+      "source_text": "营业收入30,166,805千元，营业成本19,091,131千元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA (总资产收益率)",
+      "value": null,
+      "formula": "净利润 / 平均资产总额",
+      "source_page": 9,
+      "source_text": "文本未提供资产总额数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款余额",
+      "source_page": 9,
+      "source_text": "文本未提供应收账款余额数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货余额",
+      "source_page": 9,
+      "source_text": "文本未提供存货余额数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2021年青岛啤酒实现了营收与利润的双增长，营业收入突破300亿元（+8.67%），归母净利润达31.6亿元。盈利能力方面，毛利率维持在36.71%的较高水平，净利率为10.47%，显示出较强的品牌溢价能力。收入增长主要驱动力为销量增加及品种结构优化，有效抵消了原材料价格上涨带来的成本压力。现金流表现极其强劲，经营活动现金流量净额达60.43亿元，远超净利润，说明收益质量极高。财务费用为负值，反映公司资金充裕，利息收入覆盖了财务支出。风险方面，审计报告重点关注了新银麦公司的商誉减值及固定资产减值风险，资产处置收益（4.82亿元）对当期利润有一定非经常性贡献。由于文本缺失资产负债表详细科目，无法计算偿债杠杆及周转效率指标，但从利润表和现金流量表看，公司经营稳健，抗风险能力较强。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      9,
+      71,
+      72
+    ],
+    "text_length": 3209
+  }
+}

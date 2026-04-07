@@ -1,0 +1,263 @@
+{
+  "company_code": "601888",
+  "company_name": "中国中免",
+  "year": 2023,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 6713686688.57,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 6,713,686,688.57",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 67540104550.94,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "营业收入 67,540,104,550.94",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 78869406192.71,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "总资产 78,869,406,192.71",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净资产",
+      "value": 53833949495.02,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净资产 53,833,949,495.02",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "期末净资产收益率(ROE)",
+      "value": 0.1247,
+      "formula": "归属于上市公司股东的净利润 / 归属于上市公司股东的净资产",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 6,713,686,688.57；归属于上市公司股东的净资产 53,833,949,495.02",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.0994,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 6,713,686,688.57；营业收入 67,540,104,550.94",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.8564,
+      "formula": "营业收入 / 总资产",
+      "source_page": 10,
+      "source_text": "营业收入 67,540,104,550.94；总资产 78,869,406,192.71",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.465,
+      "formula": "总资产 / 归属于上市公司股东的净资产",
+      "source_page": 10,
+      "source_text": "总资产 78,869,406,192.71；归属于上市公司股东的净资产 53,833,949,495.02",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 15328502011.0,
+      "formula": null,
+      "source_page": 76,
+      "source_text": "流动负债合计 15,328,502,011.00 17,480,324,239.95",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 76,
+      "source_text": "四、利润总额（亏损总额以“－”号填列） 8,645,528,461.60",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 0.999*(营业收入/总资产)",
+      "source_page": 76,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 164,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 15328502011.0,
+      "formula": null,
+      "source_page": 164,
+      "source_text": "流动负债合计 15,328,502,011.00 17,480,324,239.95",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 164,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 78857489820.72,
+      "formula": "境外资产 / 境外资产占总资产比例 = 25,952,000,000 / 32.91%",
+      "source_page": 164,
+      "source_text": "境外资产人民币259.52亿元，占总资产的比例为32.91%。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 164,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 67540104550.94,
+      "formula": "直接提取",
+      "source_page": 81,
+      "source_text": "合计 67,065,208,892.15 1,630,271,463.32 -1,155,375,804.53 67,540,104,550.94",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 81,
+      "source_text": "无相关数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 7266212256.19,
+      "formula": "利润总额 - 所得税费用",
+      "source_page": 81,
+      "source_text": "四、利润总额（亏损总额以“－”号填列） 8,645,528,461.60\n减：所得税费用 七、76 1,379,316,205.41",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 81,
+      "source_text": "无相关数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 81,
+      "source_text": "无相关数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 67540104550.94,
+      "formula": "免税商品销售收入 + 有税商品销售收入 + 其他收入",
+      "source_page": 10,
+      "source_text": "合计 67,065,208,892.15 1,630,271,463.32 -1,155,375,804.53 67,540,104,550.94",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，中国中免（601888）在2023年展现出强劲的业绩复苏态势与稳健的财务基本面。\n\n在**盈利能力**方面，公司表现亮眼。2023年加权平均净资产收益率达13.12%，销售净利率为9.94%，归母净利润等核心指标同比增幅均超30%。这主要得益于公司精准把握消费复苏与出入境政策放开红利，通过优化商品结构与提升运营效率，实现了主营业务的显著回升。\n\n在**营运效率**与**偿债能力**方面，结合杜邦分析可知，公司总资产周转率达到0.8564次，整体资产周转效率良好；权益乘数为1.465，表明财务杠杆使用适度。同时，期末流动负债占总资产比例仅约19.44%，说明公司短期债务规模相对可控，整体债务结构较为安全。\n\n**风险提示**：由于本次分析受限于部分关键财务数据（如流动资产、存货、总负债等）的缺失，无法精确计算流动比率、速动比率、存货周转率以及Altman Z-Score等核心风险与流动性指标。建议投资者在做出最终决策前，结合完整的财务报表进一步评估其短期流动性风险及免税行业的存货去化压力，以更全面地把握公司的综合财务健康状况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "company_code": "000538",
+  "company_name": "云南白药",
+  "year": 2021,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 2796336042.39,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "五、净利润（净亏损以“－”号填列） 2,796,336,042.39",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 52292765646.22,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "总资产（元） 52,292,765,646.22",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 38226136908.89,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "归属于上市公司股东的净资产（元） 38,226,136,908.89",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": 0.0758,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "加权平均净资产收益率 7.58%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.3679845618,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 8,
+      "source_text": "总资产（元） 52,292,765,646.22；归属于上市公司股东的净资产（元） 38,226,136,908.89",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 8,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 8,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 52292765646.22,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "总资产（元） 52,292,765,646.22",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(权益市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 8,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 45503949943.31,
+      "formula": "资产总计 - 非流动资产合计 = 52,292,765,646.22 - 6,788,815,702.91",
+      "source_page": 28,
+      "source_text": "段落4中2021年末资产总计为52,292,765,646.22，非流动资产合计为6,788,815,702.91",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "提供的文本中未包含2021年末的流动负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 8379223147.51,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "段落1中存货2021年末金额为8,379,223,147.51",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 52292765646.22,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "段落4中2021年末资产总计为52,292,765,646.22",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "提供的文本中未包含2021年末的总负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 2796336042.39,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "五、净利润（净亏损以“－”号填列） 2,796,336,042.39",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 52292765646.22,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "总资产（元） 52,292,765,646.22",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 38226136908.89,
+      "formula": null,
+      "source_page": 8,
+      "source_text": "归属于上市公司股东的净资产（元） 38,226,136,908.89",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 36283977375.14,
+      "formula": "工业产品（自制）收入 + 批发零售收入 = 12,702,831,389.76 + 23,581,145,985.38",
+      "source_page": 136,
+      "source_text": "分产品\n工业产品（自制） 12,702,831,389.76 4,575,134,454.20 63.98% 8.42% 0.58% 2.80%\n批发零售 23,581,145,985.38 21,857,624,082.50 7.31% 12.43% 14.63% -1.78%",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 26432758536.7,
+      "formula": "工业产品（自制）成本 + 批发零售成本 = 4,575,134,454.20 + 21,857,624,082.50",
+      "source_page": 136,
+      "source_text": "分产品\n工业产品（自制） 12,702,831,389.76 4,575,134,454.20 63.98% 8.42% 0.58% 2.80%\n批发零售 23,581,145,985.38 21,857,624,082.50 7.31% 12.43% 14.63% -1.78%",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 7184433954.23,
+      "formula": "直接提取2021年末金额",
+      "source_page": 136,
+      "source_text": "应收账款 7,184,433,954.23 13.74% 3,554,161,411.16 6.41% 7.33% 本期省医药的应收账款增加。",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 8379223147.51,
+      "formula": "直接提取2021年末金额",
+      "source_page": 136,
+      "source_text": "存货 8,379,223,147.51 16.02% 10,990,346,685.44 19.83% -3.81% 本期省医药库存商品减少。",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 52292765646.22,
+      "formula": "直接提取2021年末金额",
+      "source_page": 136,
+      "source_text": "2021年末 2020年末 本年末比上年末增减 2019年末\n总资产（元） 52,292,765,646.22 55,219,448,243.00 -5.30% 49,658,049,118.83",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，云南白药2021年度的整体财务状况呈现出“流动性极其充裕，但盈利能力与部分营运指标承压”的显著特征。\n\n**盈利能力**：公司全年实现净利润27.96亿元，但核心盈利指标加权平均净资产收益率（ROE）仅为7.58%，较2020年大幅下滑6.88个百分点。这表明公司利用自有资本获取收益的能力显著减弱，整体盈利水平出现明显滑坡。\n\n**偿债能力**：公司具备极强的短期偿债能力，流动性风险极低。期末流动资产占总资产比重高达87.02%，且账面货币资金高达188.71亿元，远超约92.50亿元的短期金融负债。极其充裕的现金储备为公司构筑了极高的安全垫。\n\n**营运效率**：营运表现呈现结构性分化。一方面，去库存成效显著，期末存货大幅下降23.76%，存货周转率达2.73次，资金占用压力缓解；另一方面，应收账款同比激增约102%，导致资金被下游客户大量占用，对整体营运资金的周转效率形成拖累，总资产周转率维持在0.67次。\n\n**风险提示**：投资者需重点关注两大风险。一是**盈利下滑风险**，ROE的骤降反映出主业创收或成本控制面临挑战；二是**应收账款回收风险**，应收规模的翻倍增长不仅降低了资金使用效率，也增加了潜在的坏账计提风险，公司需进一步加强信用管理与账款催收。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

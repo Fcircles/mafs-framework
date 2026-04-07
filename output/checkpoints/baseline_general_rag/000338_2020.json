@@ -1,0 +1,271 @@
+{
+  "company_code": "000338",
+  "company_name": "潍柴动力",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 11274839786.96,
+      "formula": "无",
+      "source_page": 183,
+      "source_text": "五、净利润（净亏损以“－”号填列） 11,274,839,786.96 11,907,007,092.49",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 183,
+      "source_text": "无",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 270750168951.29,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "总资产 270,750,168,951.29",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 190316840575.27,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "总负债 190,316,840,575.27",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(权益市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 183,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 185,
+      "source_text": "提供的段落中未给出流动资产的合计数值。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 185,
+      "source_text": "提供的段落中未给出流动负债的合计数值。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 185,
+      "source_text": "提供的段落中仅包含存货部分明细或跌价准备变动，未给出存货期末账面价值总额。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 236831674546.17,
+      "formula": null,
+      "source_page": 185,
+      "source_text": "总资产 236,831,674,546.17",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 167056949115.69,
+      "formula": null,
+      "source_page": 185,
+      "source_text": "总负债 167,056,949,115.69",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.7054,
+      "formula": "总负债 / 总资产",
+      "source_page": 185,
+      "source_text": "总资产 236,831,674,546.17；总负债 167,056,949,115.69",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "五、净利润（净亏损以“－”号填列） 11,274,839,786.96 11,907,007,092.49",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "未在提供的段落中找到公司合并报表的营业收入数据（段落1中的营业收入为联营企业数据）",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "未在提供的段落中找到相关数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "未在提供的段落中找到应收账款余额数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "未在提供的段落中找到存货总额数据（仅包含存货跌价准备等明细）",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 270750168951.29,
+      "formula": null,
+      "source_page": 183,
+      "source_text": "总资产 270,750,168,951.29",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，潍柴动力（000338）2020年度的财务状况呈现出“绝对盈利规模庞大，但财务杠杆偏高”的显著特征。\n\n在**盈利能力**方面，公司展现了极强的盈利底蕴。尽管缺乏利润率等相对指标，但全年合并净利润高达112.75亿元，基本每股收益达1.16元（较上期略有微增）。这表明公司在复杂的市场环境中依然维持了百亿级别的利润基石，具备十分稳健的基础盈利能力。\n\n在**偿债能力**方面，公司的资本结构存在一定的隐忧。测算显示其资产负债率高达70.54%，处于相对高位。这意味着公司庞大的资产规模中有较高比例依赖负债融资驱动，财务杠杆较重，未来可能面临一定的长期偿债与利息兑付压力。\n\n在**营运效率**方面，公司总资产规模由期初的2368.32亿元稳步扩张至期末的2707.50亿元，处于扩张周期。但由于营业收入、应收账款及存货等核心周转数据的缺失，当前无法对其资产管理效率和周转速度进行准确定量评估。\n\n**风险提示**：首先，公司超70%的资产负债率提示了较高的债务杠杆风险；其次，由于本次分析缺失流动资产、流动负债及现金流等关键数据，无法测算流动比率及Altman Z-Score，其短期资金链安全性和整体破产风险处于“盲盒”状态。建议投资者在决策前，务必补充查阅完整的合并报表数据，重点排查其短期偿债压力及主营业务的实际创现能力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,1150 @@
+{
+  "source": "/Users/kucha/Projects/毕业论文/实验代码/output/main_experiment_results.json",
+  "summary": {
+    "mean_score_overall": 89.1683914601058,
+    "keyset_identical_companies": 29,
+    "mixed_zscore_variant_companies": 1
+  },
+  "companies": [
+    {
+      "company_code": "000338",
+      "company_name": "潍柴动力",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 65.7987,
+      "score_completeness": 90.0,
+      "score_key_stability": 77.2727,
+      "score_z_model": 0.0,
+      "score_yoy_stability": 97.4026,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": false,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 19,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "service_Z_double_prime",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "600019",
+      "company_name": "宝钢股份",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 88.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 90.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "600079",
+      "company_name": "人福医药",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 88.9474,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 94.7368,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "601888",
+      "company_name": "中国中免",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 88.9474,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 94.7368,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "603288",
+      "company_name": "海天味业",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 88.9474,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 94.7368,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 3
+    },
+    {
+      "company_code": "600031",
+      "company_name": "三一重工",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 89.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 95.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "600660",
+      "company_name": "福耀玻璃",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 89.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 95.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "000157",
+      "company_name": "中联重科",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 89.25,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 96.25,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 3
+    },
+    {
+      "company_code": "000538",
+      "company_name": "云南白药",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "000895",
+      "company_name": "双汇发展",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "000963",
+      "company_name": "华东医药",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "002304",
+      "company_name": "洋河股份",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "600085",
+      "company_name": "同仁堂",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "600196",
+      "company_name": "复星医药",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 2,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "600519",
+      "company_name": "贵州茅台",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "600763",
+      "company_name": "通策医疗",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 89.4737,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.3684,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "600690",
+      "company_name": "海尔智家",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 89.5,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 97.5,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 2,
+      "yoy_flags_count": 3
+    },
+    {
+      "company_code": "002507",
+      "company_name": "涪陵榨菜",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 89.7368,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 98.6842,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "000651",
+      "company_name": "格力电器",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "000661",
+      "company_name": "长春高新",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "000858",
+      "company_name": "五粮液",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "002594",
+      "company_name": "比亚迪",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 1,
+      "yoy_flags_count": 1
+    },
+    {
+      "company_code": "600276",
+      "company_name": "恒瑞医药",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "600585",
+      "company_name": "海螺水泥",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "600887",
+      "company_name": "伊利股份",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 90.0,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 0.0,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 2,
+      "yoy_flags_count": 2
+    },
+    {
+      "company_code": "603259",
+      "company_name": "药明康德",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 90.1187,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 1.1873,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "000568",
+      "company_name": "泸州老窖",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 91.6576,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 16.5761,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "600436",
+      "company_name": "片仔癀",
+      "industry_samples": [
+        "医药行业"
+      ],
+      "score_overall": 92.8312,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 28.3119,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "000333",
+      "company_name": "美的集团",
+      "industry_samples": [
+        "制造业"
+      ],
+      "score_overall": 93.5268,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 100.0,
+      "score_roe_alignment": 35.2683,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 20,
+        "2021": 20,
+        "2022": 20,
+        "2023": 20,
+        "2024": 20
+      },
+      "zscore_variants_by_year": {
+        "2020": "manufacturing_Z",
+        "2021": "manufacturing_Z",
+        "2022": "manufacturing_Z",
+        "2023": "manufacturing_Z",
+        "2024": "manufacturing_Z"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 0
+    },
+    {
+      "company_code": "600600",
+      "company_name": "青岛啤酒",
+      "industry_samples": [
+        "消费行业"
+      ],
+      "score_overall": 94.0003,
+      "score_completeness": 100.0,
+      "score_key_stability": 100.0,
+      "score_z_model": 100.0,
+      "score_yoy_stability": 96.0526,
+      "score_roe_alignment": 47.8975,
+      "keyset_identical_all_years": true,
+      "per_year_key_count": {
+        "2020": 19,
+        "2021": 19,
+        "2022": 19,
+        "2023": 19,
+        "2024": 19
+      },
+      "zscore_variants_by_year": {
+        "2020": "service_Z_double_prime",
+        "2021": "service_Z_double_prime",
+        "2022": "service_Z_double_prime",
+        "2023": "service_Z_double_prime",
+        "2024": "service_Z_double_prime"
+      },
+      "zscore_x4_by_year": {
+        "2020": "X4_账面权益/总负债",
+        "2021": "X4_账面权益/总负债",
+        "2022": "X4_账面权益/总负债",
+        "2023": "X4_账面权益/总负债",
+        "2024": "X4_账面权益/总负债"
+      },
+      "sudden_missing_years": [],
+      "magnitude_outliers_count": 0,
+      "yoy_flags_count": 2
+    }
+  ]
+}

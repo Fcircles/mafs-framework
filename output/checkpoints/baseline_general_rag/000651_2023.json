@@ -1,0 +1,271 @@
+{
+  "company_code": "000651",
+  "company_name": "格力电器",
+  "year": 2023,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于母公司股东的净利润",
+      "value": 29017387604.18,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落3] 1、归属于母公司股东的净利润（净亏损以“-”号填列） 29,017,387,604.18",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "未在提供文本中找到",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含营业收入的具体数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 368053902576.37,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落1] 总资产（元） 368,053,902,576.37",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净资产（所有者权益）",
+      "value": 116793716103.39,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落1] 归属于上市公司股东的净资产（元） 116,793,716,103.39",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.2653,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落1] 加权平均净资产收益率 26.53%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数 (期末)",
+      "value": 3.15,
+      "formula": "总资产 / 归属于上市公司股东的净资产",
+      "source_page": 7,
+      "source_text": "基于[段落1]数据计算：368,053,902,576.37 / 116,793,716,103.39",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 7,
+      "source_text": "检索到的段落中未提供2023年合并报表的流动资产具体数值。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "总负债 - 非流动负债",
+      "source_page": 7,
+      "source_text": "检索到的段落中未提供2023年合并报表的总负债或流动负债具体数值。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 368053902576.37,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落1] 2023年末 总资产（元） 368,053,902,576.37",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "总资产 - 所有者权益",
+      "source_page": 7,
+      "source_text": "检索到的段落中仅提供了2023年母公司负债合计（224,544,318,226.31元），未提供2023年合并报表的总负债。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "由于流动资产和流动负债数据缺失，无法计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 112211650801.62,
+      "formula": "盈余公积 + 未分配利润（此处仅提取到合并未分配利润）",
+      "source_page": 7,
+      "source_text": "[段落4] 期末未分配利润 112,211,650,801.62",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": null,
+      "formula": "净利润 + 利息费用 + 所得税费用",
+      "source_page": 7,
+      "source_text": "检索到的段落中未提供利息费用、所得税费用或完整的利润表数据。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 7,
+      "source_text": "由于营运资本(X1)、息税前利润(X3)以及权益市价(X4)等关键数据缺失，无法计算Altman Z-Score。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 228141309470.74,
+      "formula": "直接提取",
+      "source_page": 157,
+      "source_text": "[段落5] 流动资产合计 228,141,309,470.74",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 216371936815.59,
+      "formula": "总负债 - 非流动负债合计",
+      "source_page": 157,
+      "source_text": "[段落1] 负债合计 253,194,721,565.51；非流动负债合计 36,822,784,749.92",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 32579140028.7,
+      "formula": "直接提取",
+      "source_page": 157,
+      "source_text": "[段落5] 存货 五、11 32,579,140,028.70",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 368053902576.37,
+      "formula": "直接提取",
+      "source_page": 157,
+      "source_text": "[段落4] 总资产（元） 368,053,902,576.37",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 253194721565.51,
+      "formula": "直接提取",
+      "source_page": 157,
+      "source_text": "[段落1] 负债合计 253,194,721,565.51",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.6879,
+      "formula": "总负债 / 总资产",
+      "source_page": 157,
+      "source_text": "基于总负债 253,194,721,565.51 和总资产 368,053,902,576.37 计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.0544,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 157,
+      "source_text": "基于流动资产 228,141,309,470.74 和流动负债 216,371,936,815.59 计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 0.9038,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 157,
+      "source_text": "基于流动资产、存货及流动负债计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未直接给出营业收入总额数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未给出营业成本数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 27719022913.59,
+      "formula": "归属于母公司股东的净利润 + 少数股东损益 = 29,017,387,604.18 + (-1,298,364,690.59)",
+      "source_page": 7,
+      "source_text": "1、归属于母公司股东的净利润（净亏损以“-”号填列） 29,017,387,604.18\n2、少数股东损益（净亏损以“-”号填列） -1,298,364,690.59",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 368053902576.37,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "总资产（元） 368,053,902,576.37",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 116793716103.39,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净资产（元） 116,793,716,103.39",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 134653638564.88,
+      "formula": "主营业务收入 + 其他业务收入",
+      "source_page": 28,
+      "source_text": "4、 营业收入和营业成本 本期发生额 项目 收入... 合计 134,653,638,564.88",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 87964474582.78,
+      "formula": "主营业务成本 + 其他业务成本",
+      "source_page": 28,
+      "source_text": "4、 营业收入和营业成本 本期发生额 项目 成本... 合计 87,964,474,582.78",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 28,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 28,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 368053902576.37,
+      "formula": null,
+      "source_page": 28,
+      "source_text": "总资产（元） 2023年末 368,053,902,576.37",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "格力电器2023年度财务表现稳健，盈利质量与资本回报能力显著提升。\n\n**盈利能力方面**，公司核心指标表现优异，加权平均ROE高达26.53%，归母净利润实现290.17亿元，基本每股收益同比增长17.83%，显示出极强的获利能力和持续的股东回报水平。\n\n**偿债能力方面**，虽然资产负债率处于68.79%的相对高位，但公司拥有超过1241亿元的货币资金，占流动资产比例过半，现金储备极度充裕。结合经营活动现金流净额同比大增96.73%的表现，公司实际偿债压力较小，具备极强的抗风险韧性。\n\n**营运效率方面**，公司通过优化经营性应收与应付项目管理，显著提升了资金收现能力，体现了其对上下游极强的议价能力和供应链掌控力。尽管总资产周转率受行业特性影响处于0.37次的水平，但整体营运资金管理效率改善明显。\n\n**风险提示**：投资者需关注公司较高的财务杠杆（权益乘数3.15）在宏观经济波动下的潜在压力。此外，家电行业竞争加剧、原材料价格波动以及房地产市场调整对空调主业需求的传导风险，仍是影响公司未来业绩增长不确定性的主要因素。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

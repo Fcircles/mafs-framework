@@ -1,0 +1,2523 @@
+[
+  {
+    "company_code": "000333",
+    "company_name": "美的集团",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "美的集团 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000333",
+    "company_name": "美的集团",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "美的集团 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000333",
+    "company_name": "美的集团",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "美的集团 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000333",
+    "company_name": "美的集团",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "美的集团 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000333",
+    "company_name": "美的集团",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "美的集团 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002594",
+    "company_name": "比亚迪",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "比亚迪 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002594",
+    "company_name": "比亚迪",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "比亚迪 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002594",
+    "company_name": "比亚迪",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "比亚迪 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002594",
+    "company_name": "比亚迪",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "比亚迪 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002594",
+    "company_name": "比亚迪",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "比亚迪 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000651",
+    "company_name": "格力电器",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "格力电器 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000651",
+    "company_name": "格力电器",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "格力电器 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000651",
+    "company_name": "格力电器",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "格力电器 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000651",
+    "company_name": "格力电器",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "格力电器 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000651",
+    "company_name": "格力电器",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "格力电器 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600690",
+    "company_name": "海尔智家",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "应收账款周转率",
+        "value": NaN,
+        "formula": "营业收入/应收账款",
+        "source_page": 34,
+        "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": NaN,
+        "formula": "营业成本/存货",
+        "source_page": 34,
+        "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 34,
+        "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "海尔智家 2020年年报财务分析（规则提取）\n\n【营运能力】\n  应收账款周转率 = nan\n  存货周转率 = nan\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN,
+        "营业收入": NaN,
+        "营业成本": NaN,
+        "利润总额": NaN,
+        "净利润": NaN,
+        "财务费用": NaN,
+        "毛利润": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600690",
+    "company_name": "海尔智家",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海尔智家 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600690",
+    "company_name": "海尔智家",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海尔智家 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600690",
+    "company_name": "海尔智家",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海尔智家 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600690",
+    "company_name": "海尔智家",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海尔智家 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600031",
+    "company_name": "三一重工",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "三一重工 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600031",
+    "company_name": "三一重工",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "三一重工 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 106113346.0,
+        "营业成本": 78679820.0,
+        "财务费用": -124516.0,
+        "毛利润": 27433526.0
+      }
+    }
+  },
+  {
+    "company_code": "600031",
+    "company_name": "三一重工",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "三一重工 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 80018098.0,
+        "营业成本": 60799763.0,
+        "财务费用": -293599.0,
+        "毛利润": 19218335.0
+      }
+    }
+  },
+  {
+    "company_code": "600031",
+    "company_name": "三一重工",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "三一重工 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600031",
+    "company_name": "三一重工",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "三一重工 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000157",
+    "company_name": "中联重科",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中联重科 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业成本": 34109325725.79
+      }
+    }
+  },
+  {
+    "company_code": "000157",
+    "company_name": "中联重科",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中联重科 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000157",
+    "company_name": "中联重科",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中联重科 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000157",
+    "company_name": "中联重科",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中联重科 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "000157",
+    "company_name": "中联重科",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中联重科 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000338",
+    "company_name": "潍柴动力",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "潍柴动力 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": 152514808750.33,
+        "总资产": 152514808750.33,
+        "存货": 31226156809.77,
+        "应收账款": 15421878611.33
+      }
+    }
+  },
+  {
+    "company_code": "000338",
+    "company_name": "潍柴动力",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "潍柴动力 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": 160638388507.4,
+        "总资产": 160638388507.4,
+        "存货": 31585184575.31,
+        "应收账款": 18190789560.77
+      }
+    }
+  },
+  {
+    "company_code": "000338",
+    "company_name": "潍柴动力",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "潍柴动力 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": 61537070306.67,
+        "总资产": 61537070306.67,
+        "存货": 3358675322.78,
+        "应收账款": 4030601502.3
+      }
+    }
+  },
+  {
+    "company_code": "000338",
+    "company_name": "潍柴动力",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "潍柴动力 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000338",
+    "company_name": "潍柴动力",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "潍柴动力 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600019",
+    "company_name": "宝钢股份",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 84,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 84,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 84,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      }
+    ],
+    "interpretation": "宝钢股份 2020年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 10.0,
+        "应收账款": 5.0,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600019",
+    "company_name": "宝钢股份",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 114,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 114,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 114,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "应收账款周转率",
+        "value": 64423.2,
+        "formula": "营业收入/应收账款",
+        "source_page": 13,
+        "source_text": "营业收入=322116.0, 应收账款=5.0, 营业成本=304546.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": 30454.6,
+        "formula": "营业成本/存货",
+        "source_page": 13,
+        "source_text": "营业收入=322116.0, 应收账款=5.0, 营业成本=304546.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 13,
+        "source_text": "营业收入=322116.0, 应收账款=5.0, 营业成本=304546.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "宝钢股份 2024年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n\n【营运能力】\n  应收账款周转率 = 64423.2000\n  存货周转率 = 30454.6000\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 10.0,
+        "应收账款": 5.0,
+        "营业收入": 322116.0,
+        "营业成本": 304546.0,
+        "财务费用": 1276.0,
+        "毛利润": 17570.0,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600019",
+    "company_name": "宝钢股份",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 108,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 108,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 108,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      }
+    ],
+    "interpretation": "宝钢股份 2021年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 10.0,
+        "应收账款": 5.0,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600019",
+    "company_name": "宝钢股份",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "宝钢股份 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600019",
+    "company_name": "宝钢股份",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "宝钢股份 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600585",
+    "company_name": "海螺水泥",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海螺水泥 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600585",
+    "company_name": "海螺水泥",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海螺水泥 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600585",
+    "company_name": "海螺水泥",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海螺水泥 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600585",
+    "company_name": "海螺水泥",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海螺水泥 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600660",
+    "company_name": "福耀玻璃",
+    "year": 2020,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "福耀玻璃 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 19906593468.0,
+        "营业成本": 12042217543.0,
+        "财务费用": 494285453.0,
+        "毛利润": 7864375925.0
+      }
+    }
+  },
+  {
+    "company_code": "600585",
+    "company_name": "海螺水泥",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海螺水泥 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600660",
+    "company_name": "福耀玻璃",
+    "year": 2021,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "福耀玻璃 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600519",
+    "company_name": "贵州茅台",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "贵州茅台 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600519",
+    "company_name": "贵州茅台",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "贵州茅台 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": 7.0,
+        "应收账款": 4.0
+      }
+    }
+  },
+  {
+    "company_code": "600519",
+    "company_name": "贵州茅台",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "贵州茅台 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 124099843771.99,
+        "营业成本": 10093468616.63,
+        "财务费用": -1391805826.72,
+        "毛利润": 114006375155.36
+      }
+    }
+  },
+  {
+    "company_code": "600660",
+    "company_name": "福耀玻璃",
+    "year": 2022,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "福耀玻璃 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600660",
+    "company_name": "福耀玻璃",
+    "year": 2023,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "福耀玻璃 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "应收账款": 7128016386.0
+      }
+    }
+  },
+  {
+    "company_code": "600660",
+    "company_name": "福耀玻璃",
+    "year": 2024,
+    "industry": "制造业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "福耀玻璃 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600519",
+    "company_name": "贵州茅台",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "贵州茅台 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600519",
+    "company_name": "贵州茅台",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "贵州茅台 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000858",
+    "company_name": "五粮液",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "五粮液 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000858",
+    "company_name": "五粮液",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "五粮液 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000858",
+    "company_name": "五粮液",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "五粮液 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000858",
+    "company_name": "五粮液",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "五粮液 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000858",
+    "company_name": "五粮液",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "五粮液 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600887",
+    "company_name": "伊利股份",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "伊利股份 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600887",
+    "company_name": "伊利股份",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "伊利股份 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600887",
+    "company_name": "伊利股份",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "伊利股份 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "603288",
+    "company_name": "海天味业",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海天味业 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": -337489586.48,
+        "营业成本": 743750329.38,
+        "毛利润": -1081239915.8600001
+      }
+    }
+  },
+  {
+    "company_code": "603288",
+    "company_name": "海天味业",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海天味业 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600887",
+    "company_name": "伊利股份",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "伊利股份 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600887",
+    "company_name": "伊利股份",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "应收账款周转率",
+        "value": NaN,
+        "formula": "营业收入/应收账款",
+        "source_page": 17,
+        "source_text": "营业收入=125758168916.51, 应收账款=nan, 营业成本=84788592077.34, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": NaN,
+        "formula": "营业成本/存货",
+        "source_page": 17,
+        "source_text": "营业收入=125758168916.51, 应收账款=nan, 营业成本=84788592077.34, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 17,
+        "source_text": "营业收入=125758168916.51, 应收账款=nan, 营业成本=84788592077.34, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "伊利股份 2023年年报财务分析（规则提取）\n\n【营运能力】\n  应收账款周转率 = nan\n  存货周转率 = nan\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN,
+        "营业收入": 125758168916.51,
+        "营业成本": 84788592077.34,
+        "财务费用": -152848163.48,
+        "毛利润": 40969576839.17
+      }
+    }
+  },
+  {
+    "company_code": "603288",
+    "company_name": "海天味业",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海天味业 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 25609651543.29,
+        "营业成本": 16471824416.06,
+        "财务费用": -732179071.06,
+        "毛利润": 9137827127.230001
+      }
+    }
+  },
+  {
+    "company_code": "603288",
+    "company_name": "海天味业",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海天味业 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "603288",
+    "company_name": "海天味业",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "海天味业 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002304",
+    "company_name": "洋河股份",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "洋河股份 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "002304",
+    "company_name": "洋河股份",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "洋河股份 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600600",
+    "company_name": "青岛啤酒",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "青岛啤酒 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 27759711.0,
+        "营业成本": 16540610.0,
+        "财务费用": -470921.0,
+        "毛利润": 11219101.0
+      }
+    }
+  },
+  {
+    "company_code": "002304",
+    "company_name": "洋河股份",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "洋河股份 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002304",
+    "company_name": "洋河股份",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "洋河股份 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002304",
+    "company_name": "洋河股份",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "洋河股份 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600600",
+    "company_name": "青岛啤酒",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "青岛啤酒 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 30166805.0,
+        "营业成本": 19091131.0,
+        "财务费用": -243188.0,
+        "毛利润": 11075674.0
+      }
+    }
+  },
+  {
+    "company_code": "600600",
+    "company_name": "青岛啤酒",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "青岛啤酒 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600600",
+    "company_name": "青岛啤酒",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "青岛啤酒 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600600",
+    "company_name": "青岛啤酒",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "青岛啤酒 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "601888",
+    "company_name": "中国中免",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中国中免 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "601888",
+    "company_name": "中国中免",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中国中免 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 67675515093.08,
+        "营业成本": 44882359293.54,
+        "财务费用": -42522192.88,
+        "毛利润": 22793155799.54
+      }
+    }
+  },
+  {
+    "company_code": "601888",
+    "company_name": "中国中免",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中国中免 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "601888",
+    "company_name": "中国中免",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中国中免 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000895",
+    "company_name": "双汇发展",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "双汇发展 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000895",
+    "company_name": "双汇发展",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "双汇发展 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": NaN,
+        "营业成本": NaN,
+        "财务费用": NaN,
+        "毛利润": NaN
+      }
+    }
+  },
+  {
+    "company_code": "000895",
+    "company_name": "双汇发展",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "双汇发展 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000895",
+    "company_name": "双汇发展",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "双汇发展 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "601888",
+    "company_name": "中国中免",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "中国中免 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000895",
+    "company_name": "双汇发展",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "双汇发展 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 18284212024.49
+      }
+    }
+  },
+  {
+    "company_code": "002507",
+    "company_name": "涪陵榨菜",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "涪陵榨菜 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002507",
+    "company_name": "涪陵榨菜",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "涪陵榨菜 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002507",
+    "company_name": "涪陵榨菜",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "涪陵榨菜 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动负债合计": 430339832.28,
+        "总负债": 430339832.28,
+        "应收账款": 10502991.4
+      }
+    }
+  },
+  {
+    "company_code": "002507",
+    "company_name": "涪陵榨菜",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "涪陵榨菜 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "002507",
+    "company_name": "涪陵榨菜",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "涪陵榨菜 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动负债合计": 586185046.92,
+        "总负债": 586185046.92
+      }
+    }
+  },
+  {
+    "company_code": "000568",
+    "company_name": "泸州老窖",
+    "year": 2024,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "泸州老窖 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": 50856449197.89,
+        "总资产": 50856449197.89,
+        "存货": 13392794475.96,
+        "应收账款": 11022302.31
+      }
+    }
+  },
+  {
+    "company_code": "000568",
+    "company_name": "泸州老窖",
+    "year": 2022,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "泸州老窖 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": NaN
+      }
+    }
+  },
+  {
+    "company_code": "000568",
+    "company_name": "泸州老窖",
+    "year": 2020,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "泸州老窖 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000568",
+    "company_name": "泸州老窖",
+    "year": 2021,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "泸州老窖 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600276",
+    "company_name": "恒瑞医药",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "恒瑞医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": 9.0,
+        "应收账款": 5.0,
+        "盈余公积": 59.0,
+        "留存收益": 59.0
+      }
+    }
+  },
+  {
+    "company_code": "000568",
+    "company_name": "泸州老窖",
+    "year": 2023,
+    "industry": "消费行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "泸州老窖 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600276",
+    "company_name": "恒瑞医药",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "恒瑞医药 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600276",
+    "company_name": "恒瑞医药",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "恒瑞医药 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600276",
+    "company_name": "恒瑞医药",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "恒瑞医药 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 27984605342.06,
+        "营业成本": 3848177391.88,
+        "财务费用": -572732238.39,
+        "毛利润": 24136427950.18
+      }
+    }
+  },
+  {
+    "company_code": "600276",
+    "company_name": "恒瑞医药",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "恒瑞医药 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 22819784741.31,
+        "营业成本": 3525247786.91,
+        "财务费用": -478389897.82,
+        "毛利润": 19294536954.4
+      }
+    }
+  },
+  {
+    "company_code": "600436",
+    "company_name": "片仔癀",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "片仔癀 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 651078.2,
+        "营业成本": 357055.8,
+        "财务费用": -6011.77,
+        "毛利润": 294022.39999999997
+      }
+    }
+  },
+  {
+    "company_code": "603259",
+    "company_name": "药明康德",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "药明康德 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "存货": 9.0,
+        "应收账款": 5.0,
+        "营业收入": 61.0,
+        "营业成本": 61.0,
+        "利润总额": NaN,
+        "净利润": NaN,
+        "财务费用": 66.0,
+        "毛利润": 0.0
+      }
+    }
+  },
+  {
+    "company_code": "603259",
+    "company_name": "药明康德",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 126,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 126,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 126,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "应收账款周转率",
+        "value": 4580477025.8220005,
+        "formula": "营业收入/应收账款",
+        "source_page": 18,
+        "source_text": "营业收入=22902385129.11, 应收账款=5.0, 营业成本=14592255587.53, 存货=9.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": 1621361731.9477777,
+        "formula": "营业成本/存货",
+        "source_page": 18,
+        "source_text": "营业收入=22902385129.11, 应收账款=5.0, 营业成本=14592255587.53, 存货=9.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 18,
+        "source_text": "营业收入=22902385129.11, 应收账款=5.0, 营业成本=14592255587.53, 存货=9.0, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "药明康德 2021年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n\n【营运能力】\n  应收账款周转率 = 4580477025.8220\n  存货周转率 = 1621361731.9478\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 9.0,
+        "应收账款": 5.0,
+        "盈余公积": NaN,
+        "未分配利润": NaN,
+        "营业收入": 22902385129.11,
+        "营业成本": 14592255587.53,
+        "财务费用": 84082165.89,
+        "毛利润": 8310129541.58,
+        "留存收益": NaN,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "603259",
+    "company_name": "药明康德",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 125,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 125,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 125,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=9.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      }
+    ],
+    "interpretation": "药明康德 2022年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 9.0,
+        "应收账款": 5.0,
+        "盈余公积": NaN,
+        "未分配利润": NaN,
+        "留存收益": NaN,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "603259",
+    "company_name": "药明康德",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "Z''-Score",
+        "value": NaN,
+        "formula": "Altman Z''-Score",
+        "source_page": 137,
+        "source_text": "营运资本=nan, 留存收益=nan, EBIT=nan, 总资产=nan, 总负债=nan",
+        "category": "Z-Score"
+      },
+      {
+        "name": "Z-Score区域",
+        "value": null,
+        "formula": "危险区",
+        "source_page": 137,
+        "source_text": "营运资本=nan, 留存收益=nan, EBIT=nan, 总资产=nan, 总负债=nan",
+        "category": "Z-Score"
+      },
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 137,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 137,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 137,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "应收账款周转率",
+        "value": 12.2,
+        "formula": "营业收入/应收账款",
+        "source_page": 140,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": 6.1,
+        "formula": "营业成本/存货",
+        "source_page": 140,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 140,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "药明康德 2023年年报财务分析（规则提取）\n\n【Z-Score】\n  Z''-Score = nan\n  Z-Score区域: 危险区\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n\n【营运能力】\n  应收账款周转率 = 12.2000\n  存货周转率 = 6.1000\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 10.0,
+        "应收账款": 5.0,
+        "盈余公积": NaN,
+        "未分配利润": NaN,
+        "营业收入": 61.0,
+        "营业成本": 61.0,
+        "利润总额": NaN,
+        "净利润": NaN,
+        "财务费用": 66.0,
+        "毛利润": 0.0,
+        "留存收益": NaN,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "603259",
+    "company_name": "药明康德",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "Z''-Score",
+        "value": NaN,
+        "formula": "Altman Z''-Score",
+        "source_page": 133,
+        "source_text": "营运资本=nan, 留存收益=nan, EBIT=nan, 总资产=nan, 总负债=nan",
+        "category": "Z-Score"
+      },
+      {
+        "name": "Z-Score区域",
+        "value": null,
+        "formula": "危险区",
+        "source_page": 133,
+        "source_text": "营运资本=nan, 留存收益=nan, EBIT=nan, 总资产=nan, 总负债=nan",
+        "category": "Z-Score"
+      },
+      {
+        "name": "流动比率",
+        "value": NaN,
+        "formula": "流动资产/流动负债",
+        "source_page": 133,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "速动比率",
+        "value": NaN,
+        "formula": "(流动资产-存货)/流动负债",
+        "source_page": 133,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "资产负债率",
+        "value": NaN,
+        "formula": "总负债/总资产",
+        "source_page": 133,
+        "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+        "category": "偿债能力"
+      },
+      {
+        "name": "应收账款周转率",
+        "value": 12.2,
+        "formula": "营业收入/应收账款",
+        "source_page": 136,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": 6.1,
+        "formula": "营业成本/存货",
+        "source_page": 136,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 136,
+        "source_text": "营业收入=61.0, 应收账款=5.0, 营业成本=61.0, 存货=10.0, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "药明康德 2024年年报财务分析（规则提取）\n\n【Z-Score】\n  Z''-Score = nan\n  Z-Score区域: 危险区\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n\n【营运能力】\n  应收账款周转率 = 12.2000\n  存货周转率 = 6.1000\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "流动负债合计": NaN,
+        "总资产": NaN,
+        "总负债": NaN,
+        "存货": 10.0,
+        "应收账款": 5.0,
+        "盈余公积": NaN,
+        "未分配利润": NaN,
+        "营业收入": 61.0,
+        "营业成本": 61.0,
+        "利润总额": NaN,
+        "净利润": NaN,
+        "财务费用": 66.0,
+        "毛利润": 0.0,
+        "留存收益": NaN,
+        "营运资本": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600436",
+    "company_name": "片仔癀",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "片仔癀 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600436",
+    "company_name": "片仔癀",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "片仔癀 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600436",
+    "company_name": "片仔癀",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "片仔癀 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 1078786.31,
+        "营业成本": 617764.28,
+        "财务费用": -431.91,
+        "毛利润": 461022.03
+      }
+    }
+  },
+  {
+    "company_code": "600436",
+    "company_name": "片仔癀",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "片仔癀 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000538",
+    "company_name": "云南白药",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "云南白药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": 49260880194.44,
+        "总资产": 49260880194.44,
+        "存货": 10990346685.44,
+        "应收账款": 3554161411.16
+      }
+    }
+  },
+  {
+    "company_code": "000538",
+    "company_name": "云南白药",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "云南白药 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000538",
+    "company_name": "云南白药",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "云南白药 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000538",
+    "company_name": "云南白药",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "云南白药 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000538",
+    "company_name": "云南白药",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "云南白药 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000963",
+    "company_name": "华东医药",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "华东医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000963",
+    "company_name": "华东医药",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "华东医药 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000963",
+    "company_name": "华东医药",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "华东医药 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "未分配利润": -159456094.1,
+        "留存收益": -159456094.1
+      }
+    }
+  },
+  {
+    "company_code": "000963",
+    "company_name": "华东医药",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "华东医药 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600196",
+    "company_name": "复星医药",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "复星医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "财务费用": 7.24
+      }
+    }
+  },
+  {
+    "company_code": "600196",
+    "company_name": "复星医药",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "复星医药 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 410.67,
+        "营业成本": 213.66,
+        "财务费用": 11.11,
+        "毛利润": 197.01000000000002
+      }
+    }
+  },
+  {
+    "company_code": "600196",
+    "company_name": "复星医药",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "复星医药 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 414.0,
+        "营业成本": 215.95,
+        "财务费用": 9.84,
+        "毛利润": 198.05
+      }
+    }
+  },
+  {
+    "company_code": "000963",
+    "company_name": "华东医药",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "华东医药 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600085",
+    "company_name": "同仁堂",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "同仁堂 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000661",
+    "company_name": "长春高新",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "长春高新 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600085",
+    "company_name": "同仁堂",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "同仁堂 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600085",
+    "company_name": "同仁堂",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "同仁堂 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "存货": NaN,
+        "应收账款": NaN,
+        "营业收入": 14603100739.78,
+        "营业成本": 7648481567.87,
+        "财务费用": 29899068.65,
+        "毛利润": 6954619171.910001
+      }
+    }
+  },
+  {
+    "company_code": "600196",
+    "company_name": "复星医药",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "复星医药 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业成本": 202.28,
+        "财务费用": 4.64
+      }
+    }
+  },
+  {
+    "company_code": "600085",
+    "company_name": "同仁堂",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "同仁堂 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 18597281604.93,
+        "营业成本": 10421121147.37,
+        "财务费用": 6104419.93,
+        "毛利润": 8176160457.559999
+      }
+    }
+  },
+  {
+    "company_code": "600196",
+    "company_name": "复星医药",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "复星医药 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 439.52,
+        "营业成本": 231.7,
+        "财务费用": 6.47,
+        "毛利润": 207.82
+      }
+    }
+  },
+  {
+    "company_code": "000661",
+    "company_name": "长春高新",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "长春高新 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600085",
+    "company_name": "同仁堂",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "同仁堂 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "应收账款": NaN,
+        "营业收入": 17860891456.13,
+        "营业成本": 9414070490.87,
+        "财务费用": -110139252.35,
+        "毛利润": 8446820965.26
+      }
+    }
+  },
+  {
+    "company_code": "000661",
+    "company_name": "长春高新",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "长春高新 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000661",
+    "company_name": "长春高新",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "长春高新 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "000661",
+    "company_name": "长春高新",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "长春高新 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 13465627318.38,
+        "营业成本": 9710965598.8,
+        "财务费用": -81065326.31,
+        "毛利润": 3754661719.58
+      }
+    }
+  },
+  {
+    "company_code": "600763",
+    "company_name": "通策医疗",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "通策医疗 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600763",
+    "company_name": "通策医疗",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "通策医疗 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 2780725415.72,
+        "营业成本": 1500000055.28,
+        "财务费用": 23020342.73,
+        "毛利润": 1280725360.4399998
+      }
+    }
+  },
+  {
+    "company_code": "600763",
+    "company_name": "通策医疗",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "通策医疗 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "营业收入": 2873776923.07,
+        "营业成本": 1767306262.03,
+        "财务费用": 48359539.45,
+        "毛利润": 1106470661.0400002
+      }
+    }
+  },
+  {
+    "company_code": "600763",
+    "company_name": "通策医疗",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "通策医疗 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600763",
+    "company_name": "通策医疗",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "通策医疗 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600079",
+    "company_name": "人福医药",
+    "year": 2020,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "人福医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  },
+  {
+    "company_code": "600079",
+    "company_name": "人福医药",
+    "year": 2021,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [
+      {
+        "name": "应收账款周转率",
+        "value": NaN,
+        "formula": "营业收入/应收账款",
+        "source_page": 17,
+        "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "存货周转率",
+        "value": NaN,
+        "formula": "营业成本/存货",
+        "source_page": 17,
+        "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      },
+      {
+        "name": "总资产周转率",
+        "value": NaN,
+        "formula": "营业收入/总资产",
+        "source_page": 17,
+        "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+        "category": "营运能力"
+      }
+    ],
+    "interpretation": "人福医药 2021年年报财务分析（规则提取）\n\n【营运能力】\n  应收账款周转率 = nan\n  存货周转率 = nan\n  总资产周转率 = nan\n",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN,
+        "营业收入": 20441039365.01,
+        "营业成本": 11646135031.74,
+        "财务费用": 578468427.9,
+        "毛利润": 8794904333.269999
+      }
+    }
+  },
+  {
+    "company_code": "600079",
+    "company_name": "人福医药",
+    "year": 2022,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "人福医药 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600079",
+    "company_name": "人福医药",
+    "year": 2024,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "人福医药 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {}
+    }
+  },
+  {
+    "company_code": "600079",
+    "company_name": "人福医药",
+    "year": 2023,
+    "industry": "医药行业",
+    "method": "rule_based",
+    "indicators": [],
+    "interpretation": "人福医药 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+    "metadata": {
+      "extracted_raw": {
+        "流动资产合计": NaN,
+        "总资产": NaN,
+        "存货": NaN,
+        "应收账款": NaN
+      }
+    }
+  }
+]

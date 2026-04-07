@@ -1,0 +1,148 @@
+{
+  "company_code": "000338",
+  "company_name": "潍柴动力",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均所有者权益",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无净利润数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无净利润和营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 3.37,
+      "formula": "期末总资产 / 期末所有者权益",
+      "source_page": 20,
+      "source_text": "负债和所有者权益总计 270,750,168,951.29；所有者权益合计 80,433,328,376.02（第81页）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2(营运资金/总资产) + 1.4(留存收益/总资产) + 3.3(息税前利润/总资产) + 0.6(权益市值/总负债) + 1.0(营业收入/总资产)",
+      "source_page": 20,
+      "source_text": "文本缺失流动负债、息税前利润、权益市值及营业收入等关键计算数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 20,
+      "source_text": "文本缺失资产负债表中的流动负债明细数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 20,
+      "source_text": "文本缺失资产负债表中的流动负债明细数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.7029,
+      "formula": "(总资产 - 所有者权益) / 总资产",
+      "source_page": 20,
+      "source_text": "负债和所有者权益总计 270,750,168,951.29；所有者权益合计 80,433,328,376.02（第81页）",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无营业收入和营业成本数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无净利润和营业收入数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无净利润数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均所有者权益",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无净利润数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无营业收入数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 20,
+      "source_text": "文本缺失利润表，无营业收入数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "基于提供的潍柴动力2020年年报节选文本，由于缺失完整的利润表（营业收入、净利润、营业成本、息税前利润等）以及资产负债表的负债明细（流动负债等），多数盈利能力、营运能力及Z-Score指标无法计算。\n\n从可计算的指标来看，公司2020年末资产负债率达70.29%，权益乘数为3.37，表明公司采用了较高的财务杠杆，债务融资规模较大。虽然较高的杠杆在盈利期可以有效放大股东收益，但也伴随着一定的长期偿债风险。\n\n在资产结构方面，期末总资产为2707.5亿元，其中流动资产1525.1亿元，占比超过56%，资产流动性较好。特别是货币资金高达622.1亿元（占总资产22.98%），且经营活动现金流入充裕（销售商品收到现金1694.3亿元），说明公司主业获取现金的能力较强。充沛的现金储备能够为较高的债务水平提供一定的流动性安全垫，缓解潜在的资金链压力。\n\n综合而言，潍柴动力资产规模庞大且现金流充裕，但财务杠杆偏高。建议在获取完整的利润表和负债明细后，进一步评估其短期偿债压力、核心盈利转化能力以及整体财务健康度（Z-Score）。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      20,
+      75,
+      78,
+      81,
+      87,
+      110,
+      112,
+      162,
+      175,
+      176,
+      203,
+      205
+    ],
+    "text_length": 12771
+  }
+}

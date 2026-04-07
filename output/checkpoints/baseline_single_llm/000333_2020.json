@@ -1,0 +1,137 @@
+{
+  "company_code": "000333",
+  "company_name": "美的集团",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "销售净利率",
+      "value": 0.0958,
+      "formula": "归母净利润 / 营业总收入",
+      "source_page": 124,
+      "source_text": "2020年归母净利润272.23亿元，营业总收入2842.21亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": 0.7887,
+      "formula": "营业总收入 / 总资产平均余额",
+      "source_page": 124,
+      "source_text": "2020年营业总收入2842.21亿元，总资产3603.72亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 3.0665,
+      "formula": "总资产 / 归母股东权益",
+      "source_page": 124,
+      "source_text": "2020年总资产3603.72亿元，归母股东权益1175.18亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE (杜邦分解)",
+      "value": 0.2317,
+      "formula": "销售净利率 × 资产周转率 × 权益乘数",
+      "source_page": 124,
+      "source_text": "基于上述三个指标乘积计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": 3.3487,
+      "formula": "1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 124,
+      "source_text": "X1=营运资金/总资产, X2=留存收益/总资产, X3=EBIT/总资产, X4=市值/总负债, X5=销售额/总资产",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.2355,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 124,
+      "source_text": "流动资产2415.43亿元，流动负债1954.96亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 1.0759,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 124,
+      "source_text": "流动资产2415.43亿元，存货312.11亿元，流动负债1954.96亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.644,
+      "formula": "总负债 / 总资产",
+      "source_page": 124,
+      "source_text": "总负债2320.80亿元，总资产3603.72亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.2515,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 124,
+      "source_text": "营业收入2842.21亿元，营业成本2127.51亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.0958,
+      "formula": "归母净利润 / 营业收入",
+      "source_page": 124,
+      "source_text": "归母净利润272.23亿元，营业收入2842.21亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": 0.0755,
+      "formula": "归母净利润 / 总资产",
+      "source_page": 124,
+      "source_text": "归母净利润272.23亿元，总资产3603.72亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": 0.2317,
+      "formula": "归母净利润 / 归母股东权益",
+      "source_page": 124,
+      "source_text": "归母净利润272.23亿元，归母股东权益1175.18亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 11.8947,
+      "formula": "营业收入 / 应收账款平均余额",
+      "source_page": 124,
+      "source_text": "营业收入2842.21亿元，应收账款238.95亿元",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": 6.8166,
+      "formula": "营业成本 / 存货平均余额",
+      "source_page": 124,
+      "source_text": "营业成本2127.51亿元，存货312.11亿元",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.7887,
+      "formula": "营业收入 / 总资产",
+      "source_page": 124,
+      "source_text": "营业收入2842.21亿元，总资产3603.72亿元",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "美的集团2020年财务表现稳健。杜邦分析显示，公司ROE高达23.17%，主要由较高的权益乘数（3.07）和稳健的销售净利率（9.58%）驱动，体现了较强的财务杠杆利用效率和盈利能力。Altman Z-Score为3.35，远高于2.99的安全临界值，表明公司财务风险极低，破产概率极小。偿债能力方面，流动比率1.24和速动比率1.08均处于合理区间，资产负债率64.4%符合制造业龙头特征。营运能力表现优异，应收账款周转率（11.89）和存货周转率（6.82）均维持在高位，反映了公司强大的供应链管理能力和市场话语权。整体而言，美的集团在疫情背景下仍保持了极强的经营韧性和财务健康度。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      124
+    ],
+    "text_length": 758
+  }
+}

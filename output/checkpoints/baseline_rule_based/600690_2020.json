@@ -1,0 +1,48 @@
+{
+  "company_code": "600690",
+  "company_name": "海尔智家",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [
+    {
+      "name": "应收账款周转率",
+      "value": NaN,
+      "formula": "营业收入/应收账款",
+      "source_page": 34,
+      "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": NaN,
+      "formula": "营业成本/存货",
+      "source_page": 34,
+      "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": NaN,
+      "formula": "营业收入/总资产",
+      "source_page": 34,
+      "source_text": "营业收入=nan, 应收账款=nan, 营业成本=nan, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "海尔智家 2020年年报财务分析（规则提取）\n\n【营运能力】\n  应收账款周转率 = nan\n  存货周转率 = nan\n  总资产周转率 = nan\n",
+  "metadata": {
+    "extracted_raw": {
+      "流动资产合计": NaN,
+      "总资产": NaN,
+      "存货": NaN,
+      "应收账款": NaN,
+      "营业收入": NaN,
+      "营业成本": NaN,
+      "利润总额": NaN,
+      "净利润": NaN,
+      "财务费用": NaN,
+      "毛利润": NaN
+    }
+  }
+}

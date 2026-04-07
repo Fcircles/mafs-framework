@@ -1,0 +1,14 @@
+{
+  "company_code": "600196",
+  "company_name": "复星医药",
+  "year": 2020,
+  "industry": "医药行业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "复星医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "财务费用": 7.24
+    }
+  }
+}

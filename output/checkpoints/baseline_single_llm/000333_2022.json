@@ -1,0 +1,138 @@
+{
+  "company_code": "000333",
+  "company_name": "美的集团",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "平均总资产 / 平均净资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z=1.2X1+1.4X2+3.3X3+0.6X4+1.0X5",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 96,
+      "source_text": "提供的文本中无相关财务数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "根据提供的美的集团2022年年报节选文本（第96页和第145页），文本内容主要涉及员工持股计划的会计处理说明（如股份支付费用摊销19,802万元）以及审计报告的审计意见（标准无保留意见）和关键审计事项（暖通空调及消费电器收入确认、商誉减值测试）。由于所提供的文本中完全未包含资产负债表、利润表和现金流量表等具体的财务报表数据（如总资产、总负债、营业收入、净利润、存货等），因此无法计算杜邦分析体系、Altman Z-Score、偿债能力、盈利能力及营运能力等相关财务指标。若需进行详细且准确的财务分析与指标计算，请提供包含具体财务科目数值的完整报表内容。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      96,
+      145
+    ],
+    "text_length": 1277
+  }
+}

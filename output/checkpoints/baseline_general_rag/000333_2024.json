@@ -1,0 +1,295 @@
+{
+  "company_code": "000333",
+  "company_name": "美的集团",
+  "year": 2024,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润（千元） 38,537,237",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "营业收入（千元） 407,149,600",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "总资产（千元） 604,351,853",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净资产（千元） 216,750,057",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "期末净资产收益率(ROE)",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润（千元） 38,537,237；归属于上市公司股东的净资产（千元） 216,750,057",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润（千元） 38,537,237；营业收入（千元） 407,149,600",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.67,
+      "formula": "营业收入 / 总资产",
+      "source_page": 10,
+      "source_text": "营业收入（千元） 407,149,600；总资产（千元） 604,351,853",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 2.79,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 10,
+      "source_text": "总资产（千元） 604,351,853；归属于上市公司股东的净资产（千元） 216,750,057",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 389063786.0,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "流动资产合计 389,063,786",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 351807384.03,
+      "formula": "流动资产 / 流动比率 = 389,063,786 / 110.59%",
+      "source_page": 148,
+      "source_text": "流动比率 110.59%；流动资产合计 389,063,786",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 148,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 148,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 37256401.97,
+      "formula": "流动资产 - 流动负债 = 389,063,786 - 351,807,384.03",
+      "source_page": 148,
+      "source_text": "流动比率 110.59%；流动资产合计 389,063,786",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 148,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 148,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(市值/总负债) + 1.0*(销售收入/总资产)",
+      "source_page": 148,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 389063786.0,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "流动资产合计 389,063,786",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 351819806.0,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "流动负债合计 351,819,806",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 63339188.0,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "存货 四(11) 63,339,188",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 604351853.0,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "总资产（千元） 604,351,853",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 376692510.0,
+      "formula": "总资产 × 资产负债率 (604,351,853 × 62.33%)",
+      "source_page": 148,
+      "source_text": "总资产（千元） 604,351,853；资产负债率 62.33%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 407149600.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "营业收入（千元） 407,149,600",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 299584935.0,
+      "formula": "制造业营业成本 + 其他业务营业成本",
+      "source_page": 10,
+      "source_text": "制造业营业成本 260,246,421；其他业务营业成本 39,338,514",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 38537237.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润（千元） 38,537,237",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 604351853.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "总资产（千元） 604,351,853",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净资产（所有者权益）",
+      "value": 216750057.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净资产（千元） 216,750,057",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.2642,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 10,
+      "source_text": "基于营业收入 407,149,600 和 营业成本 299,584,935 计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.0947,
+      "formula": "归母净利润 / 营业收入",
+      "source_page": 10,
+      "source_text": "基于归母净利润 38,537,237 和 营业收入 407,149,600 计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "加权平均净资产收益率",
+      "value": 0.2129,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "加权平均净资产收益率 21.29%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 407149600.0,
+      "formula": "直接提取",
+      "source_page": 50,
+      "source_text": "[段落2] 营业收入（千元） 407,149,600",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 299584935.0,
+      "formula": "制造业营业成本 + 其他业务营业成本",
+      "source_page": 50,
+      "source_text": "[段落5] 制造业营业成本 260,246,421；其他业务营业成本 39,338,514",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 50,
+      "source_text": "检索内容中未提及应收账款的具体金额",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 50,
+      "source_text": "检索内容中仅提及家电行业库存量为13,150.96万台/套，未提供财务报表中的存货账面价值",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 604351853.0,
+      "formula": "直接提取",
+      "source_page": 50,
+      "source_text": "[段落3] 总资产（千元） 604,351,853",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.75,
+      "formula": "营业收入 / [(期初总资产 + 期末总资产) / 2]",
+      "source_page": 50,
+      "source_text": "[段落2] 2024年营业收入 407,149,600；[段落3] 2024年末总资产 604,351,853，2023年末总资产 486,038,184",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "美的集团2024年度财务表现稳健，呈现出高质量增长的态势。\n\n**盈利能力方面**，公司营收与净利润双双实现增长，且利润增速（14.29%）显著高于营收增速（9.44%），反映出经营效率的持续提升。加权平均ROE保持在21.29%的高位，结合近9.5%的净利润率，显示了极强的资本回报能力和核心业务（智能家居）的竞争优势。\n\n**偿债能力方面**，公司财务结构持续优化，资产负债率降至62.33%，利息保障倍数高达20.03，现金流对债务覆盖充分。流动比率与速动比率均处于合理区间，整体偿债风险极低，财务稳健性极高。\n\n**营运效率方面**，在资产规模大幅扩张24.34%的背景下，总资产周转率依然保持在0.67-0.75的水平，显示出较强的资产转化能力。尽管受季节性备货影响库存量增长较快，但整体资产利用效率依然符合行业龙头地位。\n\n**风险提示**：需关注库存量大幅增加后的去化压力及跌价风险。同时，尽管海外业务毛利率表现优异，但仍需警惕全球宏观经济波动及汇率变化对海外市场盈利稳定性的潜在影响。\n\n总体而言，美的集团财务状况极其健康，具备较强的抗风险能力和持续盈利潜力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

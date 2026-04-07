@@ -1,0 +1,223 @@
+{
+  "company_code": "000895",
+  "company_name": "双汇发展",
+  "year": 2020,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 6255513991.33,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净利润（元） 6,255,513,991.33",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 73862643466.6,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "营业收入（元） 73,862,643,466.60",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 34703881761.96,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "总资产（元） 34,703,881,761.96",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净资产（所有者权益）",
+      "value": 23763043722.6,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净资产（元） 23,763,043,722.60",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "期末净资产收益率 (ROE)",
+      "value": 0.2632,
+      "formula": "净利润 / 净资产",
+      "source_page": 7,
+      "source_text": "基于提取的净利润与净资产计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.0847,
+      "formula": "净利润 / 营业收入",
+      "source_page": 7,
+      "source_text": "基于提取的净利润与营业收入计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 2.1284,
+      "formula": "营业收入 / 总资产",
+      "source_page": 7,
+      "source_text": "基于提取的营业收入与总资产计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.4604,
+      "formula": "总资产 / 净资产",
+      "source_page": 7,
+      "source_text": "基于提取的总资产与净资产计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 34703881761.96,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "总资产 34,703,881,761.96",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 10571162795.18,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "总负债 10,571,162,795.18",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 7655638401.11,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 7,
+      "source_text": "盈余公积 1,831,906,631.94\n未分配利润 5,823,731,769.17",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息支出",
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票总市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营业收入",
+      "value": 73862643466.6,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "其中：营业收入 73,862,643,466.60",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 61114007702.27,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "其中：营业成本 61,114,007,702.27",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 6255513991.33,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净利润（元） 6,255,513,991.33",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 34703881761.96,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "总资产（元） 34,703,881,761.96",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 23185123213.31,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "所有者权益合计 23,185,123,213.31",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 73807106598.98,
+      "formula": "14.54亿元 / 1.97%",
+      "source_page": 16,
+      "source_text": "报告期内对前五大经销客户的销售收入为14.54亿元，占本集团营业收入的1.97%",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 16,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 237090163.93,
+      "formula": "2,314万元 / 9.76%",
+      "source_page": 16,
+      "source_text": "前五大经销商截至2020年末应收账款余额为2,314万元，占本集团2020年末应收账款余额的9.76%",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 16,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 16,
+      "source_text": "",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "双汇发展2020年度财务表现稳健，展现出极强的市场竞争力和资产管理效率。\n\n**盈利能力方面**，公司营收与净利润均实现两位数增长，加权平均ROE高达32.93%，体现了卓越的资本回报水平。虽然17.26%的毛利率在制造业中不算极高，但8.47%的净利率结合庞大的业务规模，反映了公司较强的成本控制和盈利转化能力。\n\n**营运效率方面**，这是公司财务表现的最大亮点。总资产周转率高达2.13次，说明公司资产周转极快，是驱动高ROE的核心引擎。通过大幅降低生鲜产品库存（同比下降48.13%），公司有效释放了资金占用，提升了整体营运质量。\n\n**偿债能力方面**，资产负债率约为30.5%，权益乘数1.46，表明公司财务杠杆运用克制，资本结构稳健，具备较强的抗风险能力和财务灵活性。\n\n**风险提示**：尽管当前财务状况优异，但由于缺乏完整的流动比率及息税前利润数据，无法通过Z-Score模型进行深度信用风险评估。未来需关注生猪价格波动对成本端的冲击，以及在库存大幅下降后，供应链在高周转模式下的应对压力。综合来看，公司目前处于高质量发展阶段，财务底色优良。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

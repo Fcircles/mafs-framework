@@ -1,0 +1,255 @@
+{
+  "company_code": "600019",
+  "company_name": "宝钢股份",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 229,
+      "source_text": "提供的文本中未包含宝钢股份合并报表的净利润总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 229,
+      "source_text": "提供的文本中未包含宝钢股份合并报表的营业收入总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 229,
+      "source_text": "提供的文本中未包含宝钢股份合并报表的资产总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 229,
+      "source_text": "提供的文本中未包含宝钢股份合并报表的所有者权益总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 98531741633.44,
+      "formula": "直接提取",
+      "source_page": 114,
+      "source_text": "[段落1] 流动资产合计 98,531,741,633.44",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 81431191432.6,
+      "formula": "流动资产 / 流动比率",
+      "source_page": 114,
+      "source_text": "[段落1] 流动资产合计 98,531,741,633.44; [段落5] 流动比率 1.21",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 241832932897.1,
+      "formula": "直接提取",
+      "source_page": 114,
+      "source_text": "[段落1] 资产总计 241,832,932,897.10",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 110735300000.0,
+      "formula": "总资产 * 资产负债率",
+      "source_page": 114,
+      "source_text": "[段落1] 资产总计 241,832,932,897.10; [段落5] 资产负债率（%） 45.79",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 17100550200.84,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 114,
+      "source_text": "基于计算得出的流动资产与流动负债",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 114,
+      "source_text": "检索内容未包含留存收益（盈余公积+未分配利润）的具体数值",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": 16580673617.0,
+      "formula": "利息保障倍数 * (折旧与摊销 / (EBITDA利息保障倍数 - 利息保障倍数))",
+      "source_page": 114,
+      "source_text": "[段落2] 折旧与摊销199.0亿元; [段落5] 利息保障倍数 10.39, EBITDA利息保障倍数 22.86",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 114,
+      "source_text": "由于缺少留存收益(X2)和合并营业收入(X5)数据，无法计算完整的Z-Score",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 98531741633.44,
+      "formula": "无",
+      "source_page": 114,
+      "source_text": "[段落1] 流动资产合计 98,531,741,633.44",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 59373473902.96,
+      "formula": "无",
+      "source_page": 114,
+      "source_text": "[段落3] 流动负债合计 59,373,473,902.96",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 11955830356.16,
+      "formula": "无",
+      "source_page": 114,
+      "source_text": "[段落1] 存货 11,955,830,356.16",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 241832932897.1,
+      "formula": "无",
+      "source_page": 114,
+      "source_text": "[段落1] 资产总计 241,832,932,897.10",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 89851603419.02,
+      "formula": "无",
+      "source_page": 114,
+      "source_text": "[段落3] 负债合计 89,851,603,419.02",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.66,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 114,
+      "source_text": "基于[段落1]和[段落3]中2022年12月31日数据计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 1.46,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 114,
+      "source_text": "基于[段落1]和[段落3]中2022年12月31日数据计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.3715,
+      "formula": "总负债 / 总资产",
+      "source_page": 114,
+      "source_text": "基于[段落1]和[段落3]中2022年12月31日数据计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 229,
+      "source_text": "营业收入变动原因说明：主要受销售规模上升及销售价格下降综合影响，营业收入基本持平。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 346293.0,
+      "formula": "直接提取",
+      "source_page": 229,
+      "source_text": "营业成本 346,293",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 229,
+      "source_text": "提供的段落中未包含公司整体净利润数值（段落1、3、4、5仅列示了联营及合营企业的净利润）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 229,
+      "source_text": "提供的段落中未包含公司整体总资产数值（段落4仅列示了联营企业的资产合计）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 229,
+      "source_text": "提供的段落中未包含公司整体所有者权益数值（段落1、4、5仅列示了联营及合营企业的权益数据）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "第一至第四季度营业收入之和：85,980 + 97,675 + 94,597 + 89,526",
+      "source_page": 13,
+      "source_text": "第一季度 85,980 第二季度 97,675 第三季度 94,597 第四季度 89,526",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 13,
+      "source_text": "营业成本 346,293",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 13,
+      "source_text": "应收账款 18,339,574,166.04",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 13,
+      "source_text": "存货 11,955,830,356.16",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 13,
+      "source_text": "总资产 2022年末 398,249",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，宝钢股份2022年整体财务状况表现为“资产结构稳健、营运效率极高，但盈利空间承压”。\n\n**偿债能力**：公司表现优异且具备较强的抗风险能力。流动比率（1.66）与速动比率（1.46）均显著大于1，短期偿债毫无压力；资产负债率仅为37.15%，资本结构极为稳健，财务杠杆利用适度，长期债务风险受控。\n\n**营运效率**：公司展现出卓越的资产管理水平。应收账款周转率（19.16次）与存货周转率（26.23次）均处于高位，总资产周转率达0.94次。这表明公司货款回笼极快，库存去化迅速，资金占用少，整体资产利用效率极高。\n\n**盈利能力**：当前面临显著挑战。在营业收入基本持平的背景下，营业成本同比上升6.7%，导致毛利空间被明显挤压。同时，经营活动现金流量净额同比下降25.3%，主营业务的获现能力有所减弱。\n\n**风险提示**：\n1. **经营风险**：成本上升与收入停滞的“剪刀差”正持续侵蚀利润，需高度警惕上游原材料涨价或下游需求疲软带来的行业周期性风险。\n2. **信息缺失风险**：由于本次分析中合并报表层面的净利润、留存收益等核心数据缺失，无法完成完整的杜邦分析与Altman Z-Score测算，投资者需防范因合并口径与母公司口径数据差异导致的潜在评估偏差。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

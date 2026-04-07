@@ -1,0 +1,287 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 99341988.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落2] 营业收入 99,341,988",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润",
+      "value": 15860689.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 五、净利润（净亏损以“－”号填列） 15,860,689",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于母公司股东的净利润",
+      "value": 15431465.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 1.归属于母公司股东的净利润 15,431,465",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产（母公司）",
+      "value": 33598878.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落4] 资产总计 33,598,878",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（母公司）",
+      "value": 25326973.0,
+      "formula": "资产总计 - 负债合计",
+      "source_page": 84,
+      "source_text": "[段落4] 资产总计 33,598,878；负债合计 8,271,905",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率（ROE）",
+      "value": 29.64,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落5] 加权平均净资产收益率（%） 29.64",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 15.97,
+      "formula": "净利润 / 营业收入 * 100%",
+      "source_page": 84,
+      "source_text": "基于[段落1]净利润 15,860,689 和 [段落2]营业收入 99,341,988 计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 91427922.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 82,
+      "source_text": "非流动资产合计 34,826,626\n资产总计 126,254,548",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 62049107.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "流动负债合计 62,049,107",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 126254548.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "资产总计 126,254,548",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 68066796.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "负债合计 68,066,796",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 29378815.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 82,
+      "source_text": "流动资产 91,427,922，流动负债合计 62,049,107",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 82,
+      "source_text": "提供的段落中无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 所得税费用 + 利息费用",
+      "source_page": 82,
+      "source_text": "提供的段落中无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股东权益市值/总负债) + 0.999*(销售收入/总资产)",
+      "source_page": 82,
+      "source_text": "提供的段落中无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 91427922.0,
+      "formula": "总资产 - 非流动资产合计",
+      "source_page": 82,
+      "source_text": "[段落2] 2020年12月31日 资产总计 126,254,548，非流动资产合计 34,826,626",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 62049107.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "[段落2] 2020年12月31日 流动负债合计 62,049,107",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "检索内容中未提供2020年12月31日的合并存货数值，[段落5]仅显示2019年12月31日存货为14,251,743",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 126254548.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "[段落2] 2020年12月31日 资产总计 126,254,548",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 68066796.0,
+      "formula": "直接提取",
+      "source_page": 82,
+      "source_text": "[段落2] 2020年12月31日 负债合计 68,066,796",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.5391,
+      "formula": "总负债 / 总资产",
+      "source_page": 82,
+      "source_text": "基于[段落2]数据计算：68,066,796 / 126,254,548",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.4735,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 82,
+      "source_text": "基于[段落2]计算所得流动资产 91,427,922 / 流动负债合计 62,049,107",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "营业收入 99,341,988 75,665,462 31.29",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "营业成本 69,719,945 50,931,975 36.89",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "五、净利润（净亏损以“－”号填列） 15,860,689 11,620,746",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 14,
+      "source_text": "负债和所有者权益（或股东权益）总计 42,975,849 33,598,878",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "所有者权益（或股东权益）合计 23,356,681 25,326,973",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 99341988.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业收入 本期数 99,341,988（单位:千元）",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 69719945.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业成本 本期数 69,719,945（单位:千元）",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 14,
+      "source_text": "检索段落中未提供应收账款的具体余额数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 14,
+      "source_text": "检索段落中未提供存货的具体余额数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 14,
+      "source_text": "检索段落中未提供总资产的具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": 4.17,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "存货周转率4.17次/年，较上年加快0.23次/年",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款周转天数",
+      "value": 80.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "应收账款周转天数从上年的103天下降至80天",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2020年，三一重工展现了卓越的经营韧性与增长动能，整体财务状况稳健向好。\n\n**盈利能力方面**，公司营收规模逼近千亿大关，净利润同比大幅增长，ROE高达29.64%，核心主业毛利率维持在30%以上，体现了极强的获利水平与市场话语权。**营运效率方面**，数字化转型成效显著，通过“灯塔工厂”等建设，应收账款周转天数缩短至80天，存货周转持续优化，经营质量与资金回笼速度明显提升。**偿债能力方面**，53.91%的资产负债率显示财务杠杆利用适度，流动比率1.47保障了基本的短期偿债安全性。\n\n**风险提示：** 需重点关注公司债务结构高度“短期化”的问题，流动负债占比超过91%，这对现金流管理及短期融资能力提出了更高要求。此外，尽管盈利强劲，但行业毛利率已出现小幅收窄，未来需警惕原材料成本波动及行业周期性调整对利润空间的挤压。综合来看，公司处于高质量增长阶段，但在扩张过程中应加强对短期流动性风险的监控。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

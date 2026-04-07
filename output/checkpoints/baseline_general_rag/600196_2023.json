@@ -1,0 +1,311 @@
+{
+  "company_code": "600196",
+  "company_name": "复星医药",
+  "year": 2023,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 2895063426.58,
+      "formula": "直接提取",
+      "source_page": 326,
+      "source_text": "净利润 1,961,427,735.86 ... 2,895,063,426.58",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 326,
+      "source_text": "未在检索段落中找到",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 113469604813.45,
+      "formula": "直接提取",
+      "source_page": 326,
+      "source_text": "总资产 113,469,604,813.45",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "负债总额",
+      "value": 56853344377.17,
+      "formula": "直接提取",
+      "source_page": 326,
+      "source_text": "负债总额 56,853,344,377.17",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 56616260436.28,
+      "formula": "总资产 - 负债总额",
+      "source_page": 326,
+      "source_text": "资产总额 113,469,604,813.45，负债总额 56,853,344,377.17",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（加权平均）",
+      "value": 0.0529,
+      "formula": "直接提取",
+      "source_page": 326,
+      "source_text": "加权平均净资产收益率（%） 5.29",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（期末计算）",
+      "value": 0.0511,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 326,
+      "source_text": "净利润 2,895,063,426.58，所有者权益 56,616,260,436.28",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 326,
+      "source_text": "营业收入缺失",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 326,
+      "source_text": "营业收入缺失",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 2.0042,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 326,
+      "source_text": "总资产 113,469,604,813.45，所有者权益 56,616,260,436.28",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 8936440211.72,
+      "formula": "直接提取",
+      "source_page": 177,
+      "source_text": "流动资产合计 8,936,440,211.72",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 10540403432.85,
+      "formula": "直接提取",
+      "source_page": 177,
+      "source_text": "流动负债合计 10,540,403,432.85",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 48541666949.89,
+      "formula": "直接提取",
+      "source_page": 177,
+      "source_text": "资产总计 48,541,666,949.89",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 13420358254.14,
+      "formula": "直接提取",
+      "source_page": 177,
+      "source_text": "负债合计 13,420,358,254.14",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": -1603963221.13,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 177,
+      "source_text": "流动资产合计 8,936,440,211.72；流动负债合计 10,540,403,432.85",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 14111665582.54,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 177,
+      "source_text": "盈余公积 1,336,199,355.50；未分配利润 12,775,466,227.04",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 177,
+      "source_text": "提供的文本中缺乏母公司利润表数据及利息费用明细",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 0.999X5",
+      "source_page": 177,
+      "source_text": "缺少计算所需的营业收入、利息费用等关键数据，且母公司报表与合并报表数据不匹配",
+      "category": "Z-Score"
+    },
+    {
+      "name": "合并流动资产",
+      "value": 33792568948.62,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "流动资产合计 33,792,568,948.62",
+      "category": "偿债能力"
+    },
+    {
+      "name": "合并存货",
+      "value": 7537767765.75,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "存货 7,537,767,765.75",
+      "category": "偿债能力"
+    },
+    {
+      "name": "合并总资产",
+      "value": 113469604813.45,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "总资产 113,469,604,813.45",
+      "category": "偿债能力"
+    },
+    {
+      "name": "合并流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 176,
+      "source_text": "提供的文本中未包含合并资产负债表的负债部分",
+      "category": "偿债能力"
+    },
+    {
+      "name": "合并总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 176,
+      "source_text": "提供的文本中未包含合并资产负债表的负债部分",
+      "category": "偿债能力"
+    },
+    {
+      "name": "母公司流动资产",
+      "value": 8936440211.72,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "流动资产合计 8,936,440,211.72",
+      "category": "偿债能力"
+    },
+    {
+      "name": "母公司流动负债",
+      "value": 10540403432.85,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "流动负债合计 10,540,403,432.85",
+      "category": "偿债能力"
+    },
+    {
+      "name": "母公司总资产",
+      "value": 48541666949.89,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "资产总计 48,541,666,949.89",
+      "category": "偿债能力"
+    },
+    {
+      "name": "母公司总负债",
+      "value": 13420358254.14,
+      "formula": "直接提取",
+      "source_page": 176,
+      "source_text": "负债合计 13,420,358,254.14",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 326,
+      "source_text": "提供的段落中未包含营业收入的具体数值。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 326,
+      "source_text": "提供的段落中未包含营业成本的具体数值。",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 2895063426.58,
+      "formula": null,
+      "source_page": 326,
+      "source_text": "净利润 2,895,063,426.58 3,947,464,120.11",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 113469604813.45,
+      "formula": null,
+      "source_page": 326,
+      "source_text": "总资产 113,469,604,813.45 107,163,907,232.34",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 56616260436.28,
+      "formula": "资产总额 - 负债总额 = 113,469,604,813.45 - 56,853,344,377.17",
+      "source_page": 326,
+      "source_text": "资产总额 113,469,604,813.45 ... 负债总额 56,853,344,377.17",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 7537767765.75,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "合计 7,803,103,597.27 265,335,831.52 7,537,767,765.75",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 113469604813.45,
+      "formula": null,
+      "source_page": 10,
+      "source_text": "总资产 113,469,604,813.45",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，复星医药（600196）2023年财务状况呈现“长期稳健，短期承压，盈利下滑”的特征。\n\n**盈利能力**：公司2023年净利润（28.95亿元）、加权ROE（5.29%）及每股收益均较上年大幅下降，整体盈利水平出现明显的阶段性下滑，主业盈利修复情况亟待关注。\n\n**偿债能力**：呈现长短期分化的特点。母公司资产负债率仅27.65%，合并层面权益乘数约2.00，表明公司整体财务杠杆保守，长期偿债能力强且资本结构稳健；但母公司流动比率仅0.85且营运资本为负，短期内面临一定的流动性压力。\n\n**营运效率**：受限于营业收入和成本等核心数据的缺失，暂无法全面量化周转指标，但高达75.38亿元的存货规模对资金占用较为明显，需结合完整数据进一步验证其资产周转效率。\n\n**风险提示**：\n1. **盈利持续下滑风险**：核心盈利指标双降，需警惕业绩进一步承压；\n2. **短期流动性风险**：母公司短期债务覆盖能力不足，需密切关注资金链安全与债务结构优化；\n3. **数据缺失风险**：因缺乏营收、成本等关键指标，营运与杜邦分析存在局限，建议结合完整财报进行深度研判。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

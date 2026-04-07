@@ -1,0 +1,17 @@
+{
+  "company_code": "600600",
+  "company_name": "青岛啤酒",
+  "year": 2021,
+  "industry": "消费行业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "青岛啤酒 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "营业收入": 30166805.0,
+      "营业成本": 19091131.0,
+      "财务费用": -243188.0,
+      "毛利润": 11075674.0
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2024,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 6092538000.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "五、净利润（净亏损以“－”号填列） 6,092,538",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 77773391000.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "其中：营业收入 七、54 77,773,391",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 152145076000.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "负债和所有者权益（或股东权益）总计 152,145,076",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 73001599000.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "所有者权益（或股东权益）合计 73,001,599",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.0835,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 92,
+      "source_text": "净利润 6,092,538 / 所有者权益 73,001,599",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": 0.0783,
+      "formula": "净利润 / 营业收入",
+      "source_page": 92,
+      "source_text": "净利润 6,092,538 / 营业收入 77,773,391",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.5112,
+      "formula": "营业收入 / 总资产",
+      "source_page": 92,
+      "source_text": "营业收入 77,773,391 / 总资产 152,145,076",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 2.0841,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 92,
+      "source_text": "总资产 152,145,076 / 所有者权益 73,001,599",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 101505319.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 91,
+      "source_text": "非流动资产合计 50,639,757；资产总计 152,145,076",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 63669228.0,
+      "formula": "流动负债合计",
+      "source_page": 91,
+      "source_text": "流动负债合计 63,669,228",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 152145076.0,
+      "formula": "资产总计",
+      "source_page": 91,
+      "source_text": "资产总计 152,145,076",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 79143477.0,
+      "formula": "流动负债合计 + 非流动负债合计",
+      "source_page": 91,
+      "source_text": "流动负债合计 63,669,228；非流动负债合计 15,474,249",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 37836091.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 91,
+      "source_text": "计算所得流动资产 101,505,319；流动负债合计 63,669,228",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 60441666.0,
+      "formula": "盈余公积 + 一般风险准备 + 未分配利润",
+      "source_page": 91,
+      "source_text": "盈余公积 4,408,314；一般风险准备 59,244；未分配利润 55,974,108",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": 4738071.0,
+      "formula": "利润总额 + 利息支出",
+      "source_page": 91,
+      "source_text": "利润总额 4,481,636；利息支出 256,435",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": 2.026,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(所有者权益/总负债) + 1.0*(营业总收入/总资产)",
+      "source_page": 91,
+      "source_text": "营业总收入 78,383,379；所有者权益合计 73,001,599；及上述计算所得指标",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 101505319.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 91,
+      "source_text": "资产总计 152,145,076；非流动资产合计 50,639,757",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 63669228.0,
+      "formula": "直接提取",
+      "source_page": 91,
+      "source_text": "流动负债合计 63,669,228",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 91,
+      "source_text": "提供的检索段落中未包含存货的具体数值",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 152145076.0,
+      "formula": "直接提取",
+      "source_page": 91,
+      "source_text": "资产总计 152,145,076",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 79143477.0,
+      "formula": "直接提取",
+      "source_page": 91,
+      "source_text": "负债合计 79,143,477",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.5202,
+      "formula": "总负债 / 总资产",
+      "source_page": 91,
+      "source_text": "负债合计 79,143,477 / 资产总计 152,145,076",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.5943,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 91,
+      "source_text": "101,505,319 / 63,669,228",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 77773391.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "[段落1] 营业收入 77,773,391",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 57216959.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "[段落1] 营业成本 57,216,959",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 6092538.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "[段落2] 五、净利润（净亏损以“－”号填列） 6,092,538",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 47362883.0,
+      "formula": "直接提取（负债和所有者权益总计）",
+      "source_page": 15,
+      "source_text": "[段落3] 负债和所有者权益（或股东权益）总计 47,362,883",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 22708356.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "[段落3] 所有者权益（或股东权益）合计 22,708,356",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.2643,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 15,
+      "source_text": "基于[段落1]数据计算：(77,773,391 - 57,216,959) / 77,773,391",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.0783,
+      "formula": "净利润 / 营业收入",
+      "source_page": 15,
+      "source_text": "基于[段落1]和[段落2]数据计算：6,092,538 / 77,773,391",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.2683,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 15,
+      "source_text": "基于[段落2]和[段落3]数据计算：6,092,538 / 22,708,356",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 77773391.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "营业收入 77,773,391（单位：千元）",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 57216959.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "营业成本 57,216,959（单位：千元）",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 15,
+      "source_text": "检索到的段落中未提供应收账款的具体金额数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 15,
+      "source_text": "检索到的段落中未提供存货的金额数值，仅提及工程机械行业库存量为23,000台",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 15,
+      "source_text": "检索到的段落中未提供总资产的具体数值",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "三一重工2024年整体财务状况稳健向好，盈利质量显著提升，但在债务期限结构与库存管理方面仍需保持一定的警惕。\n\n**盈利能力**：公司全年实现营收777.73亿元（+6.22%），净利润60.93亿元（+32.27%），利润增速远超营收增速。毛利率（26.43%）与净利率（7.83%）双双改善，结合杜邦分析，公司8.35%的ROE主要由稳健的销售盈利能力和适中的财务杠杆驱动，展现出高质量的盈利转化与资本回报水平。\n\n**偿债能力**：整体资本结构持续优化，资产负债率52.02%处于行业合理区间，且长期借款大幅压降50.94%。流动比率1.59表明公司流动资产足以覆盖流动负债，短期偿债底盘基本稳固。\n\n**营运效率**：尽管部分量化周转指标缺失，但经营性现金流净额同比激增159.53%，凸显出公司在销售回款与供应链资金管控上的卓越能力，整体现金流运转效率大幅改善。\n\n**风险提示**：公司Z-Score为2.026，处于灰色预警区，需关注两大潜在风险：一是短期债务较为集中，流动负债占总负债比重超80%，且一年内到期的非流动负债激增117.21%，短期资金周转与还款压力较大；二是存在产销错配迹象，产量增速（17.69%）明显高于销量增速（5.29%）导致库存抬升，面临一定的去库存压力。建议后续密切关注其短期现金流匹配及存货消化情况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

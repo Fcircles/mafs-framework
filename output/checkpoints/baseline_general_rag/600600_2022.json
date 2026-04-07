@@ -1,0 +1,287 @@
+{
+  "company_code": "600600",
+  "company_name": "青岛啤酒",
+  "year": 2022,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 3710628593.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "归属于上市公司股东的净利润 2022年 3,710,628,593",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 32171565624.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "营业收入 2022年 32,171,565,624",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 50311699796.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "总资产 2022年末 50,311,699,796",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净资产",
+      "value": 25494821703.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "归属于上市公司股东的净资产 2022年末 25,494,821,703",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.153,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "加权平均净资产收益率（%） 2022年 15.30",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.1153,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 174,
+      "source_text": "3,710,628,593 / 32,171,565,624",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.6642,
+      "formula": "营业收入 / [(期初总资产 + 期末总资产) / 2]",
+      "source_page": 174,
+      "source_text": "32,171,565,624 / [(46,563,004,491 + 50,311,699,796) / 2]",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.9975,
+      "formula": "平均总资产 / 平均归属于上市公司股东的净资产",
+      "source_page": 174,
+      "source_text": "48,437,352,143.5 / 24,248,333,150.5",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 32002483239.0,
+      "formula": "直接提取自资产负债表",
+      "source_page": 7,
+      "source_text": "[段落4] 流动资产合计 32,002,483,239",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 50311699796.0,
+      "formula": "直接提取自合并资产负债表数据",
+      "source_page": 7,
+      "source_text": "[段落2] 资产总额 ... 50,311,699,796",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 24039387261.0,
+      "formula": "直接提取自合并资产负债表数据",
+      "source_page": 7,
+      "source_text": "[段落2] 负债总额 ... 24,039,387,261",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "未在提供段落中列示",
+      "source_page": 7,
+      "source_text": "提供的文本中仅包含资产负债表的资产部分（段落4）和分部信息的负债总额（段落2），未列出流动负债的具体数值。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "由于流动负债数据缺失，无法计算营运资本。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "未在提供段落中列示",
+      "source_page": 7,
+      "source_text": "提供的文本未包含股东权益变动表或资产负债表权益部分的详细科目。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": null,
+      "formula": "净利润 + 利息费用 + 所得税费用",
+      "source_page": 7,
+      "source_text": "段落2提供了净利润为3,804,721,478元，但未提供利息费用和所得税费用的具体数值。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 7,
+      "source_text": "计算Z-Score所需的营运资本(X1)、留存收益(X2)、EBIT(X3)、权益市值(X4)及营业收入(X5)在提供的文本中不完整，故无法计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 32002483239.0,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "流动资产合计 32,002,483,239",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 19671788734.0,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "流动负债合计 19,671,788,734",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 4152187132.0,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "存货 (7),十五(3) 4,152,187,132",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.63,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 7,
+      "source_text": "流动资产合计 32,002,483,239；流动负债合计 19,671,788,734",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 1.42,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 7,
+      "source_text": "流动资产合计 32,002,483,239；存货 4,152,187,132；流动负债合计 19,671,788,734",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 32171565624.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "营业收入 32,171,565,624 30,166,805,377 6.65 27,759,710,926",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 174,
+      "source_text": "提供的段落中未给出营业成本的具体数值，仅在段落4中提到“2022年营业成本同比增加6.43%”",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 3710628593.0,
+      "formula": "直接提取（采用归属于上市公司股东的净利润）",
+      "source_page": 174,
+      "source_text": "归属于上市公司股东的净利润 3,710,628,593 3,155,455,810 17.59 2,201,323,556",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 50311699796.0,
+      "formula": "直接提取",
+      "source_page": 174,
+      "source_text": "总资产 50,311,699,796 46,563,004,491 8.05 41,514,185,835",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 25494821703.0,
+      "formula": "直接提取（采用归属于上市公司股东的净资产）",
+      "source_page": 174,
+      "source_text": "归属于上市公司股东的净资产 25,494,821,703 23,001,844,598 10.84 20,621,960,515",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 32171565624.0,
+      "formula": "无",
+      "source_page": 11,
+      "source_text": "营业收入 32,171,565,624 30,166,805,377 6.65 27,759,710,926",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 20317934822.0,
+      "formula": "主营业务成本 + 其他业务成本",
+      "source_page": 11,
+      "source_text": "主营业务成本(a) (20,038,520,561)\n其他业务成本(b) (279,414,261)\n(20,317,934,822)",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 11,
+      "source_text": "未在提供的文本中找到",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 11,
+      "source_text": "未在提供的文本中找到",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 50311699796.0,
+      "formula": "无",
+      "source_page": 11,
+      "source_text": "总资产 50,311,699,796 46,563,004,491 8.05 41,514,185,835",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.664,
+      "formula": "营业收入 / [(期初总资产 + 期末总资产) / 2]",
+      "source_page": 11,
+      "source_text": "营业收入 32,171,565,624；总资产 50,311,699,796（2022年末），46,563,004,491（2021年末）",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，青岛啤酒（600600）2022年度整体财务状况稳健，展现出较强的高质量发展韧性。\n\n在盈利能力方面，公司表现亮眼。全年营业收入达321.72亿元（+6.65%），归母净利润增速（+17.59%）显著高于营收增速，加权平均ROE提升至15.30%。面对原材料价格上涨的压力，公司成功通过销量增长与产品结构优化，维持了约11.53%的较高销售净利率，体现了卓越的成本管控与品牌溢价能力。\n\n在偿债与营运能力方面，公司短期变现能力较强，流动比率（1.63）与速动比率（1.42）均处于健康水平，短期偿债风险低；权益乘数约为2.00，财务杠杆结构稳健。营运端，总资产周转率达0.66次，符合啤酒作为快消品行业的特征，整体资产利用效率良好。\n\n风险提示：首先，经营层面需持续关注原材料价格波动对营业成本的潜在挤压风险；其次，由于本次分析中部分明细科目数据缺失，无法精确计算Altman Z-Score、应收账款周转率及存货周转率等关键指标。建议投资者结合完整财务报表，进一步评估公司的长期偿债能力与核心营运资本的周转健康度。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "company_code": "600660",
+  "company_name": "福耀玻璃",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润(合并)",
+      "value": 4752795645.0,
+      "formula": "直接提取",
+      "source_page": 178,
+      "source_text": "净利润 4,752,795,645",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入(母公司)",
+      "value": 5354167196.0,
+      "formula": "直接提取",
+      "source_page": 178,
+      "source_text": "母公司利润表...一、营业收入 5,354,167,196",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产(合并)",
+      "value": 50767498791.0,
+      "formula": "直接提取",
+      "source_page": 178,
+      "source_text": "资产总额 50,767,498,791",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益(合并)",
+      "value": 28988298128.0,
+      "formula": "直接提取",
+      "source_page": 178,
+      "source_text": "股东权益 28,988,298,128",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE, 期末)",
+      "value": 0.16396,
+      "formula": "净利润(合并) / 所有者权益(合并)",
+      "source_page": 178,
+      "source_text": "净利润 4,752,795,645；股东权益 28,988,298,128",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产收益率(ROA)",
+      "value": 0.09362,
+      "formula": "净利润(合并) / 总资产(合并)",
+      "source_page": 178,
+      "source_text": "净利润 4,752,795,645；资产总额 50,767,498,791",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.75131,
+      "formula": "总资产(合并) / 所有者权益(合并)",
+      "source_page": 178,
+      "source_text": "资产总额 50,767,498,791；股东权益 28,988,298,128",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 178,
+      "source_text": "提供的段落中未包含合并报表的流动资产数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 17360373707.0,
+      "formula": "负债合计 - 非流动负债合计",
+      "source_page": 178,
+      "source_text": "[段落2] 非流动负债合计 4,418,826,956；负债合计 21,779,200,663",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 50767498791.0,
+      "formula": "无",
+      "source_page": 178,
+      "source_text": "[段落1] 合并资产及负债表: 资产总额 2022年 50,767,498,791",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 21779200663.0,
+      "formula": "无",
+      "source_page": 178,
+      "source_text": "[段落1] 合并资产及负债表: 负债总额 2022年 21,779,200,663",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 178,
+      "source_text": "由于缺乏合并流动资产数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 178,
+      "source_text": "提供的段落中未包含盈余公积和未分配利润等相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 178,
+      "source_text": "[段落5] 提供了利润总额 5,579,105,687，但未提供利息费用数据，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2×(营运资本/总资产) + 1.4×(留存收益/总资产) + 3.3×(息税前利润/总资产) + 0.6×(股东权益/总负债) + 0.999×(营业收入/总资产)",
+      "source_page": 178,
+      "source_text": "由于缺乏流动资产、留存收益、息税前利润和营业收入等关键数据，无法计算该指标",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 50767498791.0,
+      "formula": "直接提取",
+      "source_page": 29,
+      "source_text": "[段落2] 2022年资产总额 50,767,498,791",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 21779200663.0,
+      "formula": "直接提取",
+      "source_page": 29,
+      "source_text": "[段落2] 2022年负债总额 21,779,200,663",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 19223673815.0,
+      "formula": "直接提取",
+      "source_page": 29,
+      "source_text": "[段落4] 流动负债合计 19,223,673,815",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 29,
+      "source_text": "检索到的段落中未包含流动资产合计的具体数值",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 29,
+      "source_text": "检索到的段落中未包含存货科目的具体数值",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.429,
+      "formula": "总负债 / 总资产",
+      "source_page": 29,
+      "source_text": "基于[段落2]中2022年负债总额与资产总额计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 28098754166.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "营业收入 28,098,754,166 23,603,063,361 19.05",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 18535445134.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "营业成本 18,535,445,134 15,129,053,236 22.52",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 4752795645.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "净利润 4,752,795,645 3,142,980,793 2,598,450,936 2,898,182,172 4,107,172,649",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 50767498791.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "资产总额 50,767,498,791 44,784,893,954 38,423,625,184 38,826,279,607 34,490,438,670",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 28988298128.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "股东权益 28,988,298,128 26,294,104,291 21,590,907,298 21,369,081,522 20,189,872,606",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 28098754166.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "营业收入 28,098,754,166",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 18535445134.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "营业成本 18,535,445,134",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "提供的段落中未直接给出应收账款的具体金额。",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "提供的段落中未直接给出存货总额的具体金额。",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 50767498791.0,
+      "formula": null,
+      "source_page": 178,
+      "source_text": "资产总额 50,767,498,791",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，福耀玻璃（600660）2022年整体财务状况表现优异，基本面十分稳健。\n\n**盈利能力强劲**：公司全年营收达280.99亿元，净利润47.53亿元，利润增速（51.22%）远超营收增速。加权平均ROE高达17.65%，表明公司通过提升高附加值产品占比及卓越的成本管控，成功化解了材料与能源成本上涨的压力，盈利质量与产品溢价能力显著提升。\n\n**偿债能力稳健**：期末资产负债率为42.90%，财务杠杆处于合理区间。高达58.93亿元的经营活动现金流净额为债务偿还提供了坚实的资金保障。同时，公司正主动增加长期借款，以优化偏重于流动负债的债务结构，整体信用状况与融资能力良好。\n\n**营运效率平稳**：应收账款周转天数稳定在62天，存货周转天数微增至95天，整体资产周转效率保持在正常且健康的水平，体现了公司较强的日常运营管理能力。\n\n**风险提示**：尽管公司正积极优化融资结构，但流动负债在总负债中占比依然较高，需防范潜在的短期资金周转压力；此外，存货周转天数的微升，以及宏观环境下原材料与能源价格的持续波动风险，仍需投资者保持关注。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

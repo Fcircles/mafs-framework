@@ -1,0 +1,279 @@
+{
+  "company_code": "600660",
+  "company_name": "福耀玻璃",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于母公司所有者的净利润",
+      "value": 2600776459.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "[段落2] 归属于母公司所有者的净利润 2,600,776,459",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入（合并）",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "检索到的段落中未提供2020年合并营业收入数据，仅在[段落4]中提供母公司营业收入4,419,386,768元。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产总额",
+      "value": 38423625184.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "[段落1] 资产总额 38,423,625,184",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "股东权益（所有者权益）",
+      "value": 21590907298.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "[段落1] 股东权益 21,590,907,298",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.1206,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "[段落3] 加权平均净资产收益率（%） 12.06",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.78,
+      "formula": "资产总额 / 股东权益",
+      "source_page": 168,
+      "source_text": "[段落1] 资产总额 38,423,625,184 / 股东权益 21,590,907,298",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 168,
+      "source_text": "提供的段落中未包含流动资产数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 12131252844.0,
+      "formula": "负债合计 - 非流动负债合计",
+      "source_page": 168,
+      "source_text": "[段落4] 非流动负债合计 4,701,465,042；负债合计 16,832,717,886",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 38423625184.0,
+      "formula": "无",
+      "source_page": 168,
+      "source_text": "[段落1] 资产总额 38,423,625,184",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 16832717886.0,
+      "formula": "无",
+      "source_page": 168,
+      "source_text": "[段落1] 负债总额 16,832,717,886",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 168,
+      "source_text": "缺少流动资产数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 168,
+      "source_text": "[段落5] 仅提供期末未分配利润 10,305,548,562，缺少盈余公积期末余额，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 168,
+      "source_text": "[段落3] 提供利润总额 3,109,595,043，但缺少利息费用数据，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2(营运资本/总资产) + 1.4(留存收益/总资产) + 3.3(息税前利润/总资产) + 0.6(股票市值/总负债) + 1.0(营业收入/总资产)",
+      "source_page": 168,
+      "source_text": "缺少流动资产、利息费用、股票市值、营业收入等关键数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 38423625184.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "资产总额 38,423,625,184",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 16832717886.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "负债总额 16,832,717,886",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 12131252844.0,
+      "formula": "负债合计 - 非流动负债合计",
+      "source_page": 168,
+      "source_text": "非流动负债合计 4,701,465,042\n负债合计 16,832,717,886",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 168,
+      "source_text": "提供的合并报表段落中未包含流动资产数据（注：母公司报表可通过资产总计36,119,427,381减去非流动资产13,012,772,714得出母公司流动资产为23,106,654,667）",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 168,
+      "source_text": "提供的段落中未包含存货数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入（母公司）",
+      "value": 4419386768.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "一、营业收入 十七(4) 4,419,386,768",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本（母公司）",
+      "value": 3742658331.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "减：营业成本 十七(4) 3,742,658,331",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润（合并）",
+      "value": 2598450936.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "净利润 2,598,450,936",
+      "category": "盈利能力"
+    },
+    {
+      "name": "资产总额（合并）",
+      "value": 38423625184.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "资产总额 38,423,625,184",
+      "category": "盈利能力"
+    },
+    {
+      "name": "股东权益/所有者权益（合并）",
+      "value": 21590907298.0,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "股东权益 21,590,907,298",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "（期内净利润÷营业收入）×100%",
+      "source_page": 168,
+      "source_text": "净利润率（5） 13.05%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "股权收益率",
+      "value": null,
+      "formula": "（期内归属于上市公司股东的净利润÷期终归属于上市公司股东的权益）×100%",
+      "source_page": 168,
+      "source_text": "股权收益率（6） 12.04%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产收益率",
+      "value": null,
+      "formula": "（期内净利润÷期末总资产）×100%",
+      "source_page": 168,
+      "source_text": "总资产收益率（7） 6.76%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "加权平均净资产收益率",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 168,
+      "source_text": "本报告期加权平均净资产收益率12.06%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 19906593468.0,
+      "formula": "第一季度营业收入 + 第二季度营业收入 + 第三季度营业收入 + 第四季度营业收入",
+      "source_page": 28,
+      "source_text": "[段落5] 营业收入：第一季度4,170,497,650，第二季度3,950,769,490，第三季度5,655,088,473，第四季度6,130,237,855",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "检索到的段落中未提供2020年营业成本的具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "检索到的段落中未提供2020年应收账款的期末余额数值，仅提供了周转天数",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "检索到的段落中未提供2020年存货的期末余额数值，仅提供了周转天数",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 38423625184.0,
+      "formula": "直接提取",
+      "source_page": 28,
+      "source_text": "[段落2/3] 合并资产及负债表：2020年资产总额 38,423,625,184",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，福耀玻璃2020年在新冠疫情与汽车行业景气度下行的双重压力下，整体财务状况依然保持稳健。\n\n盈利能力方面，受下游需求减少及汇兑损益影响，公司营收与净利润同比分别下滑5.67%和10.34%，ROE降至12.06%。但净利润率仍达13.05%，ROA为6.76%，表明公司在逆境中依然维持了较高的资产回报水平与核心盈利质量，具备较强的综合竞争力。\n\n偿债能力方面，公司资产负债率为43.81%，处于合理稳健区间；资本负债比率显著降至7.30%，债务净额减少，长期偿债能力进一步增强。整体财务杠杆（权益乘数1.78）控制良好，财务风险较低。\n\n营运效率方面，受订单减少影响，资产周转效率有所放缓，应收账款及存货周转天数分别增至66天和99天，但整体仍处于正常可控的周转水平。\n\n风险提示：需重点关注宏观经济波动对汽车产业链的冲击，以及汇率波动带来的汇兑损失风险。此外，由于部分流动资产数据缺失，短期流动性及Z-Score破产预测模型无法全面评估，建议结合完整报表进一步跟踪其短期偿债指标。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

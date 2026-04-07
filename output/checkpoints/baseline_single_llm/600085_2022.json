@@ -1,0 +1,145 @@
+{
+  "company_code": "600085",
+  "company_name": "同仁堂",
+  "year": 2022,
+  "industry": "医药行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.1431,
+      "formula": "净利润 / 营业收入",
+      "source_page": 64,
+      "source_text": "净利润: 2,199,390,811.72, 营业收入: 15,372,423,363.17",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "平均总资产 / 平均净资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并总资产和净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "6.56X1 + 3.26X2 + 6.72X3 + 1.05X4",
+      "source_page": 64,
+      "source_text": "文本缺失计算所需的总资产、流动资产、流动负债、留存收益、总负债等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 64,
+      "source_text": "文本缺失合并流动资产和流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 64,
+      "source_text": "文本缺失合并流动资产、存货和流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并总负债和总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.488,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 64,
+      "source_text": "营业收入: 15,372,423,363.17, 营业成本: 7,870,132,037.30",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.1431,
+      "formula": "净利润 / 营业收入",
+      "source_page": 64,
+      "source_text": "净利润: 2,199,390,811.72, 营业收入: 15,372,423,363.17",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并净资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 13.34,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 64,
+      "source_text": "营业收入: 15,372,423,363.17, 期初应收账款: 1,004,296,481.57, 期末应收账款: 1,301,148,434.72",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 64,
+      "source_text": "文本缺失合并存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 64,
+      "source_text": "文本缺失合并总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "受限于提供的年报片段缺失合并资产负债表的核心数据（如总资产、总负债、所有者权益及存货等），本次分析无法计算杜邦分析的核心指标、Z-Score破产预警模型以及偿债能力指标。从可计算的指标来看，同仁堂在2022年展现出优秀的盈利与营运能力。公司全年实现营业收入153.72亿元，毛利率高达48.80%，销售净利率为14.31%，表明其核心产品具有极强的市场竞争力和品牌溢价，成本费用控制得当。营运方面，应收账款周转率达13.34次，说明公司对下游渠道掌控力强，回款速度快，坏账风险低。此外，结合现金流量表，公司经营活动现金流量净额达30.94亿元，显著高于当期净利润，印证了公司利润的现金含量极高，主营业务造血能力强劲，整体财务质量优异。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      64,
+      67,
+      69,
+      72,
+      145,
+      158,
+      160,
+      190,
+      192
+    ],
+    "text_length": 7936
+  }
+}

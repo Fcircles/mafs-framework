@@ -1,0 +1,17 @@
+{
+  "company_code": "600079",
+  "company_name": "人福医药",
+  "year": 2020,
+  "industry": "医药行业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "人福医药 2020年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "流动资产合计": NaN,
+      "总资产": NaN,
+      "存货": NaN,
+      "应收账款": NaN
+    }
+  }
+}

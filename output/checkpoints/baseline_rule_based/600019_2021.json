@@ -1,0 +1,45 @@
+{
+  "company_code": "600019",
+  "company_name": "宝钢股份",
+  "year": 2021,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [
+    {
+      "name": "流动比率",
+      "value": NaN,
+      "formula": "流动资产/流动负债",
+      "source_page": 108,
+      "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": NaN,
+      "formula": "(流动资产-存货)/流动负债",
+      "source_page": 108,
+      "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": NaN,
+      "formula": "总负债/总资产",
+      "source_page": 108,
+      "source_text": "流动资产=nan, 流动负债=nan, 存货=10.0, 总资产=nan, 总负债=nan",
+      "category": "偿债能力"
+    }
+  ],
+  "interpretation": "宝钢股份 2021年年报财务分析（规则提取）\n\n【偿债能力】\n  流动比率 = nan\n  速动比率 = nan\n  资产负债率 = nan\n",
+  "metadata": {
+    "extracted_raw": {
+      "流动资产合计": NaN,
+      "流动负债合计": NaN,
+      "总资产": NaN,
+      "总负债": NaN,
+      "存货": 10.0,
+      "应收账款": 5.0,
+      "营运资本": NaN
+    }
+  }
+}

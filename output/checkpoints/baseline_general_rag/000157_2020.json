@@ -1,0 +1,263 @@
+{
+  "company_code": "000157",
+  "company_name": "中联重科",
+  "year": 2020,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 65108942242.75,
+      "formula": null,
+      "source_page": 201,
+      "source_text": "营业收入 65,108,942,242.75 43,307,395,375.43 50.34%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": null,
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": null,
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 201,
+      "source_text": "",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动负债",
+      "value": 71825446946.2,
+      "formula": "直接提取",
+      "source_page": 201,
+      "source_text": "流动负债合计 71,825,446,946.20",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 124258023216.93,
+      "formula": "流动负债 * 流动比率",
+      "source_page": 201,
+      "source_text": "流动比率 173.00%；流动负债合计 71,825,446,946.20",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无足够数据计算",
+      "source_page": 201,
+      "source_text": "无",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无足够数据计算",
+      "source_page": 201,
+      "source_text": "无",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 52432576270.73,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 201,
+      "source_text": "流动比率 173.00%；流动负债合计 71,825,446,946.20",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无足够数据计算（仅有未分配利润，缺少盈余公积等）",
+      "source_page": 201,
+      "source_text": "期末未分配利润 22,593,117,601.46",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": 9588951857.23,
+      "formula": "息税折旧摊销前利润 / EBITDA利息保障倍数 * 利息保障倍数",
+      "source_page": 201,
+      "source_text": "息税折旧摊销前利润 1,053,937.79万元；利息保障倍数 10.19；EBITDA利息保障倍数 11.2",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "无足够数据计算",
+      "source_page": 201,
+      "source_text": "无",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 254,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 71825446946.2,
+      "formula": null,
+      "source_page": 254,
+      "source_text": "流动负债合计 71,825,446,946.20 50,706,295,418.68",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 254,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 254,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 254,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 65108942242.75,
+      "formula": "直接提取",
+      "source_page": 20,
+      "source_text": "营业收入合计 65,108,942,242.75 100% 43,307,395,375.43 100% 50.34%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 20,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 20,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 20,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 20,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 65108942242.75,
+      "formula": "直接提取",
+      "source_page": 25,
+      "source_text": "营业收入 65,108,942,242.75 43,307,395,375.43 50.34% 主要系主要产品竞争力持续增强，销售规模增长",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 46492516871.83,
+      "formula": "直接提取",
+      "source_page": 25,
+      "source_text": "营业成本 46,492,516,871.83 30,314,615,494.92 53.37% 主要系主要产品竞争力持续增强，销售规模增长",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 25,
+      "source_text": "检索内容中仅提及“应收拨备计提增加”及“应收融资租赁款”，未提供“应收账款”科目的具体余额。",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 25,
+      "source_text": "检索内容中仅提及“存货拨备计提减少”及存货跌价准备情况，未提供“存货”科目的具体余额。",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "文本未提供",
+      "source_page": 25,
+      "source_text": "检索内容中未包含资产负债表中的资产总计数据。",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，中联重科（000157）2020年展现出强劲的扩张势头，但受限于部分关键数据的缺失，其财务状况呈现出“规模高增与潜在风险并存”的特征。\n\n**盈利能力**：公司全年营收达651.09亿元，同比大增50.34%，工程机械核心主业（占比94.28%）优势突出，市场竞争力强。但营业成本增速（53.37%）略高于营收增速，暗示毛利率可能存在一定压力。因净利润等核心数据缺失，无法对其最终净资产收益水平（ROE）作出全面评估。\n\n**偿债能力**：尽管缺乏总资产与总负债数据导致无法测算长期偿债风险及Altman Z-Score，但高达173.00%的流动比率与约524.33亿元的营运资本表明，公司短期流动性十分充裕，短期偿债能力具备较强保障。\n\n**营运效率**：虽然无法计算具体的存货与应收账款周转率，但资产减值损失同比大幅减少56.54%，反映出公司加快了二手设备处置，存货管理与资产盘活效率正在有效提升。\n\n**风险提示**：在营收大幅增长的同时，公司信用减值损失激增263.49%。虽然这体现了管理层基于谨慎性原则增加了拨备计提，但也暴露出销售规模快速扩张背后潜在的应收账款回收风险。建议投资者后续重点关注其应收账款质量、坏账核销情况以及经营性现金流状况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

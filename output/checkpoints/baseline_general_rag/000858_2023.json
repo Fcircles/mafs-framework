@@ -1,0 +1,279 @@
+{
+  "company_code": "000858",
+  "company_name": "五粮液",
+  "year": 2023,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 30210585269.3,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净利润（元） 30,210,585,269.30",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 83272067317.19,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "营业收入（元） 83,272,067,317.19",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 165432981684.75,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "总资产（元） 165,432,981,684.75",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 129558241040.51,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净资产（元） 129,558,241,040.51",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.2332,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净利润 30,210,585,269.30 / 归属于上市公司股东的净资产 129,558,241,040.51",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.3628,
+      "formula": "净利润 / 营业收入",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净利润 30,210,585,269.30 / 营业收入 83,272,067,317.19",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.5034,
+      "formula": "营业收入 / 总资产",
+      "source_page": 7,
+      "source_text": "营业收入 83,272,067,317.19 / 总资产 165,432,981,684.75",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.2769,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 7,
+      "source_text": "总资产 165,432,981,684.75 / 归属于上市公司股东的净资产 129,558,241,040.51",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "原文未提供流动资产总额",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "原文未提供流动负债总额",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 165432981684.75,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "总资产（元） 165,432,981,684.75",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "总资产 - 净资产",
+      "source_page": 7,
+      "source_text": "原文仅提供归属于上市公司股东的净资产，未提供少数股东权益，无法准确计算总负债",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "缺乏流动资产和流动负债数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "原文未提供留存收益（盈余公积与未分配利润）数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 所得税费用 + 利息费用",
+      "source_page": 7,
+      "source_text": "原文仅提供净利润，未提供所得税费用和利息费用数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股东权益/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 7,
+      "source_text": "缺乏计算所需的营运资本、留存收益、息税前利润和总负债等关键数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 147182291329.67,
+      "formula": "资产总计 - 非流动资产合计 = 165,432,981,684.75 - 18,250,690,355.08",
+      "source_page": 19,
+      "source_text": "非流动资产合计 18,250,690,355.08... 资产总计 165,432,981,684.75",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 32683139984.65,
+      "formula": "直接提取",
+      "source_page": 19,
+      "source_text": "流动负债合计 32,683,139,984.65",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 17387841712.87,
+      "formula": "直接提取",
+      "source_page": 19,
+      "source_text": "存货 17,387,841,712.87",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 165432981684.75,
+      "formula": "直接提取",
+      "source_page": 19,
+      "source_text": "总资产（元） 165,432,981,684.75",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 19,
+      "source_text": "提供的文本中未包含完整的非流动负债数据或少数股东权益数据，无法准确计算总负债",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 4.5,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 19,
+      "source_text": "基于计算得出的流动资产和提取的流动负债",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 3.97,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 19,
+      "source_text": "基于计算得出的流动资产、提取的存货和流动负债",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 83272067317.19,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "2023年 营业收入（元） 83,272,067,317.19",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含2023年营业成本数据（仅包含2022年调整前后数据）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 31520777582.15,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "五、净利润（净亏损以“－”号填列） 31,520,777,582.15",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 165432981684.75,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "2023年末 总资产（元） 165,432,981,684.75",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净资产",
+      "value": 129558241040.51,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "2023年末 归属于上市公司股东的净资产（元） 129,558,241,040.51",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 83272067317.19,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "营业收入（元） 83,272,067,317.19",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未提及营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 42647461.48,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "应收账款 42,647,461.48",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 17387841712.87,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "存货 17,387,841,712.87",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 165432981684.75,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "总资产（元） 165,432,981,684.75",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，五粮液2023年财务状况极其稳健，属于典型的“高盈利、低杠杆”优质商业模式。\n\n在盈利能力上，公司营收达832.72亿元，净利润率约37.85%，加权ROE高达25.06%，凸显了极强的品牌溢价、成本管控与股东回报能力。\n\n在偿债能力上，流动比率4.50与速动比率3.97远超安全线，账面货币资金高达1154.56亿元（占总资产近70%），资产负债率极低。公司财务结构绝对安全，短期与长期均无任何偿债压力。\n\n在营运效率上，应收账款占比仅0.03%，反映出公司对下游具备极强的议价权与优异的现金回款能力；存货占比10.51%符合高端白酒陈酿特性，总资产周转率维持在0.52次，整体运营稳健高效。\n\n风险提示：1. 账面沉淀超千亿货币资金，虽保障了安全性，但也可能反映出资金利用效率和再投资收益率有待提升；2. 存货规模达173.88亿元，需警惕宏观消费环境波动可能带来的动销与去库存压力；3. 因部分财务明细缺失无法测算Z-Score模型，需结合完整财报持续跟踪潜在的隐性财务风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

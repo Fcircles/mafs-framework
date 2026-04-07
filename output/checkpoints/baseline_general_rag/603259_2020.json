@@ -1,0 +1,287 @@
+{
+  "company_code": "603259",
+  "company_name": "药明康德",
+  "year": 2020,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 2986250101.35,
+      "formula": "直接提取",
+      "source_page": 223,
+      "source_text": "五、净利润（净亏损以“－”号填列） 2,986,250,101.35",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 223,
+      "source_text": "提供的段落中未包含合并利润表中的营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 223,
+      "source_text": "提供的段落中未包含资产负债表中的总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 223,
+      "source_text": "提供的段落中未包含资产负债表中的所有者权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.1291,
+      "formula": "直接提取",
+      "source_page": 223,
+      "source_text": "加权平均净资产收益率（%） 12.91",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 223,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 223,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 46291165698.55,
+      "formula": "等于负债和所有者权益总计",
+      "source_page": 223,
+      "source_text": "负债和所有者权益（或股东权益）总计 46,291,165,698.55",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 13572674389.83,
+      "formula": "负债和所有者权益总计 - 所有者权益合计",
+      "source_page": 223,
+      "source_text": "所有者权益（或股东权益）合计 32,718,491,308.72；负债和所有者权益（或股东权益）总计 46,291,165,698.55",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 223,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 8326861973.01,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 223,
+      "source_text": "盈余公积 238,896,564.09；未分配利润 8,087,965,408.92",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 223,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 1.0*(销售收入/总资产)",
+      "source_page": 223,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产(母公司)",
+      "value": 13826153692.96,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "流动资产合计 13,826,153,692.96",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债(合并)",
+      "value": 7920344866.54,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "流动负债合计 7,920,344,866.54",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债(母公司)",
+      "value": 1327705689.3,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "流动负债合计 1,327,705,689.30",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货(合并)",
+      "value": 2685858968.33,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "存货 2,685,858,968.33",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产(母公司)",
+      "value": 31475357437.77,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "资产总计 31,475,357,437.77",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债(合并)",
+      "value": 13572674389.83,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "负债合计 13,572,674,389.83",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债(母公司)",
+      "value": 4728794154.06,
+      "formula": "直接提取",
+      "source_page": 122,
+      "source_text": "负债合计 4,728,794,154.06",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率(母公司)",
+      "value": 10.41,
+      "formula": "流动资产(母公司) / 流动负债(母公司)",
+      "source_page": 122,
+      "source_text": "流动资产合计 13,826,153,692.96；流动负债合计 1,327,705,689.30",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率(母公司)",
+      "value": null,
+      "formula": "总负债(母公司) / 总资产(母公司) * 100%",
+      "source_page": 122,
+      "source_text": "负债合计 4,728,794,154.06；资产总计 31,475,357,437.77",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 16535431465.41,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "营业收入 16,535,431,465.41",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 10253275738.89,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "营业成本 10,253,275,738.89",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 2986250101.35,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "五、净利润（净亏损以“－”号填列） 2,986,250,101.35",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无具体数值",
+      "source_page": 124,
+      "source_text": "总资产和归属于上市公司股东的净资产较2019年末，分别增加58.32%及87.69%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无具体数值",
+      "source_page": 124,
+      "source_text": "总资产和归属于上市公司股东的净资产较2019年末，分别增加58.32%及87.69%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 124,
+      "source_text": "营业收入 16,535,431,465.41；营业成本 10,253,275,738.89",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 124,
+      "source_text": "营业收入 16,535,431,465.41；净利润 2,986,250,101.35",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 16535431465.41,
+      "formula": null,
+      "source_page": 224,
+      "source_text": "营业收入 16,535,431,465.41",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 10253275738.89,
+      "formula": null,
+      "source_page": 224,
+      "source_text": "营业成本 10,253,275,738.89",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 224,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 224,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 224,
+      "source_text": "总资产和归属于上市公司股东的净资产较2019年末，分别增加58.32%及87.69%",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2020年药明康德整体财务状况稳健，业务增长势头强劲。\n\n盈利能力表现优异：全年营收165.35亿元（同比+28.46%），毛利率37.99%，ROE达12.91%。归母净利润大增59.62%，主因是海外订单强劲增长、产能利用率提升，以及投资标的公允价值上升带来的显著收益。\n\n偿债能力极其充裕：母公司流动比率高达10.41，合并层面高流动性资产（超148亿元）远超短期负债。估算合并资产负债率仅约29%，长期债务负担轻，并获三大国际机构投资级评级，信用资质极佳。\n\n营运效率方面：虽因应收账款和存货等数据缺失无法精确测算周转率，但营收近30%的增速与总资产（同比+58.32%）的大幅扩张，印证了公司正处于业务高速扩张期。\n\n风险提示：1. 利润高增长部分依赖于投资及公允价值变动收益（+8.7亿元），易受资本市场波动影响；2. 海外业务占比较大，需警惕国际贸易环境变化与汇率波动风险；3. 资产与净资产规模的快速扩张，对公司未来的营运资金周转及内部管理能力提出了更高要求。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "company_code": "000963",
+  "company_name": "华东医药",
+  "year": 2024,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 3512000000.0,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "实现归属于上市公司股东的净利润 35.12亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 41906000000.0,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "2024 年公司全年实现营业收入 419.06 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 37879000000.0,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "截至 2024年底，公司资产总额 378.79 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 23060000000.0,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "归属于上市公司股东的净资产 230.60 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.1593,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "净资产收益率（ROE）15.93%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": 0.0838,
+      "formula": "净利润 / 营业收入 (35.12 / 419.06)",
+      "source_page": 12,
+      "source_text": "实现归属于上市公司股东的净利润 35.12亿元；2024 年公司全年实现营业收入 419.06 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 1.106,
+      "formula": "营业收入 / 总资产 (419.06 / 378.79)",
+      "source_page": 12,
+      "source_text": "2024 年公司全年实现营业收入 419.06 亿元；截至 2024年底，公司资产总额 378.79 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.643,
+      "formula": "总资产 / 所有者权益 (378.79 / 230.60)",
+      "source_page": 12,
+      "source_text": "截至 2024年底，公司资产总额 378.79 亿元；归属于上市公司股东的净资产 230.60 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 14928407177.04,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "流动资产合计 14,928,407,177.04",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 12,
+      "source_text": "文本中未提供明确的流动负债数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 37879046367.15,
+      "formula": "直接提取",
+      "source_page": 12,
+      "source_text": "资产总计 37,879,046,367.15",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 14314491622.12,
+      "formula": "总资产 * 资产负债率 = 37,879,046,367.15 * 37.79%",
+      "source_page": 12,
+      "source_text": "资产总计 37,879,046,367.15；资产负债率 37.79%",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 12,
+      "source_text": "因流动负债缺失，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无",
+      "source_page": 12,
+      "source_text": "文本中未提供",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 12,
+      "source_text": "文本中未提供",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 1.0*(销售收入/总资产)",
+      "source_page": 12,
+      "source_text": "因营运资本、留存收益、息税前利润、股票市值及销售收入等关键数据缺失，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 14928407177.04,
+      "formula": null,
+      "source_page": 289,
+      "source_text": "流动资产合计 14,928,407,177.04 11,695,202,544.94",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 289,
+      "source_text": "提供的文本中未包含准确的流动负债总额数据。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 289,
+      "source_text": "提供的文本（段落4）仅包含了存货跌价准备的明细数据，未提供存货账面余额或账面价值。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 37879046367.15,
+      "formula": null,
+      "source_page": 289,
+      "source_text": "资产总计 37,879,046,367.15 33,509,361,816.98",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 289,
+      "source_text": "段落1中虽有“负债合计”字样及部分数字（如405,010,318.66），但排版错乱且数值规模与总资产（378亿）严重不匹配，无法确认为合并资产负债表中的总负债。",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "截至 2024年底，公司资产总额 378.79 亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "归属于上市公司股东的净资产 230.60 亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 8425358862.23,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "应收账款 22.24% 22.25% -0.01% 8,425,358,862.23",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 4776397278.01,
+      "formula": null,
+      "source_page": 12,
+      "source_text": "存货 12.61% 12.80% -0.19% 4,776,397,278.01",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 37879000000.0,
+      "formula": "378.79 * 100000000",
+      "source_page": 12,
+      "source_text": "截至 2024年底，公司资产总额 378.79 亿元",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "华东医药（000963）2024年整体财务状况稳健，核心主业展现出强劲的盈利能力与良好的成长性。\n\n**盈利能力**：公司表现优异，全年实现营收419.06亿元，归母净利润35.12亿元，净利率约8.38%。加权平均净资产收益率（ROE）高达15.93%，且扣非归母净利润较2021年大幅增长53.12%，顺利达成股权激励目标，资本回报水平高。\n\n**偿债能力**：整体资本结构较为健康。公司资产负债率约为37.79%，财务杠杆适中，长期偿债压力较小。期末流动资产达149.28亿元（占总资产39.41%），具备一定的流动性资产储备。\n\n**营运效率**：总资产周转率约为1.11次，整体资产运转效率良好。但应收账款（84.25亿元）和存货（47.76亿元）规模较大，合计占总资产近35%，对营运资金的占用较为明显。\n\n**风险提示**：由于部分关键数据（如流动负债、息税前利润等）缺失，当前无法通过Z-Score模型全面排查财务隐患，亦无法精准测算流动比率等短期偿债指标。建议投资者在后续分析中，重点关注应收账款的坏账风险与回收周期、存货减值风险，以及短期债务的兑付压力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

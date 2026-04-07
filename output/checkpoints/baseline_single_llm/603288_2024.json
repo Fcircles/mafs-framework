@@ -1,0 +1,143 @@
+{
+  "company_code": "603288",
+  "company_name": "海天味业",
+  "year": 2024,
+  "industry": "消费行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 73,
+      "source_text": "文本中未提供合并净利润数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均资产总额",
+      "source_page": 73,
+      "source_text": "文本中未提供合并资产总额数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "资产总额 / 所有者权益总额",
+      "source_page": 73,
+      "source_text": "文本中未提供合并资产总额及所有者权益总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE (净资产收益率)",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 73,
+      "source_text": "文本中未提供合并净利润及所有者权益总额",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score (Z''修正模型)",
+      "value": null,
+      "formula": "6.56X1 + 3.26X2 + 6.72X3 + 1.05X4",
+      "source_page": 73,
+      "source_text": "计算所需营运资本、总资产、EBIT等数据在文本中不完整",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 73,
+      "source_text": "文本中提供了流动资产(32,842,108,393.60元)，但未提供合并流动负债合计",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 73,
+      "source_text": "文本中未提供合并流动负债合计",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 73,
+      "source_text": "文本中未提供合并总负债及总资产数值",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 37.0,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 73,
+      "source_text": "营业收入 26,900,977,516.70元，营业成本 16,948,316,999.75元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 73,
+      "source_text": "文本中未提供合并净利润数值",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA (总资产收益率)",
+      "value": null,
+      "formula": "净利润 / 总资产",
+      "source_page": 73,
+      "source_text": "文本中未提供合并净利润及总资产数值",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 111.04,
+      "formula": "营业收入 / 应收账款期末余额",
+      "source_page": 73,
+      "source_text": "营业收入 26,900,977,516.70元，应收账款 242,260,969.75元",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": 6.71,
+      "formula": "营业成本 / 存货期末余额",
+      "source_page": 73,
+      "source_text": "营业成本 16,948,316,999.75元，存货 2,525,273,760.73元",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 73,
+      "source_text": "文本中未提供合并总资产数值",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "根据海天味业2024年年报文本分析，公司展现出极强的行业竞争力和稳健的财务特征。盈利方面，毛利率维持在37.00%的高位，体现了卓越的成本控制与品牌溢价能力。营运能力表现惊人，应收账款周转率高达111.04次，反映了公司在调味品赛道极强的渠道话语权及“先款后货”的结算模式，极大地降低了坏账风险；存货周转率6.71次，显示供应链管理高效。资产结构上，公司流动性极其充裕，货币资金与交易性金融资产合计近300亿元，占流动资产绝大部分，抗风险能力极强。虽然因文本片段缺失合并总资产、总负债及净利润等关键总额，导致ROE、资产负债率等指标无法精确计算，但从现有核心科目看，公司依然保持着高现金流、低风险的经营态势。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      73,
+      76,
+      79,
+      81,
+      85,
+      87,
+      106,
+      110,
+      121,
+      169,
+      182,
+      184,
+      185,
+      196,
+      197
+    ],
+    "text_length": 12820
+  }
+}

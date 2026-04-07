@@ -1,0 +1,46 @@
+{
+  "company_code": "600079",
+  "company_name": "人福医药",
+  "year": 2021,
+  "industry": "医药行业",
+  "method": "rule_based",
+  "indicators": [
+    {
+      "name": "应收账款周转率",
+      "value": NaN,
+      "formula": "营业收入/应收账款",
+      "source_page": 17,
+      "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": NaN,
+      "formula": "营业成本/存货",
+      "source_page": 17,
+      "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": NaN,
+      "formula": "营业收入/总资产",
+      "source_page": 17,
+      "source_text": "营业收入=20441039365.01, 应收账款=nan, 营业成本=11646135031.74, 存货=nan, 总资产=nan",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "人福医药 2021年年报财务分析（规则提取）\n\n【营运能力】\n  应收账款周转率 = nan\n  存货周转率 = nan\n  总资产周转率 = nan\n",
+  "metadata": {
+    "extracted_raw": {
+      "流动资产合计": NaN,
+      "总资产": NaN,
+      "存货": NaN,
+      "应收账款": NaN,
+      "营业收入": 20441039365.01,
+      "营业成本": 11646135031.74,
+      "财务费用": 578468427.9,
+      "毛利润": 8794904333.269999
+    }
+  }
+}

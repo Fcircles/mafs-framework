@@ -1,0 +1,12 @@
+{
+  "company_code": "002304",
+  "company_name": "洋河股份",
+  "year": 2024,
+  "industry": "消费行业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "洋河股份 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {}
+  }
+}

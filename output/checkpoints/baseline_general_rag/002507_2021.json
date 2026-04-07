@@ -1,0 +1,263 @@
+{
+  "company_code": "002507",
+  "company_name": "涪陵榨菜",
+  "year": 2021,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 741958457.29,
+      "formula": "直接提取（使用综合收益总额代替）",
+      "source_page": 8,
+      "source_text": "七、综合收益总额 741,958,457.29 777,105,782.58",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 2518647389.14,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "营业收入合计 2,518,647,389.14 100% 2,272,746,598.51 100% 10.82%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 8,
+      "source_text": "提供的段落中未包含总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 3411459905.45,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "四、本期期末余额 789,357,241.00 21,291,102.91 252,800,043.38 2,348,011,518.16 3,411,459,905.45 3,411,459,905.45",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": 0.2175,
+      "formula": "净利润 / 期末所有者权益",
+      "source_page": 8,
+      "source_text": "七、综合收益总额 741,958,457.29；四、本期期末余额 3,411,459,905.45",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": 0.2946,
+      "formula": "净利润 / 营业收入",
+      "source_page": 8,
+      "source_text": "七、综合收益总额 741,958,457.29；营业收入合计 2,518,647,389.14",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 8,
+      "source_text": "缺少总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 8,
+      "source_text": "缺少总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 5894286087.93,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 8,
+      "source_text": "非流动资产合计 1,854,418,846.76；资产总计 7,748,704,934.69",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 469672592.71,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "流动负债合计 469,672,592.71",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 7748704934.69,
+      "formula": "直接提取",
+      "source_page": 8,
+      "source_text": "资产总计 7,748,704,934.69",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 8,
+      "source_text": "文本中未提供总负债或完整的非流动负债数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 5424613495.22,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 8,
+      "source_text": "流动资产 5,894,286,087.93，流动负债合计 469,672,592.71",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 8,
+      "source_text": "文本中未提供盈余公积和未分配利润数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 8,
+      "source_text": "文本中未提供净利润、所得税费用和利息费用等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 8,
+      "source_text": "缺失留存收益、息税前利润、总负债、营业收入等关键数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 5894286087.93,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 148,
+      "source_text": "非流动资产合计 1,854,418,846.76...资产总计 7,748,704,934.69",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 469672592.71,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "流动负债合计 469,672,592.71",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 401297027.57,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "存货 401,297,027.57",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 7748704934.69,
+      "formula": "直接提取",
+      "source_page": 148,
+      "source_text": "资产总计 7,748,704,934.69",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 148,
+      "source_text": "提供的文本中未包含完整的合并报表非流动负债合计或总负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 2518647389.14,
+      "formula": "直接提取合并营业收入",
+      "source_page": 8,
+      "source_text": "营业收入合计 2,518,647,389.14 100% 2,272,746,598.51 100% 10.82%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "未提供合并营业成本总额，仅提供食品加工分行业营业成本1,199,647,112.57元及母公司营业成本1,133,825,730.38元",
+      "source_page": 8,
+      "source_text": "食品加工 2,516,387,539.60 1,199,647,112.57 52.33% 10.83% 26.65% -5.95%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 741958457.29,
+      "formula": "未直接提供合并净利润，以归属于母公司所有者的综合收益总额近似替代",
+      "source_page": 8,
+      "source_text": "归属于母公司所有者的综合收益总额 741,958,457.29",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "检索内容中未提供合并总资产数据",
+      "source_page": 8,
+      "source_text": "无",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "检索内容中未提供合并所有者权益（净资产）数据",
+      "source_page": 8,
+      "source_text": "无",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 2518647389.14,
+      "formula": "直接提取",
+      "source_page": 17,
+      "source_text": "营业收入合计 2,518,647,389.14",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 17,
+      "source_text": "未提供公司总营业成本数据，仅提供食品加工分行业营业成本1,199,647,112.57元",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 17,
+      "source_text": "未提供",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 17,
+      "source_text": "未提供",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 17,
+      "source_text": "未提供公司合并总资产数据，仅提供部分子公司总资产",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，涪陵榨菜（002507）2021年度财务状况整体稳健，呈现出“高盈利、极强偿债、高流动性”的特征，但短期面临成本端的挤压风险。\n\n**盈利能力方面**，公司全年实现营收25.19亿元（同比+10.82%），核心产品榨菜贡献超88%的收入，基本盘稳固。净利率高达约29.46%，期末ROE达21.75%，展现出优秀的获利能力。但需注意，受营业成本增速（26.65%）远超营收增速影响，核心产品毛利率同比下滑5.01个百分点至54.80%，盈利空间短期承压。\n\n**偿债能力方面**，公司表现极为优异。流动比率（12.55）和速动比率（11.70）远超常规安全标准，且公司无银行借款，期末货币资金占总资产近40%，资金链极其健康，长短期财务违约风险极低。\n\n**营运效率方面**，受限于部分数据缺失，难以全面测算周转率指标。但结合其高达54.25亿元的营运资本和极高的流动比率可推断，公司账面资金充裕甚至存在一定闲置，资产利用效率和资金配置效能或有进一步优化的空间。\n\n**风险提示**：\n1. **成本控制风险**：原材料等成本上涨已导致毛利率显著下滑，需警惕利润空间被进一步蚕食；\n2. **产品结构单一风险**：营收高度依赖榨菜单一品类，抗市场需求突变的能力相对较弱；\n3. **资金使用效率风险**：过高的超额现金储备虽保障了安全，但也可能拖累整体资产收益率。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

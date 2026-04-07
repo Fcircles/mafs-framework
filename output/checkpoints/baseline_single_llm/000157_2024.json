@@ -1,0 +1,150 @@
+{
+  "company_code": "000157",
+  "company_name": "中联重科",
+  "year": 2024,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 157,
+      "source_text": "文本缺失净利润和净资产（所有者权益）数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 157,
+      "source_text": "文本缺失净利润和营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 157,
+      "source_text": "文本缺失营业收入和总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 净资产",
+      "source_page": 157,
+      "source_text": "文本缺失总资产和净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 157,
+      "source_text": "文本缺失营运资金、留存收益、息税前利润、营业收入、总资产及总负债等关键数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 157,
+      "source_text": "已知期末流动资产74,427,969,191.66元，但文本缺失流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 157,
+      "source_text": "已知期末流动资产74,427,969,191.66元和存货22,563,554,613.11元，但文本缺失流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 157,
+      "source_text": "文本缺失总负债和总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 157,
+      "source_text": "文本缺失营业收入和2024年营业成本数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 157,
+      "source_text": "文本缺失净利润和营业收入数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 157,
+      "source_text": "文本缺失净利润和总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 157,
+      "source_text": "文本缺失净利润和净资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 157,
+      "source_text": "已知期末应收账款24,507,683,828.46元，但文本缺失营业收入数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 157,
+      "source_text": "已知期末存货22,563,554,613.11元，但文本缺失2024年营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 157,
+      "source_text": "文本缺失营业收入和总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "根据提供的中联重科2024年年报节选文本，由于文本内容高度碎片化，缺失了完整的利润表（如营业收入、净利润、2024年营业成本）、资产负债表下半部分（如总资产、流动负债、总负债、所有者权益）等关键财务数据，因此无法计算杜邦分析体系、Altman Z-Score、偿债能力、盈利能力及营运能力等绝大多数财务指标。从仅有的部分资产负债表数据来看，公司期末流动资产达744.28亿元，其中货币资金137.20亿元，应收账款245.08亿元，存货225.64亿元，资产规模庞大且流动性资产占比较高。现金流量方面，2024年经营活动产生的现金流量净额为21.42亿元，销售商品、提供劳务收到的现金达547.06亿元，显示公司主营业务具备较强的现金获取能力。为进行全面、准确的财务分析，建议获取完整的资产负债表、利润表及现金流量表数据，以便进一步评估公司的盈利质量、偿债风险及营运效率。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      157,
+      159,
+      168,
+      176,
+      223,
+      224,
+      257,
+      264,
+      276,
+      279,
+      281,
+      289,
+      293,
+      295
+    ],
+    "text_length": 13714
+  }
+}

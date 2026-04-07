@@ -1,0 +1,263 @@
+{
+  "company_code": "600763",
+  "company_name": "通策医疗",
+  "year": 2023,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 2846510000.0,
+      "formula": "直接提取",
+      "source_page": 195,
+      "source_text": "2023年，公司营业收入284,651万元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润",
+      "value": 578410832.0,
+      "formula": "营业收入 × 净利率 = 2,846,510,000 × 20.32%",
+      "source_page": 195,
+      "source_text": "2023年，公司营业收入284,651万元...净利率分别为39%和20.32%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 5154452885.95,
+      "formula": "直接提取",
+      "source_page": 195,
+      "source_text": "资产总额 4,572,008,274.58 339,093,807.39 243,350,803.98 - 5,154,452,885.95",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 4122525636.61,
+      "formula": "直接提取",
+      "source_page": 195,
+      "source_text": "四、本期期末余额...所有者权益合计 4,122,525,636.61",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（期末）",
+      "value": 0.1403,
+      "formula": "净利润 / 所有者权益 = 578,410,832 / 4,122,525,636.61",
+      "source_page": 195,
+      "source_text": "基于提取的净利润与所有者权益计算（注：原文披露的加权平均净资产收益率为14.06%）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利率",
+      "value": 0.2032,
+      "formula": "直接提取",
+      "source_page": 195,
+      "source_text": "净利率分别为39%和20.32%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.5522,
+      "formula": "营业收入 / 总资产 = 2,846,510,000 / 5,154,452,885.95",
+      "source_page": 195,
+      "source_text": "基于提取的营业收入与总资产计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.2503,
+      "formula": "总资产 / 所有者权益 = 5,154,452,885.95 / 4,122,525,636.61",
+      "source_page": 195,
+      "source_text": "基于提取的总资产与所有者权益计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "未在提供的段落中找到相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "未在提供的段落中找到相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 5154452885.95,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "资产总额 ... 5,154,452,885.95",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 1536223702.61,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "负债总额 ... 1,536,223,702.61",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "因缺乏流动资产和流动负债数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 1293683403.74,
+      "formula": "期末盈余公积(109,334,522.42 + 26,824,938.36) + 期末未分配利润(916,099,497.77 + 241,424,445.19)",
+      "source_page": 7,
+      "source_text": "盈余公积 109,334,522.42...本期增减变动金额...26,824,938.36；未分配利润 916,099,497.77...本期增减变动金额...241,424,445.19",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "未在提供的段落中找到相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股东权益市值/总负债) + 0.999*(营业收入/总资产)",
+      "source_page": 7,
+      "source_text": "因缺乏营运资本、息税前利润等关键数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 969063956.25,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "流动资产合计 969,063,956.25",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "提供的文本中未给出通策医疗合并资产负债表的流动负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 24800691.76,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "存货 24,800,691.76",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "提供的文本中未直接给出总资产合计数据（仅提供了部分资产占总资产的比例）",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "提供的文本中未给出总负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 2846507734.21,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业收入 2,846,507,734.21",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 1749754459.91,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业成本 1,749,754,459.91",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 578410371.59,
+      "formula": "营业收入 * 净利率 = 2,846,507,734.21 * 20.32%",
+      "source_page": 14,
+      "source_text": "2023年，公司毛利率、净利率分别为39%和20.32%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "提供的文本中未包含2023年本期总资产的明确数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "提供的文本中未包含2023年本期所有者权益的明确数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 2846507734.21,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业收入 2,846,507,734.21",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 1749754459.91,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业成本 1,749,754,459.91",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "未在提供的段落中找到",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "未在提供的段落中找到",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "未在提供的段落中找到2023年总资产数据（段落2中的资产总额为上年同期分部数据）",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，通策医疗2023年财务状况稳健，呈现出典型的“高利润率、低杠杆”运营特征。\n\n**盈利能力方面**：公司展现出较强的经营韧性。尽管受消费降级及种植牙集采政策落地影响，营业成本增速（8.74%）高于营收增速（4.70%），导致毛利率小幅下滑至39%，但凭借卓越的费用管控能力，公司依然维持了20.32%的较高净利率，这也是支撑其14.03%期末ROE的核心驱动力。\n\n**偿债能力方面**：公司财务结构极其安全。权益乘数仅为1.2503，表明财务杠杆处于极低水平；同时账面资金充裕，货币资金占流动资产比重高达61.34%，资产质量高且短期变现能力强，整体债务违约风险极低。\n\n**营运效率方面**：总资产周转率为0.5522，虽然受限于数据缺失无法进行深度指标测算，但其极小的存货规模（0.25亿元）以及对三项费用的有效压降，反映出公司在新建项目扩张期依然保持了良好的精细化管理水平。\n\n**风险提示**：需重点警惕外部政策及宏观环境带来的盈利挤压风险。当前主营业务毛利率已出现下滑，且新建项目带来了折旧与人力成本的上升。若未来公司无法有效通过目标管理实现“降本增效”以对冲成本端的压力，其核心利润率指标可能面临进一步承压的风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

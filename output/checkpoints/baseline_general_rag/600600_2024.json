@@ -1,0 +1,263 @@
+{
+  "company_code": "600600",
+  "company_name": "青岛啤酒",
+  "year": 2024,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 4491776686.0,
+      "formula": "直接提取",
+      "source_page": 87,
+      "source_text": "四、净利润 4,491,776,686",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 87,
+      "source_text": "提供的段落中未包含营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 49490346304.0,
+      "formula": "直接提取",
+      "source_page": 87,
+      "source_text": "资产总额 22,548,264,844 ... 49,490,346,304",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 28189250505.0,
+      "formula": "总资产 - 负债总额 (49,490,346,304 - 21,301,095,799)",
+      "source_page": 87,
+      "source_text": "资产总额 ... 49,490,346,304；负债总额 ... 21,301,095,799",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE (净资产收益率)",
+      "value": 0.1593,
+      "formula": "净利润 / 所有者权益 (4,491,776,686 / 28,189,250,505)",
+      "source_page": 87,
+      "source_text": "基于提取的净利润和计算的所有者权益得出",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.7556,
+      "formula": "总资产 / 所有者权益 (49,490,346,304 / 28,189,250,505)",
+      "source_page": 87,
+      "source_text": "基于提取的总资产和计算的所有者权益得出",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 87,
+      "source_text": "缺少营业收入数据，无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 87,
+      "source_text": "缺少营业收入数据，无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 25188915561.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 210,
+      "source_text": "资产总计 51,420,385,832... 非流动资产合计 26,231,470,271",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 17522331299.0,
+      "formula": "负债合计 - 非流动负债合计",
+      "source_page": 210,
+      "source_text": "负债合计 21,560,843,821... 非流动负债合计 4,038,512,522",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 51420385832.0,
+      "formula": "直接提取",
+      "source_page": 210,
+      "source_text": "资产总计 51,420,385,832",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 21560843821.0,
+      "formula": "直接提取",
+      "source_page": 210,
+      "source_text": "负债合计 21,560,843,821",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 7666584262.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 210,
+      "source_text": "基于计算得出的流动资产和流动负债",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 23351359958.0,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 210,
+      "source_text": "盈余公积 1,400,704,380... 未分配利润 21,950,655,578",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": 5881493000.0,
+      "formula": "利润总额（因缺乏利息费用数据，以利润总额近似替代）",
+      "source_page": 210,
+      "source_text": "利润总额 5,881,493,000",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 210,
+      "source_text": "缺失营业收入、利息费用及股票市值等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 25188915561.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 86,
+      "source_text": "非流动资产合计 26,231,470,271；资产总计 51,420,385,832",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 17522331299.0,
+      "formula": "负债合计 - 非流动负债合计",
+      "source_page": 86,
+      "source_text": "非流动负债合计 4,038,512,522；负债合计 21,560,843,821",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 86,
+      "source_text": "提供的段落中未包含存货数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 51420385832.0,
+      "formula": "直接提取",
+      "source_page": 86,
+      "source_text": "资产总计 51,420,385,832",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 21560843821.0,
+      "formula": "直接提取",
+      "source_page": 86,
+      "source_text": "负债合计 21,560,843,821",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 87,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 87,
+      "source_text": "未在提供的段落中找到",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 4491776686.0,
+      "formula": null,
+      "source_page": 87,
+      "source_text": "四、净利润 4,491,776,686",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 49490346304.0,
+      "formula": null,
+      "source_page": 87,
+      "source_text": "资产总额 22,548,264,844 4,321,016,711 8,222,704,351 3,452,819,786 782,979,428 578,211,520 18,792,797,464 6,365,999,118 (15,574,446,918) 49,490,346,304",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 28189250505.0,
+      "formula": "总资产 - 总负债 (49,490,346,304 - 21,301,095,799)",
+      "source_page": 87,
+      "source_text": "资产总额 [...] 49,490,346,304\n负债总额 [...] 21,301,095,799",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 210,
+      "source_text": "2024年营业收入同比减少5.30%，主要原因是本年度受销量影响使得营业收入减少。",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 210,
+      "source_text": "2024年营业成本同比减少7.72%，主要原因是本年度受销量以及部分原料成本下降影响使得营业成本减少。",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 210,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 210,
+      "source_text": "库存量 52 万千升（无具体金额数据）",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 49490346304.0,
+      "formula": null,
+      "source_page": 210,
+      "source_text": "资产总额 22,548,264,844 4,321,016,711 8,222,704,351 3,452,819,786 782,979,428 578,211,520 18,792,797,464 6,365,999,118 (15,574,446,918) 49,490,346,304",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "青岛啤酒（600600）2024年整体财务状况稳健，展现出极强的抗风险能力与优秀的盈利质量。\n\n**盈利能力**：公司表现强劲，净资产收益率（ROE）达15.93%，资产净利率（ROA）约9.08%。尽管缺乏营收明细，但核心指标表明公司资产运营效率较高，为股东创造回报的能力依然出色。\n\n**偿债能力**：公司财务结构极其安全。资产负债率约为41.93%，整体负债适中；流动比率1.44，短期流动性充裕。更为突出的是，公司债务资本率为0%，无长期借款与资产抵押，长期偿债能力极强，资金底盘稳固。\n\n**营运效率**：在面临营收（-5.30%）与销量（-5.85%）双降的背景下，公司展现了卓越的成本管控能力。营业成本降幅（-7.72%）超过营收降幅，且经营性现金流净额同比大幅激增85.58%，说明公司在逆境中依然维持了极佳的现金流运转与自我造血能力。\n\n**风险提示**：需高度警惕市场需求疲软带来的销售与库存压力。2024年销量下滑叠加期末库存微增（0.78%），反映出一定的产品去化阻力。未来需密切关注公司提振销量的营销策略及存货周转情况，防范主营业务规模持续收缩的潜在风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

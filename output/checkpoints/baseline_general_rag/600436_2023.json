@@ -1,0 +1,263 @@
+{
+  "company_code": "600436",
+  "company_name": "片仔癀",
+  "year": 2023,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 10058497338.92,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "其中：营业收入 10,058,497,338.92",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 17080413435.81,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "负债和所有者权益（或股东权益）总计 17,080,413,435.81",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": 13920497525.27,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "所有者权益（或股东权益）合计 13,920,497,525.27",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润(母公司)",
+      "value": 2528341477.82,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "四、净利润（净亏损以“－”号填列） 2,528,341,477.82",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润(合并)",
+      "value": null,
+      "formula": "无法计算",
+      "source_page": 278,
+      "source_text": "合并利润表截断于营业外收入，未提供净利润数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率(ROE)",
+      "value": 0.2264,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "加权平均净资产收益率（%） 22.64",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.5889,
+      "formula": "营业收入 / 总资产",
+      "source_page": 278,
+      "source_text": "10,058,497,338.92 / 17,080,413,435.81",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.227,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 278,
+      "source_text": "17,080,413,435.81 / 13,920,497,525.27",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 15100020959.96,
+      "formula": "直接提取",
+      "source_page": 28,
+      "source_text": "[段落3] 流动资产合计 15,100,020,959.96",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 28,
+      "source_text": "提供的文本段落中未包含“流动负债合计”的具体数值。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 17080413435.81,
+      "formula": "直接提取（资产总计等于负债和所有者权益总计）",
+      "source_page": 28,
+      "source_text": "[段落5] 负债和所有者权益（或股东权益）总计 17,080,413,435.81",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 3159915910.54,
+      "formula": "总资产 - 所有者权益合计",
+      "source_page": 28,
+      "source_text": "[段落5] 负债和所有者权益总计 17,080,413,435.81 减去 所有者权益（或股东权益）合计 13,920,497,525.27",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 28,
+      "source_text": "由于流动负债合计数值缺失，无法计算营运资本。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 11601791429.29,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 28,
+      "source_text": "[段落5] 盈余公积 1,606,019,731.53 + 未分配利润 9,995,771,697.76",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": null,
+      "formula": "净利润 + 利息费用 + 所得税费用",
+      "source_page": 28,
+      "source_text": "提供的文本段落中未包含利润表相关数据，无法提取或计算EBIT。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 28,
+      "source_text": "由于缺少息税前利润(EBIT)、营业收入、流动负债以及公司市值等关键数据，无法计算Altman Z-Score。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 15100020959.96,
+      "formula": "直接提取合并资产负债表数据",
+      "source_page": 28,
+      "source_text": "流动资产合计 15,100,020,959.96",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 3378660864.48,
+      "formula": "直接提取合并资产负债表数据",
+      "source_page": 28,
+      "source_text": "存货 七、10 3,378,660,864.48",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "提供的文本中未包含合并报表或母公司报表的流动负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "提供的文本中未包含合并报表的资产总计数据（注：文本仅提供了母公司资产总计为13,414,714,891.34元）",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 28,
+      "source_text": "提供的文本中未包含总负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 10058497338.92,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "其中：营业收入 七、61 10,058,497,338.92",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 5355269638.07,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "其中：营业成本 七、61 5,355,269,638.07",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 2851139010.02,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "五、净利润（净亏损以“－”号填列） 2,851,139,010.02",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 17080413435.81,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 278,
+      "source_text": "负债和所有者权益（或股东权益）总计 17,080,413,435.81",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 13920497525.27,
+      "formula": "直接提取",
+      "source_page": 278,
+      "source_text": "所有者权益（或股东权益）合计 13,920,497,525.27",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 10058497338.92,
+      "formula": null,
+      "source_page": 278,
+      "source_text": "其中：营业收入 七、61 10,058,497,338.92",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 5355269638.07,
+      "formula": null,
+      "source_page": 278,
+      "source_text": "其中：营业成本 七、61 5,355,269,638.07",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 278,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 278,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 278,
+      "source_text": "",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，片仔癀2023年度财务状况极为稳健，核心优势在于强劲的盈利能力与健康的资本结构。\n\n**盈利能力**：表现优异。公司全年营收达100.58亿元，毛利率（46.76%）与净利率（28.35%）双高，加权ROE高达22.64%。这表明公司拥有极强的产品定价权和卓越的费用管控能力，其高净资产收益率的核心驱动力在于产品的高附加值，而非依赖财务杠杆。\n\n**偿债能力**：底蕴深厚。公司财务杠杆较低（权益乘数仅1.227），留存收益高达116.02亿元，内部资本积累能力强。流动资产达151亿元，且非存货类资产占比较高，展现出良好的资产流动性和潜在的短期偿债能力。\n\n**营运效率**：总资产周转率约为0.5889次，结合其高净利率的商业模式，整体资产运用效率处于良好水平。\n\n**风险提示**：受限于年报片段中流动负债、EBIT、应收账款等关键数据的缺失，当前无法精确测算Z-Score财务风险预警评分、核心偿债比率（流动/速动比率）及具体资产周转率。建议后续补充完整报表数据，以全面排查潜在的短期流动性风险与营运资金压力；同时，需持续关注其33.79亿元存货的去化情况及高毛利率的长期可持续性。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

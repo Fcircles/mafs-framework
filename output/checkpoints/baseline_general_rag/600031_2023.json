@@ -1,0 +1,311 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2023,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 95,
+      "source_text": "五、净利润（净亏损以“－”号填列） 4,606,157",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 95,
+      "source_text": "其中：营业收入 七、54 73,221,725",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 95,
+      "source_text": "负债和所有者权益（或股东权益）总计 47,762,179",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 95,
+      "source_text": "所有者权益（或股东权益）合计 20,142,743",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率(ROE)",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 95,
+      "source_text": "加权平均净资产收益率（%） 6.85",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 95,
+      "source_text": "基于提取的净利润4,606,157千元和营业收入73,221,725千元计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 1.53,
+      "formula": "营业收入 / 总资产",
+      "source_page": 95,
+      "source_text": "基于提取的营业收入73,221,725千元和总资产47,762,179千元计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 2.37,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 95,
+      "source_text": "基于提取的总资产47,762,179千元和所有者权益20,142,743千元计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "期末净资产收益率(ROE计算值)",
+      "value": null,
+      "formula": "净利润率 × 总资产周转率 × 权益乘数 (或 净利润 / 所有者权益)",
+      "source_page": 95,
+      "source_text": "基于提取的净利润4,606,157千元和所有者权益20,142,743千元计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 97633311.0,
+      "formula": null,
+      "source_page": 94,
+      "source_text": "流动资产合计 97,633,311",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 54415056.0,
+      "formula": null,
+      "source_page": 94,
+      "source_text": "流动负债合计 54,415,056",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 151202320.0,
+      "formula": null,
+      "source_page": 94,
+      "source_text": "资产总计 151,202,320",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 82029367.0,
+      "formula": null,
+      "source_page": 94,
+      "source_text": "负债合计 82,029,367",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 43218255.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 94,
+      "source_text": "流动资产合计 97,633,311；流动负债合计 54,415,056",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 94,
+      "source_text": "提供的文本中仅包含母公司所有者权益数据，缺失合并报表层面的留存收益数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 94,
+      "source_text": "提供的合并利润表被截断，缺失利润总额及完整的收支项目，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(股票市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 94,
+      "source_text": "缺失合并留存收益、息税前利润及股票市值数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 97633311.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 92,
+      "source_text": "资产总计 151,202,320；非流动资产合计 53,569,009",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 54415056.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "流动负债合计 54,415,056",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 92,
+      "source_text": "提供的文本中未包含存货数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 151202320.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "资产总计 151,202,320",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 82029367.0,
+      "formula": "直接提取",
+      "source_page": 92,
+      "source_text": "负债合计 82,029,367",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.79,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 92,
+      "source_text": "基于提取的流动资产和流动负债计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.5425,
+      "formula": "总负债 / 总资产",
+      "source_page": 92,
+      "source_text": "基于提取的总负债和总资产计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 73221725000.0,
+      "formula": "直接提取（原文单位：千元）",
+      "source_page": 95,
+      "source_text": "其中：营业收入 七、54 73,221,725",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 52934696000.0,
+      "formula": "直接提取（原文单位：千元）",
+      "source_page": 95,
+      "source_text": "其中：营业成本 七、54 52,934,696",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 4606157000.0,
+      "formula": "直接提取（原文单位：千元）",
+      "source_page": 95,
+      "source_text": "五、净利润（净亏损以“－”号填列） 4,606,157",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 47762179000.0,
+      "formula": "总资产 = 负债和所有者权益总计（原文单位：千元）",
+      "source_page": 95,
+      "source_text": "负债和所有者权益（或股东权益）总计 47,762,179",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 20142743000.0,
+      "formula": "直接提取（原文单位：千元）",
+      "source_page": 95,
+      "source_text": "所有者权益（或股东权 20,142,743 益）合计",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 95,
+      "source_text": "营业收入 73,221,725；营业成本 52,934,696",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 95,
+      "source_text": "营业收入 73,221,725；净利润 4,606,157",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": null,
+      "formula": "净利润 / 期末所有者权益",
+      "source_page": 95,
+      "source_text": "净利润 4,606,157；所有者权益合计 20,142,743",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 73221725.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "营业收入 73,221,725 80,034,495 -8.51",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 52934696.0,
+      "formula": "直接提取",
+      "source_page": 15,
+      "source_text": "营业成本 52,934,696 60,792,534 -12.93",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 15,
+      "source_text": "未在提供的段落中找到应收账款的具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 15,
+      "source_text": "未在提供的段落中找到存货余额的具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 47762179.0,
+      "formula": "总资产 = 负债和所有者权益总计",
+      "source_page": 15,
+      "source_text": "负债和所有者权益（或股东权益）总计 47,762,179 45,798,765",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "三一重工在2023年面对国内工程机械行业下行的严峻挑战，展现出较强的经营韧性与财务稳健性。\n\n**盈利能力方面**，公司实现了“减收增利”。尽管受国内市场需求下滑影响，营业收入同比下降8.51%，但得益于有效的成本管控及汇兑收益增加，毛利率提升至27.71%，净利润逆势增长至46.06亿元。这反映出公司在行业低谷期具备较强的定价权与内部优化能力。\n\n**偿债能力方面**，财务结构保持稳健。54.25%的资产负债率处于合理区间，1.79的流动比率显示公司短期流动性充裕，具备较强的抗风险能力和债务偿付保障，整体财务风险较低。\n\n**营运效率方面**，总资产周转率维持在1.57次左右，处于较高水平，显示出资产利用效率尚可。但营收规模的收缩提示公司在当前市场环境下，资产周转的持续性面临一定压力。\n\n**风险提示**：投资者需关注国内基建及房地产投资放缓带来的行业周期性下行风险。此外，虽然海外业务和财务优化支撑了利润表现，但若未来全球宏观经济波动或汇率大幅反转，可能对公司业绩增长的稳定性产生影响。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

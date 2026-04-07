@@ -1,0 +1,12 @@
+{
+  "company_code": "600660",
+  "company_name": "福耀玻璃",
+  "year": 2024,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "福耀玻璃 2024年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {}
+  }
+}

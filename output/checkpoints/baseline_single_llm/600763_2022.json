@@ -1,0 +1,146 @@
+{
+  "company_code": "600763",
+  "company_name": "通策医疗",
+  "year": 2022,
+  "industry": "医药行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的所有者权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.2265,
+      "formula": "净利润 / 营业收入",
+      "source_page": 72,
+      "source_text": "合并净利润：615,678,057.38（第162页）；合并营业收入：2,718,612,472.58（第77页）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 净资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的总资产和所有者权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z''=6.56X1+3.26X2+6.72X3+1.05X4",
+      "source_page": 72,
+      "source_text": "文本中缺失计算所需的流动负债、总资产、留存收益、总负债、股东权益等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的存货和流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的总负债和总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.4081,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 72,
+      "source_text": "合并营业收入：2,718,612,472.58；合并营业成本：1,609,025,036.49（第77页）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.2265,
+      "formula": "净利润 / 营业收入",
+      "source_page": 72,
+      "source_text": "合并净利润：615,678,057.38（第162页）；合并营业收入：2,718,612,472.58（第77页）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的所有者权益数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 30.47,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 72,
+      "source_text": "合并营业收入：2,718,612,472.58（第77页）；期初应收账款：73,511,977.72，期末应收账款：104,953,800.46（第72页）",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 72,
+      "source_text": "文本中缺失合并资产负债表的总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "基于提供的年报片段，通策医疗2022年实现营业收入27.19亿元，营业成本16.09亿元，净利润6.16亿元。从盈利能力来看，公司毛利率高达40.81%，净利率（销售净利率）达到22.65%，表明公司在医疗服务领域具有较强的定价权和成本控制能力，主营业务盈利空间广阔。在营运能力方面，公司应收账款周转率高达30.47次，说明其应收账款回收极快，资金占用少，这与口腔医疗服务行业通常面向个人消费者、现款结算的商业模式高度契合，体现了极强的产业链话语权。然而，由于提供的文本中严重缺失合并资产负债表中的总资产、总负债、所有者权益及存货等关键数据，无法计算并全面评估公司的偿债能力（如流动比率、资产负债率）、整体资产营运效率（总资产周转率）以及股东回报水平（ROE）和破产风险（Z-Score）。综合现有数据，公司核心业务盈利稳健，应收账款管理极为高效。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      72,
+      75,
+      77,
+      79,
+      80,
+      82,
+      121,
+      162,
+      195,
+      196
+    ],
+    "text_length": 9157
+  }
+}

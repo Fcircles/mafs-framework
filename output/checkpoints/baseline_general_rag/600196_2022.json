@@ -1,0 +1,263 @@
+{
+  "company_code": "600196",
+  "company_name": "复星医药",
+  "year": 2022,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 3947464120.11,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "净利润 3,947,464,120.11",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 324,
+      "source_text": "提供的段落中未包含营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 107163907232.34,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "资产总额 107,163,907,232.34",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（归母）",
+      "value": 44571572271.48,
+      "formula": "归属于上市公司普通股股东的每股净资产 × 已发行股份总数 = 16.68 × 2,672,156,611",
+      "source_page": 324,
+      "source_text": "已发行股份总数由2,562,898,545股增加至2,672,156,611股；归属于上市公司普通股股东的的每股净资产 16.68",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（加权平均净资产收益率）",
+      "value": 0.0904,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "加权平均净资产收益率(%) 归属于公司普通股股东的净利润 9.04",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "N/A",
+      "source_page": 324,
+      "source_text": "提供的文本中未包含流动资产数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 10649175325.25,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "流动负债合计 10,649,175,325.25",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 49535569590.56,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "负债和股本权益总计 49,535,569,590.56",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 15300001896.39,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "负债合计 15,300,001,896.39",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 324,
+      "source_text": "因缺少流动资产数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 13023207518.42,
+      "formula": "盈余公积 + 未分配利润 = 1,336,078,305.50 + 11,687,129,212.92",
+      "source_page": 324,
+      "source_text": "盈余公积 1,336,078,305.50；未分配利润 11,687,129,212.92",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 所得税费用 + 利息费用",
+      "source_page": 324,
+      "source_text": "提供的文本中未包含利息费用等数据，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2×(营运资本/总资产) + 1.4×(留存收益/总资产) + 3.3×(EBIT/总资产) + 0.6×(权益市值/总负债) + 0.999×(销售收入/总资产)",
+      "source_page": 324,
+      "source_text": "因缺少流动资产、息税前利润、销售收入等关键数据，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产（合并）",
+      "value": 35279178142.82,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "流动资产合计 35,279,178,142.82",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货（合并）",
+      "value": 6882432395.84,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "存货 8 6,882,432,395.84",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产（母公司）",
+      "value": 12167308290.48,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "流动资产合计 12,167,308,290.48",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债（母公司）",
+      "value": 10649175325.25,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "流动负债合计 10,649,175,325.25",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产（母公司）",
+      "value": 49535569590.56,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "资产总计 49,535,569,590.56",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债（母公司）",
+      "value": 15300001896.39,
+      "formula": null,
+      "source_page": 274,
+      "source_text": "负债合计 15,300,001,896.39",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率（母公司）",
+      "value": 1.14,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 274,
+      "source_text": "流动资产合计 12,167,308,290.48，流动负债合计 10,649,175,325.25",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率（母公司）",
+      "value": 0.3089,
+      "formula": "总负债 / 总资产",
+      "source_page": 274,
+      "source_text": "负债合计 15,300,001,896.39，资产总计 49,535,569,590.56",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 43951546895.23,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "营业收入 47 43,951,546,895.23",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 23169690419.68,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "减：营业成本 47 23,169,690,419.68",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 3947464120.11,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "净利润 3,947,464,120.11",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 107163907232.34,
+      "formula": "直接提取",
+      "source_page": 324,
+      "source_text": "资产总额 107,163,907,232.34",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "总资产 - 总负债",
+      "source_page": 324,
+      "source_text": "原文未提供总负债或所有者权益的具体数值，无法计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 43952000000.0,
+      "formula": "中国大陆营业收入(300.14亿元) + 中国大陆以外地区和其他国家营业收入(139.38亿元)",
+      "source_page": 324,
+      "source_text": "分地区 营业收入... 中国大陆 300.14... 中国大陆以外地区和其他国家 139.38",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 23170000000.0,
+      "formula": "中国大陆营业成本(144.84亿元) + 中国大陆以外地区和其他国家营业成本(86.86亿元)",
+      "source_page": 324,
+      "source_text": "分地区... 营业成本... 中国大陆... 144.84... 中国大陆以外地区和其他国家... 86.86",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": null,
+      "source_page": 324,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 324,
+      "source_text": "",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 107163907232.34,
+      "formula": null,
+      "source_page": 324,
+      "source_text": "资产总额 107,163,907,232.34",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，复星医药（600196）2022年度整体财务状况较为稳健，主营业务盈利能力突出，但短期业绩受非经常性损益拖累明显。\n\n**盈利能力**：公司全年营收达439.52亿元，毛利率高达47.28%，展现出较强的产品附加值与核心竞争力。加权平均ROE为9.04%，净利率约8.98%。值得注意的是，受24.98亿元公允价值变动损失等因素影响，净利润同比下滑至39.47亿元，表明非经营性因素对表观利润构成了较大冲击。\n\n**偿债与营运**：从母公司报表来看，其资产负债率仅为30.89%，流动比率达1.14，资本结构健康，长短期偿债风险较低。营运方面，总资产周转率约为0.41次，整体资产流转效率表现平稳。\n\n**风险提示**：\n1. **市场波动风险**：巨额公允价值变动损失凸显了公司投资标的受资本市场波动影响较大，需高度警惕相关投资带来的利润侵蚀风险。\n2. **信息局限风险**：本次分析受限于合并报表层面流动负债、应收账款及存货等关键数据的缺失，母公司的稳健指标无法完全代表集团整体的真实债务压力与营运细节。建议投资者后续结合完整的合并财务报表，进一步穿透分析集团整体的债务杠杆及核心资产周转情况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

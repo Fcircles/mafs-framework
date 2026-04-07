@@ -1,0 +1,311 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2021,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润(合并)",
+      "value": null,
+      "formula": null,
+      "source_page": 89,
+      "source_text": "五、净利润（净亏损以“－”号填列） 12,325,681",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入(合并)",
+      "value": null,
+      "formula": null,
+      "source_page": 89,
+      "source_text": "其中：营业收入 七、54 106,113,346",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产(母公司)",
+      "value": null,
+      "formula": null,
+      "source_page": 89,
+      "source_text": "负债和所有者权益（或股东权益）总计 55,555,613",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益(母公司)",
+      "value": null,
+      "formula": null,
+      "source_page": 89,
+      "source_text": "所有者权益（或股东权益）合计 21,971,199",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 89,
+      "source_text": "基于提取的合并净利润与合并营业收入计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 1.91,
+      "formula": "营业收入 / 总资产",
+      "source_page": 89,
+      "source_text": "基于提取的合并营业收入与母公司总资产计算（注：数据口径不一致）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 2.53,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 89,
+      "source_text": "基于提取的母公司总资产与母公司所有者权益计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE) - 混合计算",
+      "value": null,
+      "formula": "净利率 × 总资产周转率 × 权益乘数 (或 净利润 / 所有者权益)",
+      "source_page": 89,
+      "source_text": "基于提取的合并净利润与母公司所有者权益计算（注：数据口径不一致）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率(ROE) - 官方披露",
+      "value": null,
+      "formula": null,
+      "source_page": 89,
+      "source_text": "加权平均净资产收益率（%） 19.95",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 93718958.0,
+      "formula": "资产总计 - 非流动资产合计",
+      "source_page": 84,
+      "source_text": "[段落1] 2021年12月31日：资产总计 138,556,543；非流动资产合计 44,837,585",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 61432364.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 2021年12月31日：流动负债合计 61,432,364",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 138556543.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 2021年12月31日：资产总计 138,556,543",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 73461411.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 2021年12月31日：负债合计 73,461,411",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 32286594.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 84,
+      "source_text": "基于[段落1]计算：93,718,958 - 61,432,364",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": 7424528.0,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 84,
+      "source_text": "[段落4] 2021年12月31日（母公司）：盈余公积 3,159,572；未分配利润 4,264,956",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润 (EBIT)",
+      "value": 14968214.0,
+      "formula": "(营业总收入 - 营业总成本 + 其他收益 + 投资收益) + (利息支出 + 财务费用中的利息费用)",
+      "source_page": 84,
+      "source_text": "[段落4] 2021年度：营业总收入 106,873,394；营业总成本 95,257,172；利息支出 297,839；其他收益 1,727,063；投资收益 1,045,257；利息费用 281,833",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": 2.014,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 84,
+      "source_text": "X1=营运资本/总资产(0.233)；X2=留存收益/总资产(0.054)；X3=EBIT/总资产(0.108)；X4=股东权益/总负债(0.886)；X5=营业总收入/总资产(0.771)",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 93718958.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落5] 流动资产合计 93,718,958",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 61432364.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 流动负债合计 61,432,364",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 18462609.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落5] 存货 七、10 18,462,609",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 138556543.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 资产总计 138,556,543",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 73461411.0,
+      "formula": "直接提取",
+      "source_page": 84,
+      "source_text": "[段落1] 负债合计 73,461,411",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 1.53,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 84,
+      "source_text": "93,718,958 / 61,432,364 ≈ 1.53",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 1.23,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 84,
+      "source_text": "(93,718,958 - 18,462,609) / 61,432,364 ≈ 1.23",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 53.02,
+      "formula": "(总负债 / 总资产) * 100%",
+      "source_page": 84,
+      "source_text": "(73,461,411 / 138,556,543) * 100% ≈ 53.02%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 106113346.0,
+      "formula": "直接提取自合并利润表“营业收入”项",
+      "source_page": 87,
+      "source_text": "[段落1] 其中：营业收入 七、54 106,113,346",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 78679820.0,
+      "formula": "直接提取自合并利润表“营业成本”项",
+      "source_page": 87,
+      "source_text": "[段落1] 其中：营业成本 七、54 78,679,820",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 12325681.0,
+      "formula": "直接提取自合并利润表“净利润”项",
+      "source_page": 87,
+      "source_text": "[段落4] 五、净利润（净亏损以“－”号填列） 12,325,681",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 55555613.0,
+      "formula": "资产总额 = 负债和所有者权益总计",
+      "source_page": 87,
+      "source_text": "[段落1] 负债和所有者权益（或股东权益）总计 55,555,613",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 21971199.0,
+      "formula": "直接提取自资产负债表“所有者权益合计”项",
+      "source_page": 87,
+      "source_text": "[段落1] 所有者权益（或股东权益）合计 21,971,199",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.2585,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 87,
+      "source_text": "基于[段落1]数据计算：(106,113,346 - 78,679,820) / 106,113,346",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.1162,
+      "formula": "净利润 / 营业收入",
+      "source_page": 87,
+      "source_text": "基于[段落1]和[段落4]数据计算：12,325,681 / 106,113,346",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 87,
+      "source_text": "其中：营业收入 七、54 106,113,346",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 87,
+      "source_text": "其中：营业成本 七、54 78,679,820",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 87,
+      "source_text": "提供的段落中未包含应收账款数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 87,
+      "source_text": "提供的段落中未包含存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "总资产 = 负债和所有者权益（或股东权益）总计",
+      "source_page": 87,
+      "source_text": "负债和所有者权益（或股东权益）总计 55,555,613",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2021年三一重工整体财务状况呈现出“规模稳步扩张与利润阶段性承压”的特征。\n\n盈利能力方面，公司营收突破千亿大关，同比增长6.8%，展现了强大的市场竞争力；但受原材料成本上涨及研发、销售费用投入加大影响，净利润同比下降22.3%，出现明显的“增收不增利”现象，毛利率收窄至25.85%，利润空间受到成本端和费用端的双重挤压。\n\n偿债能力方面，公司表现稳健。资产负债率为53.02%，处于制造业合理区间；流动比率与速动比率均显示出良好的短期变现能力。尽管Z-Score处于2.014的“灰色区域”，提示存在一定财务压力，但整体违约风险较低。\n\n营运效率方面，总资产周转率保持在较高水平（约2.15次），反映出公司在设备更新及海外市场拓展驱动下，资产管理与周转效率依然高效。\n\n风险提示：投资者需重点关注公司约301亿元的财务担保义务，这属于较大规模的或有负债。同时，在行业周期波动背景下，成本控制的有效性及下游基建需求的持续性将是影响未来业绩的关键因素。建议公司在保持规模优势的同时，进一步优化成本结构。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "三一重工 2022年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "营业收入": 80018098.0,
+      "营业成本": 60799763.0,
+      "财务费用": -293599.0,
+      "毛利润": 19218335.0
+    }
+  }
+}

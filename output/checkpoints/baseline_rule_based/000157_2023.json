@@ -1,0 +1,14 @@
+{
+  "company_code": "000157",
+  "company_name": "中联重科",
+  "year": 2023,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "中联重科 2023年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "应收账款": NaN
+    }
+  }
+}

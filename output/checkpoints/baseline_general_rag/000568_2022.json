@@ -1,0 +1,287 @@
+{
+  "company_code": "000568",
+  "company_name": "泸州老窖",
+  "year": 2022,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": 10410589104.43,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "1.持续经营净利润（净亏损以“－”号填列） 10,410,589,104.43",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于母公司股东的净利润",
+      "value": 10365383281.8,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "1.归属于母公司股东的净利润 10,365,383,281.80",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 25123563271.62,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "收入 合计 25,123,563,271.62",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的文本中未包含总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的文本中未包含所有者权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润率",
+      "value": 0.4144,
+      "formula": "净利润 / 营业收入",
+      "source_page": 7,
+      "source_text": "10,410,589,104.43 / 25,123,563,271.62",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 所有者权益",
+      "source_page": 7,
+      "source_text": "缺少所有者权益数据，无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 总资产",
+      "source_page": 7,
+      "source_text": "缺少总资产数据，无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 所有者权益",
+      "source_page": 7,
+      "source_text": "缺少总资产和所有者权益数据，无法计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 7,
+      "source_text": "期末未分配利润 26,772,197,213.98（段落3，但缺少盈余公积数据）",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利息保障倍数 * 利息费用",
+      "source_page": 7,
+      "source_text": "利息保障倍数 61.28（段落2，但缺少利息费用数据）",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2 * (营运资本/总资产) + 1.4 * (留存收益/总资产) + 3.3 * (EBIT/总资产) + 0.6 * (股票市值/总负债) + 1.0 * (营业收入/总资产)",
+      "source_page": 7,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "存货",
+      "value": 9840742374.85,
+      "formula": "直接提取",
+      "source_page": 85,
+      "source_text": "存货 2022年末金额 9,840,742,374.85",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 10358676184.05,
+      "formula": "存货 / (流动比率 - 速动比率)",
+      "source_page": 85,
+      "source_text": "存货 9,840,742,374.85；流动比率 3.15；速动比率 2.20",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产",
+      "value": 32629829979.76,
+      "formula": "流动负债 * 流动比率",
+      "source_page": 85,
+      "source_text": "流动比率 3.15",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 51381736722.37,
+      "formula": "货币资金 / 货币资金占总资产比例",
+      "source_page": 85,
+      "source_text": "货币资金 17,757,528,211.25，占总资产比例 34.56%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 17053598418.15,
+      "formula": "总资产 * 资产负债率",
+      "source_page": 85,
+      "source_text": "资产负债率 33.19%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 25123563271.62,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "36、营业收入和营业成本... 本期发生额... 收入... 合计 25,123,563,271.62",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 3369528394.02,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "36、营业收入和营业成本... 本期发生额... 成本... 合计 3,369,528,394.02",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 10410589104.43,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "1.持续经营净利润（净亏损以“－”号填列） 10,410,589,104.43",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含所有者权益数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 7,
+      "source_text": "营业收入 25,123,563,271.62，营业成本 3,369,528,394.02",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 7,
+      "source_text": "净利润 10,410,589,104.43，营业收入 25,123,563,271.62",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 25123563271.62,
+      "formula": "主营业务收入 + 其他业务收入 = 24,766,121,998.49 + 357,441,273.13",
+      "source_page": 22,
+      "source_text": "合计 25,123,563,271.62 3,369,528,394.02",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 3369528394.02,
+      "formula": "主营业务成本 + 其他业务成本 = 3,214,253,716.91 + 155,274,677.11",
+      "source_page": 22,
+      "source_text": "合计 25,123,563,271.62 3,369,528,394.02",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 5939420.78,
+      "formula": "直接提取",
+      "source_page": 22,
+      "source_text": "应收账款 5,939,420.78 0.01% 1,628,248.55 0.00% 0.01%",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 9840742374.85,
+      "formula": "直接提取",
+      "source_page": 22,
+      "source_text": "存货 9,840,742,374.85 19.15% 7,277,573,166.80 16.84% 2.31%",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 51381736722.37,
+      "formula": "货币资金 / 占总资产比例 = 17,757,528,211.25 / 34.56%",
+      "source_page": 22,
+      "source_text": "货币资金 17,757,528,211.25 34.56%",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，泸州老窖2022年展现出极为强劲的财务状况，具备典型的高端白酒行业优势。\n\n**盈利能力**方面，公司全年实现营收251.24亿元，净利润104.11亿元，毛利率与净利率分别高达86.59%和41.44%。这彰显了公司极高的产品附加值、卓越的费用控制能力以及在消费市场中的核心定价权，主营业务盈利空间巨大。\n\n**偿债能力**表现优异且持续优化。期末流动比率（3.15）和速动比率（2.20）较上年大幅提升，资产负债率稳步降至33.19%，结合高达61.28的利息保障倍数，表明公司拥有充裕的流动性，长短期偿债风险极低，资本结构极其稳健。\n\n**营运效率**方面，公司商业模式优势显著。全年近251亿营收下应收账款仅不足600万元，反映出对下游绝对的议价能力和“先款后货”的强势地位，坏账风险极低；存货周转率虽偏低（0.39次），但符合高端白酒需长期储备基酒和陈化老熟的行业特性，整体资金使用效率较高。\n\n**风险提示**：尽管基本面堪称优秀，但受限于部分绝对数值（如总资产、所有者权益）的缺失，本次无法测算ROE及Altman Z-Score等综合指标，需防范信息不全带来的评估盲区。此外，高达98.41亿元的存货虽为行业常态，但仍需持续关注其对资金的长期占用及未来的市场消化情况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "company_code": "600660",
+  "company_name": "福耀玻璃",
+  "year": 2021,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于母公司所有者的净利润",
+      "value": 3146167091.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落2] 归属于母公司所有者的净利润 3,146,167,091",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入（合并）",
+      "value": null,
+      "formula": "无法从段落中提取合并报表营业收入",
+      "source_page": 182,
+      "source_text": "段落3为合营企业数据，段落4为母公司数据，未提供合并利润表营业收入",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产总额",
+      "value": 44784893954.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落1] 资产总额 44,784,893,954",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "股东权益",
+      "value": 26294104291.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落1] 股东权益 26,294,104,291",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.1314,
+      "formula": "归属于母公司所有者的净利润 / [(期初股东权益 + 期末股东权益) / 2]",
+      "source_page": 182,
+      "source_text": "2021年归母净利3,146,167,091；2021年股东权益26,294,104,291；2020年股东权益21,590,907,298",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.7377,
+      "formula": "平均资产总额 / 平均股东权益",
+      "source_page": 182,
+      "source_text": "2021年资产44,784,893,954，2020年资产38,423,625,184；2021年权益26,294,104,291，2020年权益21,590,907,298",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 89,
+      "source_text": "提供的段落中未包含合并报表层面的流动资产数据（段落3中的数据为合营企业数据）。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 89,
+      "source_text": "提供的段落中未包含合并报表层面的流动负债数据（段落3中的数据为合营企业数据）。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 44784893954.0,
+      "formula": "无",
+      "source_page": 89,
+      "source_text": "[段落2] 资产总额 44,784,893,954",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 18490789663.0,
+      "formula": "无",
+      "source_page": 89,
+      "source_text": "[段落2] 负债总额 18,490,789,663",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 89,
+      "source_text": "缺少合并报表层面的流动资产和流动负债数据，无法计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无",
+      "source_page": 89,
+      "source_text": "提供的段落中未包含留存收益相关数据。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 89,
+      "source_text": "[段落5] 利润总额 3,818,842,094，但缺少合并报表层面的利息费用数据，无法准确计算。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z = 1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(权益市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 89,
+      "source_text": "由于缺少营运资本、留存收益、息税前利润以及合并营业收入等关键数据，无法计算Z-Score。",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 44784893954.0,
+      "formula": "直接提取",
+      "source_page": 163,
+      "source_text": "[段落2] 合并资产及负债表: 2021年 资产总额 44,784,893,954",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 18490789663.0,
+      "formula": "直接提取",
+      "source_page": 163,
+      "source_text": "[段落2] 合并资产及负债表: 2021年 负债总额 18,490,789,663",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 14718781635.0,
+      "formula": "总负债 - 非流动负债合计",
+      "source_page": 163,
+      "source_text": "[段落5] 负债合计 18,490,789,663；非流动负债合计 3,772,008,028",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 163,
+      "source_text": "检索到的段落中未提供2021年合并口径的流动资产总额",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 163,
+      "source_text": "检索到的段落中未提及存货的具体数值",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.4129,
+      "formula": "总负债 / 总资产",
+      "source_page": 163,
+      "source_text": "基于[段落2]数据计算",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 23603063361.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落5] 营业收入 23,603,063,361",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 15129053236.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落5] 营业成本 15,129,053,236",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 3142980793.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落2] 净利润 3,142,980,793",
+      "category": "盈利能力"
+    },
+    {
+      "name": "资产总额",
+      "value": 44784893954.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落1] 资产总额 44,784,893,954",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 26294104291.0,
+      "formula": "直接提取",
+      "source_page": 182,
+      "source_text": "[段落1] 股东权益 26,294,104,291",
+      "category": "盈利能力"
+    },
+    {
+      "name": "销售毛利率",
+      "value": 0.359,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 182,
+      "source_text": "基于[段落5]数据计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.1332,
+      "formula": "净利润 / 营业收入",
+      "source_page": 182,
+      "source_text": "基于[段落2]和[段落5]数据计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.1195,
+      "formula": "净利润 / 股东权益",
+      "source_page": 182,
+      "source_text": "基于[段落1]和[段落2]数据计算",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 182,
+      "source_text": "提供的文本段落中未包含2021年合并报表的营业收入总额（段落3中的171,426,622元为合营企业数据）",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 182,
+      "source_text": "提供的文本段落中未包含营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 182,
+      "source_text": "提供的文本段落中未包含应收账款期末余额，仅在段落5中提及应收票据为38,888,270元",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "不适用",
+      "source_page": 182,
+      "source_text": "提供的文本段落中未包含存货期末余额，仅在段落4现金流量表补充资料中提及存货增加1,065,034,904元",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 44784893954.0,
+      "formula": "不适用",
+      "source_page": 182,
+      "source_text": "[段落1] 资产总额 2021年 44,784,893,954",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "2021年福耀玻璃整体财务状况稳健，展现出强劲的盈利能力与良好的发展势头。\n\n在**盈利能力**方面，公司实现营收与净利润的双位数增长（增幅分别约18.57%和20.95%），销售毛利率高达35.90%，净资产收益率（ROE）保持在12%-13%的优良区间，凸显了其强大的市场竞争力和卓越的成本管控水平。\n\n在**偿债与营运能力**方面，公司资产负债率为41.29%，财务杠杆适中（权益乘数1.74），长期偿债风险较低。同时，公司资产规模稳步扩张，全年维持了高达56.77亿元的经营活动现金净流量，展现出优秀的资金造血能力。虽然存货和应收账款的增加占用了部分资金，但经营性应付项目的同步增长有效缓解了营运资金压力。\n\n**风险提示**：首先，公司债务结构存在一定失衡，流动负债占总负债比例高达79.6%，短期偿债压力较为集中，需警惕短期流动性风险；其次，存货规模增加超10亿元，需关注去库存压力及资金占用情况；最后，受限于部分合并报表关键数据（如流动资产、存货期末余额）缺失，短期变现能力及核心营运周转率无法精确评估，建议投资者结合完整财报对短期流动性作进一步验证。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

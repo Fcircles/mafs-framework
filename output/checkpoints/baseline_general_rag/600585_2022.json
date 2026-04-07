@@ -1,0 +1,287 @@
+{
+  "company_code": "600585",
+  "company_name": "海螺水泥",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入",
+      "value": 132021554.0,
+      "formula": "直接提取",
+      "source_page": 94,
+      "source_text": "营业收入 132,021,554（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 15660750.0,
+      "formula": "直接提取",
+      "source_page": 94,
+      "source_text": "归属于上市公司股东的净利润 15,660,750（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 244034440.0,
+      "formula": "境外资产 / 境外资产占总资产比例",
+      "source_page": 94,
+      "source_text": "截至报告期末，本集团境外资产198.40 亿元，占总资产比例为8.13%。",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益合计",
+      "value": 195994000.0,
+      "formula": "归属于上市公司股东的股东权益 + 归属于少数股东的股东权益",
+      "source_page": 94,
+      "source_text": "归属于上市公司股东的股东权益为1,836.39亿元...归属于少数股东的股东权益为 123.55 亿元",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.085,
+      "formula": "归属于本公司普通股股东的合并净利润 / 归属于本公司普通股股东的合并净资产的加权平均数",
+      "source_page": 94,
+      "source_text": "加权平均净资产收益率 8.50%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.1186,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 94,
+      "source_text": "15,660,750 / 132,021,554",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": 0.541,
+      "formula": "营业收入 / 总资产",
+      "source_page": 94,
+      "source_text": "132,021,554 / 244,034,440",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.245,
+      "formula": "总资产 / 所有者权益合计",
+      "source_page": 94,
+      "source_text": "244,034,440 / 195,994,000",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 106018000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "截至2022年12月31日，本集团按中国会计准则编制的流动资产总额为1,060.18亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 35571000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "流动负债总额为355.71亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 243976000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "本集团按中国会计准则编制的总资产为2,439.76亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 47983000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "总负债为479.83亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 70447000000.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 18,
+      "source_text": "流动资产总额为1,060.18亿元，流动负债总额为355.71亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 18,
+      "source_text": "检索到的段落中未提供留存收益、盈余公积或未分配利润的具体数值",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "净利润 + 利息费用 + 所得税费用",
+      "source_page": 18,
+      "source_text": "检索到的段落中未提供息税前利润（EBIT）的具体数值",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*X1 + 1.4*X2 + 3.3*X3 + 0.6*X4 + 1.0*X5",
+      "source_page": 18,
+      "source_text": "由于缺少留存收益(X2)、息税前利润(X3)、股东权益市价(X4)及营业收入(X5)，无法计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "截至2022年12月31日，本集团按中国会计准则编制的流动资产总额为1,060.18亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "流动负债总额为355.71亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "无",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "本集团按中国会计准则编制的总资产为2,439.76亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "总负债为479.83亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 2.98,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 19,
+      "source_text": "流动比率为2.98：1",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 19,
+      "source_text": "资产负债率为19.67%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "利息保障倍数",
+      "value": 35.94,
+      "formula": "无",
+      "source_page": 19,
+      "source_text": "利息保障倍数 35.94",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 132021554000.0,
+      "formula": "直接提取（原文132,021,554千元，换算为元）",
+      "source_page": 10,
+      "source_text": "[段落1] 营业收入 132,021,554 （单位：千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 76426194111.0,
+      "formula": "直接提取主营业务成本（元）",
+      "source_page": 10,
+      "source_text": "[段落4] 主营业务成本 ... 76,426,194,111",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 15660750000.0,
+      "formula": "直接提取归属于上市公司股东的净利润（原文15,660,750千元，换算为元）",
+      "source_page": 10,
+      "source_text": "[段落1] 归属于上市公司股东的净利润 15,660,750 （单位：千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 243976422237.0,
+      "formula": "直接提取报告分部资产总额（元）",
+      "source_page": 10,
+      "source_text": "[段落4] 报告分部资产总额 ... 243,976,422,237 （注：段落5中总资产243,976,422单位为千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": 183596131301.0,
+      "formula": "归属于上市公司股东的净利润 / 全面摊薄净资产收益率 (15,660,750,000元 / 8.53%)",
+      "source_page": 10,
+      "source_text": "[段落1] 归属于上市公司股东的净利润 15,660,750；全面摊薄净资产收益率 8.53%",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业收入 132,021,554",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "- 主营业务成本 32,545,367,663 50,899,812,277 14,906,815,142 16,136,732,452 2,806,352,917 40,868,886,340 76,426,194,111 - - 76,426,194,111",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "未检索到相关内容",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "未检索到相关内容",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "总资产 243,976,422",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，海螺水泥2022年的财务状况呈现出“资产底盘极度稳健，但盈利空间显著承压”的特征。\n\n**盈利能力**：受行业景气度下行影响，公司遭遇了收入端（需求疲软、量价齐跌）与成本端（煤电价格上涨）的双重挤压。这导致营收同比下降21.40%，归母净利润大幅缩水52.92%，加权平均ROE由上年的19.23%骤降至8.50%，整体盈利能力出现显著下滑。\n\n**营运效率**：受制于销售规模的萎缩，公司总资产周转率降至约0.54-0.56次区间，整体资产运营效率有所放缓，这也是拖累ROE表现的核心驱动因素之一。\n\n**偿债能力**：尽管盈利承压，公司仍保持了极强的财务韧性。资产负债率仅为19.67%，财务杠杆极低（权益乘数约1.245）；流动比率高达2.98，利息保障倍数达35.94，营运资本充裕。极低的外部债务依赖和充沛的流动性使其具备极强的债务覆盖能力，财务风险极低。\n\n**风险提示**：公司当前面临的主要风险在于宏观经济与行业周期的波动。投资者需密切关注下游房地产及基建端的水泥需求恢复情况，以及煤炭等核心能源价格的走势。若市场需求持续低迷或生产成本居高不下，公司主业盈利的修复将面临持续阻力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

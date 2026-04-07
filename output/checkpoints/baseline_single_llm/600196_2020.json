@@ -1,0 +1,169 @@
+{
+  "company_code": "600196",
+  "company_name": "复星医药",
+  "year": 2020,
+  "industry": "医药行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "销售费用",
+      "value": 84.64,
+      "formula": "N/A",
+      "source_page": 44,
+      "source_text": "销售费用注1 本期数 84.64",
+      "category": "关键财务科目"
+    },
+    {
+      "name": "研发费用",
+      "value": 27.95,
+      "formula": "N/A",
+      "source_page": 44,
+      "source_text": "研发费用注2 本期数 27.95",
+      "category": "关键财务科目"
+    },
+    {
+      "name": "财务费用",
+      "value": 7.24,
+      "formula": "N/A",
+      "source_page": 44,
+      "source_text": "财务费用注3 本期数 7.24",
+      "category": "关键财务科目"
+    },
+    {
+      "name": "投资活动产生的现金流量净额",
+      "value": -47.06,
+      "formula": "N/A",
+      "source_page": 44,
+      "source_text": "投资活动产生的现金流量净额注11 本期数 -47.06",
+      "category": "关键财务科目"
+    },
+    {
+      "name": "筹资活动产生的现金流量净额",
+      "value": 14.67,
+      "formula": "N/A",
+      "source_page": 44,
+      "source_text": "筹资活动产生的现金流量净额注12 本期数 14.67",
+      "category": "关键财务科目"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 44,
+      "source_text": "文本未提供净利润和净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 44,
+      "source_text": "文本未提供净利润和营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 44,
+      "source_text": "文本未提供营业收入和总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 总权益",
+      "source_page": 44,
+      "source_text": "文本未提供总资产和总权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "Z''=6.56X1+3.26X2+6.72X3+1.05X4",
+      "source_page": 44,
+      "source_text": "文本未提供营运资金、留存收益、息税前利润、期末总资产等数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 44,
+      "source_text": "文本未提供流动资产和流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 44,
+      "source_text": "文本未提供流动资产、存货和流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 44,
+      "source_text": "文本未提供总负债和总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 44,
+      "source_text": "文本未提供营业收入和营业成本数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 44,
+      "source_text": "文本未提供净利润和营业收入数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 44,
+      "source_text": "文本未提供净利润和总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 44,
+      "source_text": "文本未提供营业收入和应收账款数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 44,
+      "source_text": "文本未提供营业成本和存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 44,
+      "source_text": "文本未提供营业收入和总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "根据提供的复星医药2020年年报局部文本，由于缺乏营业收入、净利润、资产负债等核心数据，无法直接计算杜邦分析、Z-Score及常规财务比率。但从已披露的科目变动可得出以下分析：\n1. 费用结构显著优化，创新转型加速。公司销售费用同比下降14.04%（降至84.64亿元），主要得益于集采中标、产品结构优化及营销模式线上化；同时研发费用大幅增长36.94%（达27.95亿元），表明公司正大力加码生物药及创新药研发。财务费用下降16.30%，反映债务规模与融资成本控制良好。\n2. 投资与资本运作活跃。公允价值变动收益因持有BioNTech股价上涨而大幅增加；投资活动现金净流出激增至47.06亿元，主要系增加对BioNTech等金融及固定资产投资。筹资现金流转正至14.67亿元，主要受子公司Gland上市及存量股出售等资本运作驱动。\n总体而言，复星医药在2020年呈现出“销售控费、研发加码”的良性发展态势，且通过精准的外部投资与分拆上市获得了显著的资本回报与资金补充。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      44
+    ],
+    "text_length": 1145
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "company_code": "600585",
+  "company_name": "海螺水泥",
+  "year": 2023,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润（归属于上市公司股东）",
+      "value": 10430138.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 10,430,138（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 140999428.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "营业收入 140,999,428（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 246189200.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "总资产 246,189,200（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（归属于上市公司股东的净资产）",
+      "value": 185321083.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净资产 185,321,083（单位：千元）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.0565,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "加权平均净资产收益率（%） 5.65",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.074,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 10,
+      "source_text": "10,430,138 / 140,999,428 ≈ 7.40%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.5727,
+      "formula": "营业收入 / 总资产",
+      "source_page": 10,
+      "source_text": "140,999,428 / 246,189,200 ≈ 0.5727",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.3284,
+      "formula": "总资产 / 归属于上市公司股东的净资产",
+      "source_page": 10,
+      "source_text": "246,189,200 / 185,321,083 ≈ 1.3284",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 101096000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "截至2023年12月31日，本集团按中国会计准则编制的流动资产总额为1,010.96亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 29660000000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "流动负债总额为296.60亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 246189200000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "总资产 246,189,200（单位：千元）",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 48220472000.0,
+      "formula": "直接提取",
+      "source_page": 18,
+      "source_text": "总负债 48,220,472（单位：千元）",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": 71436000000.0,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 18,
+      "source_text": "流动资产总额为1,010.96亿元，流动负债总额为296.60亿元",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "提供的文本中未包含留存收益（未分配利润及盈余公积）相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "利润总额 + 利息费用",
+      "source_page": 18,
+      "source_text": "提供的文本中仅有利润总额（13,600,466千元），缺失利息费用数据，无法准确计算",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(EBIT/总资产) + 0.6*(股票市值/总负债) + 1.0*(营业收入/总资产)",
+      "source_page": 18,
+      "source_text": "由于缺失留存收益、息税前利润（EBIT）以及股票市值数据，无法计算该指标",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 101095916858.0,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "流动资产合计 101,095,916,858；本集团按中国会计准则编制的流动资产总额为1,010.96亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 29660000000.0,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "流动负债总额为296.60亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 10100345825.0,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "存货 五、8 10,100,345,825",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 246189199541.0,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "资产总计 246,189,199,541；本集团按中国会计准则编制的总资产为2,461.89亿元",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 48220472000.0,
+      "formula": "无",
+      "source_page": 18,
+      "source_text": "总负债为482.20亿元；总负债 48,220,472（单位：千元）",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 3.41,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 18,
+      "source_text": "流动比率为3.41：1",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 3.07,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 18,
+      "source_text": "基于提取的流动资产1010.96亿元、存货101.00亿元、流动负债296.60亿元计算：(1010.96 - 101.00) / 296.60",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 18,
+      "source_text": "本集团按中国会计准则编制计算的资产负债率为19.59%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 140999428.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "营业收入 140,999,428（单位：千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本（主营业务）",
+      "value": 64775346.0,
+      "formula": "62,436,061 + 2,339,285",
+      "source_page": 10,
+      "source_text": "建材行业（自产品销售）营业成本 62,436,061 千元；建材行业（贸易业务）营业成本 2,339,285 千元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 10430138.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 10,430,138（单位：千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 246189200.0,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "总资产 246,189,200（单位：千元）",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益（合计）",
+      "value": 197969083.0,
+      "formula": "归属于上市公司股东的净资产 + 归属于少数股东的股东权益",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净资产 185,321,083 千元；归属于少数股东的股东权益为 126.48 亿元",
+      "category": "盈利能力"
+    },
+    {
+      "name": "加权平均净资产收益率（ROE）",
+      "value": 5.65,
+      "formula": "直接提取",
+      "source_page": 10,
+      "source_text": "加权平均净资产收益率（%） 5.65",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归母净利率",
+      "value": 7.4,
+      "formula": "归属于上市公司股东的净利润 / 营业收入 * 100%",
+      "source_page": 10,
+      "source_text": "归属于上市公司股东的净利润 10,430,138 / 营业收入 140,999,428",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 140999428017.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业收入 合计 140,999,428,017",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 117636621441.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "营业成本 合计 117,636,621,441",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "提供的段落中未包含应收账款数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 14,
+      "source_text": "提供的段落中未包含存货数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 246189199541.0,
+      "formula": "直接提取",
+      "source_page": 14,
+      "source_text": "报告分部资产总额 ... 246,189,199,541",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，海螺水泥（600585）2023年度财务状况呈现出“底盘极其稳固，但盈利显著承压”的特征。\n\n**盈利能力**方面，公司面临“增收不增利”的困境。尽管营业收入同比增长6.80%，但归母净利润大幅下滑33.40%，导致加权平均ROE降至5.65%的近年低位。核心建材业务毛利率收窄至25.72%，销售净利率降至7.40%，盈利空间受到明显挤压。\n\n**偿债能力**方面，公司表现卓越，构筑了极强的安全垫。资产负债率仅为19.59%，财务杠杆处于极低水平；流动比率（3.41）和速动比率（3.07）远超安全标准，营运资本充沛，短期违约风险极低，长期举债空间与抗风险能力极强。\n\n**营运效率**方面，在总资产规模达2462亿元的体量下，总资产周转率维持在约0.58次，整体资产利用效率保持平稳。\n\n**风险提示**：尽管公司拥有无懈可击的资产负债表，但需高度警惕主营业务毛利率与净利润双降的风险。盈利能力的持续下滑反映出行业竞争加剧或成本端的压力。投资者应密切关注水泥行业周期波动对公司产品定价权的影响，以及未来盈利修复的拐点。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "company_code": "600031",
+  "company_name": "三一重工",
+  "year": 2021,
+  "industry": "制造业",
+  "method": "rule_based",
+  "indicators": [],
+  "interpretation": "三一重工 2021年年报财务分析（规则提取）\n\n未能从年报中提取到足够的财务数据进行计算。",
+  "metadata": {
+    "extracted_raw": {
+      "营业收入": 106113346.0,
+      "营业成本": 78679820.0,
+      "财务费用": -124516.0,
+      "毛利润": 27433526.0
+    }
+  }
+}

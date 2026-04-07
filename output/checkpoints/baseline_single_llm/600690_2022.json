@@ -1,0 +1,133 @@
+{
+  "company_code": "600690",
+  "company_name": "海尔智家",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（净利润）及资产负债表权益项（净资产）数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（净利润、营业收入）数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均资产总额",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（营业收入）及完整资产负债表（总资产）数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "资产总额 / 所有者权益总额",
+      "source_page": 94,
+      "source_text": "文本未提供完整资产负债表（总资产、所有者权益）数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 1.0X5",
+      "source_page": 94,
+      "source_text": "文本缺失营运资本、留存收益、EBIT、市值及总负债等关键计算数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 94,
+      "source_text": "文本仅提供流动资产合计（130,382,541,970.54元），未提供流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 94,
+      "source_text": "文本提供流动资产及存货（41,542,713,111.82元），但缺失流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 94,
+      "source_text": "文本未提供总负债及总资产完整数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": null,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（营业收入、营业成本）数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": null,
+      "formula": "净利润 / 营业收入",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（净利润、营业收入）数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产收益率 (ROA)",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（净利润）及完整资产负债表（总资产）数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": null,
+      "formula": "营业收入 / 平均应收账款余额",
+      "source_page": 94,
+      "source_text": "文本提供应收账款（15,913,691,537.11元），但缺失营业收入数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货余额",
+      "source_page": 94,
+      "source_text": "文本提供存货账面价值，但缺失营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均资产总额",
+      "source_page": 94,
+      "source_text": "文本未提供利润表（营业收入）及完整资产负债表（总资产）数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "基于提供的年报片段，海尔智家2022年末的流动资产规模达到1303.83亿元，其中货币资金占比最高，达541.39亿元（约41.5%），显示出极强的账面流动性储备。应收账款与应收票据合计约255亿元，存货账面价值为415.43亿元，反映了家电制造企业典型的资产结构。审计报告将商誉（236.44亿元）和存货跌价准备列为关键审计事项，提示投资者需关注大额商誉可能带来的减值风险以及库存管理的效率。由于文本缺失利润表、负债表下半部分及现金流量表，无法完成杜邦分析及Z-Score压力测试。从股东结构看，海尔集团及其关联方保持高度控股，且H股股东占比显著，体现了其全球化资本布局。整体而言，公司资产端规模庞大，现金流充裕，但需结合后续利润表数据方能评估其真实的盈利质量与财务稳健性。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      94,
+      104,
+      105,
+      107,
+      228
+    ],
+    "text_length": 5330
+  }
+}

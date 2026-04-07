@@ -1,0 +1,279 @@
+{
+  "company_code": "002507",
+  "company_name": "涪陵榨菜",
+  "year": 2020,
+  "industry": "消费行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "营业收入（2020年度）",
+      "value": 1272668538.07,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "一、营业收入 1,272,668,538.07",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净利润（2020年度）",
+      "value": 292377353.2,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "四、净利润（净亏损以“－”号填列） 292,377,353.20",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产（2020年末）",
+      "value": 3969611914.85,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 3,969,611,914.85",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益（2020年末归属于上市公司股东的净资产）",
+      "value": 3411459905.45,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净资产（元） 3,411,459,905.45",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.2297,
+      "formula": "净利润 / 营业收入",
+      "source_page": 6,
+      "source_text": "净利润 292,377,353.20 / 营业收入 1,272,668,538.07",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产周转率",
+      "value": 0.3472,
+      "formula": "营业收入 / [(期初总资产 + 期末总资产) / 2]",
+      "source_page": 6,
+      "source_text": "1,272,668,538.07 / [(3,969,611,914.85 + 3,362,039,813.54) / 2]",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 1.167,
+      "formula": "平均总资产 / 平均净资产",
+      "source_page": 6,
+      "source_text": "[(3,969,611,914.85 + 3,362,039,813.54) / 2] / [(3,411,459,905.45 + 2,871,161,295.17) / 2]",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率 (ROE)",
+      "value": 0.0931,
+      "formula": "销售净利率 × 总资产周转率 × 权益乘数",
+      "source_page": 6,
+      "source_text": "基于杜邦分解公式计算",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 3969611914.85,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 3,969,611,914.85",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": null,
+      "source_page": 6,
+      "source_text": "",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "未在提供的段落中找到合并报表的流动资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 455679642.57,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "流动负债合计 455,679,642.57",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "未在提供的段落中找到存货数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 3969611914.85,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "总资产（元） 3,969,611,914.85",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 558152009.4,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "负债合计 558,152,009.40",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入(母公司)",
+      "value": 1272668538.07,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "一、营业收入 1,272,668,538.07",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本(合并)",
+      "value": 948553265.56,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "其中：营业成本 948,553,265.56",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本(母公司)",
+      "value": 865963362.16,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "减：营业成本 865,963,362.16",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润(合并)",
+      "value": 777105782.58,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "五、净利润（净亏损以“－”号填列） 777,105,782.58",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润(母公司)",
+      "value": 292377353.2,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "四、净利润（净亏损以“－”号填列） 292,377,353.20",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 3969611914.85,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 3,969,611,914.85",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益(归母净资产)",
+      "value": 3411459905.45,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "归属于上市公司股东的净资产（元） 3,411,459,905.45",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 1272668538.07,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "一、营业收入 1,272,668,538.07 1,142,886,232.57",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 865963362.16,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "减：营业成本 865,963,362.16 770,604,589.39",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "无具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "无具体数值",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 3969611914.85,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "总资产（元） 3,969,611,914.85 3,362,039,813.54 18.07% 2,978,351,468.91",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，涪陵榨菜（002507）在2020年展现出稳健且优秀的整体财务状况，具体评价如下：\n\n**盈利能力卓越**：公司合并口径下净资产收益率（ROE）高达22.78%，总资产收益率（ROA）达19.58%；母公司净利率为22.97%，毛利率约31.96%。数据表明公司主营业务盈利空间广阔，成本控制得当，能够为股东创造丰厚的投资回报。\n\n**偿债能力极强**：期末资产负债率仅为14.06%，公司主要依靠自有资金进行日常运营。极低的财务杠杆意味着公司长期偿债能力极强，整体财务结构稳健，债务违约风险极小。\n\n**营运效率偏弱但事出有因**：当年总资产周转率约为0.35次，资产周转效率相对较低。但这主要系公司盈利能力强、账面沉淀了大量现金及理财产品导致总资产基数较大所致，并非主业销售停滞。\n\n**风险提示**：首先，受限于部分关键数据（如存货、应收账款、流动负债等）缺失，无法测算短期偿债指标、核心资产周转率及Z-Score破产指数，需警惕潜在的短期流动性或营运盲区；其次，检索文本中关于“持续经营能力存在不确定性”的描述与公司数亿元的净利润事实严重相悖，判定为干扰信息，但建议在实际决策时查阅完整年报进行交叉验证，以防范信息遗漏风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "dataset_科创板": {
+    "label": "dataset_科创板",
+    "sample_count": 25,
+    "formula_verification": {
+      "mean": 0.9955555555555555,
+      "std": 0.021773242158072706
+    },
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "indicator_coverage": {
+      "per_category": {
+        "杜邦分析": {
+          "rate": 1.0
+        },
+        "偿债能力": {
+          "rate": 1.0
+        },
+        "盈利能力": {
+          "rate": 1.0
+        },
+        "营运能力": {
+          "rate": 1.0
+        },
+        "Z-Score": {
+          "rate": 1.0
+        }
+      },
+      "overall": 1.0
+    },
+    "caliber_consistency": {
+      "mean": 1.0,
+      "std": 0.0,
+      "company_count": 5
+    }
+  },
+  "topk_3": {
+    "label": "topk_3",
+    "sample_count": 9,
+    "formula_verification": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "indicator_coverage": {
+      "per_category": {
+        "杜邦分析": {
+          "rate": 1.0
+        },
+        "偿债能力": {
+          "rate": 1.0
+        },
+        "盈利能力": {
+          "rate": 1.0
+        },
+        "营运能力": {
+          "rate": 1.0
+        },
+        "Z-Score": {
+          "rate": 1.0
+        }
+      },
+      "overall": 1.0
+    },
+    "caliber_consistency": {
+      "mean": 1.0,
+      "std": 0.0,
+      "company_count": 3
+    }
+  },
+  "topk_10": {
+    "label": "topk_10",
+    "sample_count": 9,
+    "formula_verification": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "indicator_coverage": {
+      "per_category": {
+        "杜邦分析": {
+          "rate": 1.0
+        },
+        "偿债能力": {
+          "rate": 1.0
+        },
+        "盈利能力": {
+          "rate": 1.0
+        },
+        "营运能力": {
+          "rate": 1.0
+        },
+        "Z-Score": {
+          "rate": 1.0
+        }
+      },
+      "overall": 1.0
+    },
+    "caliber_consistency": {
+      "mean": 1.0,
+      "std": 0.0,
+      "company_count": 3
+    }
+  },
+  "timewindow_2022_2024": {
+    "label": "timewindow_2022_2024",
+    "sample_count": 90,
+    "formula_verification": {
+      "mean": 0.9841269841269843,
+      "std": 0.06544612104155016
+    },
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "indicator_coverage": {
+      "per_category": {
+        "杜邦分析": {
+          "rate": 0.9444444444444444
+        },
+        "偿债能力": {
+          "rate": 1.0
+        },
+        "盈利能力": {
+          "rate": 0.9444444444444444
+        },
+        "营运能力": {
+          "rate": 1.0
+        },
+        "Z-Score": {
+          "rate": 1.0
+        }
+      },
+      "overall": 0.9777777777777777
+    },
+    "caliber_consistency": {
+      "mean": 1.0,
+      "std": 0.0,
+      "company_count": 30
+    }
+  }
+}

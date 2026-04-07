@@ -1,0 +1,61 @@
+========================================================================
+evaluation_report 交叉验证报告
+========================================================================
+
+## 1. multi_agent 证据对齐率
+  样本数: 150
+  手动扁平化 mean=1.000000000000 std=0.000000000000
+  库函数(IndicatorResult) mean=1.000000000000 std=0.000000000000
+  报告 multi_agent.evidence_alignment mean=1.0 std=0.0 count=150
+  [OK] 手动、库函数与报告一致（在容差内）
+
+## 2. multi_agent 公式验证通过率
+  metrics.formula_verification(全项) mean=1.000000000000
+  仅杜邦 ROE≈净利率×周转×权益乘数 通过率 mean=1.000000000000
+  报告 formula_verification mean=1.0 std=0.0
+  [OK] 全项 pass_rate 均值与报告一致
+
+## 3. multi_agent 与 calculation_correctness
+  报告中存在 calculation_correctness: {'mean': 1.0, 'std': 0.0, 'min': 1.0, 'max': 1.0, 'count': 150}
+  若以主结果 CORE_INDICATORS 为 GT 自比，accuracy mean=1.000000000000
+  [OK] 自比为 100%（GT 来自 multi_agent 的设计一致）
+
+## 4. 基线方法与报告数值对比
+
+  --- rule_based ---
+  样本数: main=150 baseline=150
+  [OK] 与主结果序列完全一致
+  重算 evidence_alignment mean=0.066666666667 std=0.249443825785
+  报告 mean=0.06666666666666667 std=0.24944382578492943 count=150
+  [OK] evidence_alignment 与报告一致
+  重算 calculation_correctness mean=0.000000000000 std=0.000000000000 (n=150)
+  报告 mean=0.0 std=0.0 count=150
+  [OK] calculation_correctness 与报告一致
+  [OK] CC < 100%，符合基线预期
+
+  --- single_llm ---
+  样本数: main=150 baseline=150
+  [OK] 与主结果序列完全一致
+  重算 evidence_alignment mean=1.000000000000 std=0.000000000000
+  报告 mean=1.0 std=0.0 count=150
+  [OK] evidence_alignment 与报告一致
+  重算 calculation_correctness mean=0.360000000000 std=0.239134240930 (n=150)
+  报告 mean=0.36 std=0.23913424093003743 count=150
+  [OK] calculation_correctness 与报告一致
+  [OK] CC < 100%，符合基线预期
+
+  --- general_rag ---
+  样本数: main=150 baseline=150
+  [OK] 与主结果序列完全一致
+  重算 evidence_alignment mean=0.922178349424 std=0.118607674187
+  报告 mean=0.9221783494240805 std=0.11860767418714871 count=150
+  [OK] evidence_alignment 与报告一致
+  重算 calculation_correctness mean=0.151111111111 std=0.137418887411 (n=150)
+  报告 mean=0.15111111111111108 std=0.13741888741102495 count=150
+  [OK] calculation_correctness 与报告一致
+  [OK] CC < 100%，符合基线预期
+
+## 5. LLM-as-Judge 是否在 [1, 5]
+  [OK] 汇总均值均在 [1,5]
+
+========================================================================

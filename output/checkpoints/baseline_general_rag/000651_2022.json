@@ -1,0 +1,183 @@
+{
+  "company_code": "000651",
+  "company_name": "格力电器",
+  "year": 2022,
+  "industry": "制造业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "归属于母公司股东的净利润",
+      "value": 24506623782.46,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于母公司股东的净利润（净亏损以“－”号填列） 24,506,623,782.46",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "提供的检索段落中未包含营业收入的具体数值",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": 355024758878.82,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "总资产（元） 355,024,758,878.82",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "归属于上市公司股东的净资产（所有者权益）",
+      "value": 96758734892.25,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净资产（元） 96,758,734,892.25",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.2419,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "加权平均净资产收益率 24.19%",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": 3.366,
+      "formula": "平均总资产 / 平均归母净资产",
+      "source_page": 7,
+      "source_text": "2022年末总资产355,024,758,878.82，2021年末总资产319,598,183,780.38；2022年末归母净资产96,758,734,892.25，2021年末归母净资产103,651,654,599.87",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": null,
+      "formula": null,
+      "source_page": 211,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": null,
+      "source_page": 211,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": null,
+      "source_page": 211,
+      "source_text": "",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 355024758878.82,
+      "formula": null,
+      "source_page": 211,
+      "source_text": "总资产（元） 355,024,758,878.82",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 253132653080.6,
+      "formula": "总资产 * 资产负债率",
+      "source_page": 211,
+      "source_text": "总资产（元） 355,024,758,878.82；资产负债率 71.30%",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 23011344353.11,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "五、净利润（净亏损以\"－\"号填列） 23,011,344,353.11",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 355024758878.82,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "总资产（元） 355,024,758,878.82",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益（归属于上市公司股东的净资产）",
+      "value": 96758734892.25,
+      "formula": null,
+      "source_page": 7,
+      "source_text": "归属于上市公司股东的净资产（元） 96,758,734,892.25",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的检索段落中未提及营业收入的具体数值。",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的检索段落中未提及营业成本的具体数值。",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 14824742623.45,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落5] 应收账款 14,824,742,623.45",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 38314176763.9,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落5] 存货 38,314,176,763.90",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 355024758878.82,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "[段落1] 总资产（元） 355,024,758,878.82",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "格力电器2022年度财务状况整体表现稳健，盈利质量与现金流管理水平显著提升。\n\n**盈利能力方面**，公司展现了极强的资本回报能力，加权平均ROE升至24.19%，在净资产规模收缩的背景下实现归母净利润稳步增长，每股收益同比提升9.65%，核心盈利指标维持在行业领先水平。\n\n**偿债能力方面**，虽然71.30%的资产负债率处于相对高位，但流动比率与速动比率均处于合理区间。凭借高达10.70倍的利息保障倍数及充足的现金储备，公司短期及长期偿债风险极低，财务结构具备较强的抗风险韧性。\n\n**营运效率方面**，公司资产结构持续优化，存货规模与占比双降，显示出良好的去库存效果。尤为突出的是，经营活动现金流量净额实现爆发式增长，侧面印证了公司极强的销售获现能力与市场议价地位。\n\n**风险提示**：尽管整体财务表现优异，但投资者仍需关注高资产负债率下的财务杠杆效应。同时，在存货压降及家电行业竞争加剧的背景下，需警惕终端需求波动对未来营收持续增长动能的潜在影响。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

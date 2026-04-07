@@ -1,0 +1,303 @@
+{
+  "company_code": "600085",
+  "company_name": "同仁堂",
+  "year": 2023,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含净利润的具体金额数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入",
+      "value": 17860891456.13,
+      "formula": "主营业务收入 + 其他业务收入",
+      "source_page": 7,
+      "source_text": "本期发生额 收入 合计 17,860,891,456.13",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含总资产的具体金额数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 7,
+      "source_text": "提供的段落中未包含所有者权益的具体金额数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "净资产收益率(ROE)",
+      "value": 0.1342,
+      "formula": "直接提取",
+      "source_page": 7,
+      "source_text": "加权平均净资产收益率（%） 13.42",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 7234808202.22,
+      "formula": "直接提取",
+      "source_page": 126,
+      "source_text": "流动资产合计 7,234,808,202.22",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": 7161813676.68,
+      "formula": "直接提取",
+      "source_page": 126,
+      "source_text": "流动负债合计 7,161,813,676.68",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 27044491889.5,
+      "formula": "直接提取",
+      "source_page": 126,
+      "source_text": "资产总计 27,044,491,889.50",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": 9832343990.7,
+      "formula": "直接提取",
+      "source_page": 126,
+      "source_text": "负债合计 9,832,343,990.70",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 126,
+      "source_text": "缺失合并报表的流动资产数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "无",
+      "source_page": 126,
+      "source_text": "文本中未提供相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 126,
+      "source_text": "文本中未提供相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2X1 + 1.4X2 + 3.3X3 + 0.6X4 + 0.999X5",
+      "source_page": 126,
+      "source_text": "缺失计算所需的多个关键指标数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 23361225804.93,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "流动资产合计 23,361,225,804.93 20,559,416,226.02",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": 7161813676.68,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "流动负债合计 7,161,813,676.68 6,335,606,579.88",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 9340164542.46,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "存货 十、七、10 9,340,164,542.46 6,694,368,428.37",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 27044491889.5,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "资产总计 27,044,491,889.50 27,054,123,244.38 9,631,354.88",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": 9832343990.7,
+      "formula": "直接提取",
+      "source_page": 124,
+      "source_text": "负债合计 9,832,343,990.70 8,590,423,576.47",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动比率",
+      "value": 3.26,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 124,
+      "source_text": "流动资产合计 23,361,225,804.93；流动负债合计 7,161,813,676.68",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": 1.96,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 124,
+      "source_text": "流动资产合计 23,361,225,804.93；存货 9,340,164,542.46；流动负债合计 7,161,813,676.68",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": 0.3636,
+      "formula": "总负债 / 总资产",
+      "source_page": 124,
+      "source_text": "负债合计 9,832,343,990.70；资产总计 27,044,491,889.50",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 17860891456.13,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "营业收入 17,860,891,456.13",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 9414070490.87,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "营业成本 9,414,070,490.87",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利润",
+      "value": 1248927343.06,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "四、净利润（净亏损以“－”号填列） 1,248,927,343.06",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "提供的段落中未提及总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "提供的段落中未提及所有者权益数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.4729,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 173,
+      "source_text": "营业收入 17,860,891,456.13，营业成本 9,414,070,490.87",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 0.0699,
+      "formula": "净利润 / 营业收入",
+      "source_page": 173,
+      "source_text": "营业收入 17,860,891,456.13，净利润 1,248,927,343.06",
+      "category": "盈利能力"
+    },
+    {
+      "name": "加权平均净资产收益率",
+      "value": 0.1342,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "加权平均净资产收益率（%） 13.42",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 17860891456.13,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "营业收入 17,860,891,456.13",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 9414070490.87,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "营业成本 9,414,070,490.87",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": 1055560325.33,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "应收账款 十、七、5 1,055,560,325.33 1,301,148,434.72",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": 9340164542.46,
+      "formula": "直接提取",
+      "source_page": 173,
+      "source_text": "存货 十、七、10 9,340,164,542.46 6,694,368,428.37",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 173,
+      "source_text": "提供的段落中未包含总资产数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 15.16,
+      "formula": "营业收入 / [(期初应收账款 + 期末应收账款) / 2]",
+      "source_page": 173,
+      "source_text": "营业收入 17,860,891,456.13；应收账款期末1,055,560,325.33，期初1,301,148,434.72",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": 1.17,
+      "formula": "营业成本 / [(期初存货 + 期末存货) / 2]",
+      "source_page": 173,
+      "source_text": "营业成本 9,414,070,490.87；存货期末9,340,164,542.46，期初6,694,368,428.37",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，同仁堂（600085）2023年度整体财务状况稳健且健康，展现出极强的经营韧性。\n\n在盈利能力方面，公司全年营收达178.61亿元（同比+16.19%），毛利率维持在47.29%的较高水平，加权ROE稳步提升至13.42%，表明公司核心产品市场竞争力强，股东回报能力持续增强。在偿债能力方面，公司表现十分优异。流动比率（3.26）与速动比率（1.96）远超常规安全标准，且资产负债率仅为36.36%，说明公司现金流充裕，对外部债务依赖度低，长短期财务风险极小。\n\n在营运效率方面，应收账款周转率高达15.16次，销售回款极快，坏账风险低；但存货周转率偏低（1.17次），期末存货大幅攀升至93.40亿元，这主要系公司为应对中药材涨价而进行的战略性备货。\n\n风险提示：需重点关注成本端与存货风险。2023年营业成本增速（19.62%）已略高于营收增速，反映出原材料价格上涨带来的利润挤压；同时，庞大的存货规模虽为战略储备，但也增加了资金占用成本，若未来原材料价格剧烈波动或市场需求不及预期，可能面临存货跌价减值的潜在风险。建议未来持续跟踪其成本控制及库存消化情况。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

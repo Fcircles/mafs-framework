@@ -1,0 +1,263 @@
+{
+  "company_code": "600436",
+  "company_name": "片仔癀",
+  "year": 2022,
+  "industry": "医药行业",
+  "method": "general_rag",
+  "indicators": [
+    {
+      "name": "净利润（归属于上市公司普通股股东的净利润）",
+      "value": 2472344731.55,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "分红年度合并报表中归属于上市公司普通股股东的净利润 2,472,344,731.55",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "营业收入（母公司）",
+      "value": 3696284268.69,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "母公司利润表 2022年1—12月...一、营业收入 3,696,284,268.69",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "总资产",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "提供的文本中未包含总资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "所有者权益",
+      "value": null,
+      "formula": "无",
+      "source_page": 6,
+      "source_text": "提供的文本中未包含所有者权益数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "ROE（加权平均净资产收益率）",
+      "value": null,
+      "formula": "直接提取",
+      "source_page": 6,
+      "source_text": "加权平均净资产收益率（%） 23.50",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "流动资产",
+      "value": 8929960401.55,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "流动资产合计 8,929,960,401.55",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总资产",
+      "value": 11429168891.7,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "资产总计 11,429,168,891.70",
+      "category": "Z-Score"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "营运资本",
+      "value": null,
+      "formula": "流动资产 - 流动负债",
+      "source_page": 27,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "留存收益",
+      "value": null,
+      "formula": "盈余公积 + 未分配利润",
+      "source_page": 27,
+      "source_text": "无明确表头数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "息税前利润",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "1.2*(营运资本/总资产) + 1.4*(留存收益/总资产) + 3.3*(息税前利润/总资产) + 0.6*(股票市值/总负债) + 1.0*(销售收入/总资产)",
+      "source_page": 27,
+      "source_text": "无相关数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动资产",
+      "value": 12704827396.23,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "流动资产合计 12,704,827,396.23",
+      "category": "偿债能力"
+    },
+    {
+      "name": "流动负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "提供的段落中未包含流动负债合计数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "存货",
+      "value": 2627815630.35,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "存货 七、9 2,627,815,630.35",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总资产",
+      "value": 14603844518.45,
+      "formula": "直接提取",
+      "source_page": 27,
+      "source_text": "资产总计 14,603,844,518.45",
+      "category": "偿债能力"
+    },
+    {
+      "name": "总负债",
+      "value": null,
+      "formula": "无",
+      "source_page": 27,
+      "source_text": "提供的段落中未包含总负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 8694001504.35,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落4] 营业收入 8,694,001,504.35",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 4725854201.91,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落2] 其中：营业成本 七、61 4,725,854,201.91",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净利润",
+      "value": 2472344731.55,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落4] 归属于上市公司股东的净利润 2,472,344,731.55",
+      "category": "盈利能力"
+    },
+    {
+      "name": "总资产",
+      "value": 14603844518.45,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落4] 总资产 14,603,844,518.45",
+      "category": "盈利能力"
+    },
+    {
+      "name": "归属于上市公司股东的净资产（所有者权益）",
+      "value": 11329967292.12,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落4] 归属于上市公司股东的净资产 11,329,967,292.12",
+      "category": "盈利能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.4564,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 113,
+      "source_text": "基于[段落2]数据计算：(8,694,001,504.35 - 4,725,854,201.91) / 8,694,001,504.35",
+      "category": "盈利能力"
+    },
+    {
+      "name": "销售净利率",
+      "value": 0.2844,
+      "formula": "归属于上市公司股东的净利润 / 营业收入",
+      "source_page": 113,
+      "source_text": "基于[段落4]数据计算：2,472,344,731.55 / 8,694,001,504.35",
+      "category": "盈利能力"
+    },
+    {
+      "name": "加权平均净资产收益率 (ROE)",
+      "value": 0.235,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "[段落3] 加权平均净资产收益率（%） 23.50",
+      "category": "盈利能力"
+    },
+    {
+      "name": "营业收入",
+      "value": 8694001504.35,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "营业收入 8,694,001,504.35",
+      "category": "营运能力"
+    },
+    {
+      "name": "营业成本",
+      "value": 4725854201.91,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "其中：营业成本 七、61 4,725,854,201.91",
+      "category": "营运能力"
+    },
+    {
+      "name": "应收账款",
+      "value": null,
+      "formula": "无",
+      "source_page": 113,
+      "source_text": "提供的文本中未包含该数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货",
+      "value": null,
+      "formula": "无",
+      "source_page": 113,
+      "source_text": "提供的文本中未包含该数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产",
+      "value": 14603844518.45,
+      "formula": "直接提取",
+      "source_page": 113,
+      "source_text": "总资产 14,603,844,518.45",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "综合来看，片仔癀（600436）2022年整体财务状况稳健，核心竞争力突出，但也存在一定的指标波动与信息局限。\n\n在**盈利能力**方面，公司表现优异。毛利率（45.64%）与净利率（28.44%）维持高位，彰显了核心产品极强的市场定价权与竞争壁垒。尽管加权平均净资产收益率（ROE）同比下降4.18个百分点至23.50%，但绝对值依然处于较高水平，且经营活动现金流受存单到期等因素影响大幅增长，盈利质量与现金储备十分充裕。\n\n在**偿债能力**方面，虽然缺乏负债明细无法计算具体流动比率或资产负债率，但公司资产结构极具韧性。流动资产占总资产比重高达87%，且拥有近25亿元的充裕货币资金，资产变现能力强，具备坚实的短期偿债基础。\n\n在**营运效率**方面，公司总资产周转率约为0.64次，整体资产利用效率保持在合理水平。\n\n**风险提示**：首先，ROE出现下滑趋势，需关注公司未来资本回报率的走向及业绩增速放缓的压力；其次，由于本次分析缺失负债、应收账款及存货等关键数据，无法进行完整的杜邦分析、Z-Score破产风险预警及存货周转评估。建议投资者结合完整财务报表，进一步排查潜在的债务结构风险与库存管理风险。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "top_k": 5,
+    "rag_queries_count": 5
+  }
+}

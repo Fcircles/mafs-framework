@@ -1,0 +1,144 @@
+{
+  "company_code": "600519",
+  "company_name": "贵州茅台",
+  "year": 2021,
+  "industry": "消费行业",
+  "method": "single_llm",
+  "indicators": [
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "销售净利率",
+      "value": 1.3303,
+      "formula": "净利润 / 营业收入",
+      "source_page": 50,
+      "source_text": "母公司净利润49,679,102,092.33 / 母公司营业收入37,344,898,964.17（注：合并报表营收缺失，采用母公司数据）",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末总资产及合并营业收入数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "权益乘数",
+      "value": null,
+      "formula": "总资产 / 净资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末总资产和净资产数据",
+      "category": "杜邦分析"
+    },
+    {
+      "name": "Altman Z-Score",
+      "value": null,
+      "formula": "6.56X1 + 3.26X2 + 6.72X3 + 1.05X4",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末流动负债、总资产、总负债等计算所需数据",
+      "category": "Z-Score"
+    },
+    {
+      "name": "流动比率",
+      "value": null,
+      "formula": "流动资产 / 流动负债",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "速动比率",
+      "value": null,
+      "formula": "(流动资产 - 存货) / 流动负债",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末流动负债数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "资产负债率",
+      "value": null,
+      "formula": "总负债 / 总资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末总负债和总资产数据",
+      "category": "偿债能力"
+    },
+    {
+      "name": "毛利率",
+      "value": 0.7592,
+      "formula": "(营业收入 - 营业成本) / 营业收入",
+      "source_page": 50,
+      "source_text": "(母公司营业收入37,344,898,964.17 - 母公司营业成本8,991,912,828.37) / 母公司营业收入37,344,898,964.17",
+      "category": "盈利能力"
+    },
+    {
+      "name": "净利率",
+      "value": 1.3303,
+      "formula": "净利润 / 营业收入",
+      "source_page": 50,
+      "source_text": "母公司净利润49,679,102,092.33 / 母公司营业收入37,344,898,964.17",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROA",
+      "value": null,
+      "formula": "净利润 / 平均总资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末总资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "ROE",
+      "value": null,
+      "formula": "净利润 / 平均净资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末净资产数据",
+      "category": "盈利能力"
+    },
+    {
+      "name": "应收账款周转率",
+      "value": 6.99,
+      "formula": "营业收入 / 平均应收账款",
+      "source_page": 50,
+      "source_text": "母公司营业收入37,344,898,964.17 / [(母公司期初应收账款9,203,780,107.14 + 母公司期末应收账款1,480,080,983.77) / 2]",
+      "category": "营运能力"
+    },
+    {
+      "name": "存货周转率",
+      "value": null,
+      "formula": "营业成本 / 平均存货",
+      "source_page": 50,
+      "source_text": "文本未提供母公司2021年末存货数据，且合并报表缺少营业成本数据",
+      "category": "营运能力"
+    },
+    {
+      "name": "总资产周转率",
+      "value": null,
+      "formula": "营业收入 / 平均总资产",
+      "source_page": 50,
+      "source_text": "文本未提供2021年末总资产数据",
+      "category": "营运能力"
+    }
+  ],
+  "interpretation": "由于提供的年报片段缺失合并利润表及2021年末合并资产负债表的负债与权益部分，多数核心财务指标（如ROE、ROA、Z-Score及偿债能力指标）无法准确计算。基于可用的母公司数据分析：母公司毛利率达75.92%，净利率高达133.03%，异常高的净利率主要源于母公司确认了447.99亿元的巨额投资收益（通常为子公司分红），导致净利润远超营业收入。营运方面，母公司应收账款周转率为6.99次，期末应收账款较期初大幅下降83.9%，表明货款回收极为顺畅。此外，合并现金流量表显示，公司销售商品收到的现金高达1193.2亿元，经营活动现金净流入640.3亿元，期末货币资金达518.1亿元。整体来看，尽管报表数据不全，但充沛的现金流和极高的收益质量充分印证了贵州茅台极强的市场话语权与卓越的盈利及“造血”能力。",
+  "metadata": {
+    "model": "tengri-2-pro",
+    "pages_used": [
+      50,
+      56,
+      57,
+      78,
+      80,
+      104,
+      105,
+      119
+    ],
+    "text_length": 8278
+  }
+}

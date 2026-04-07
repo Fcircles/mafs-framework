@@ -1,0 +1,157 @@
+{
+  "multi_agent": {
+    "method": "multi_agent",
+    "sample_count": 150,
+    "calculation_correctness": null,
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 150
+    },
+    "caliber_consistency": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 30
+    },
+    "interpretation_quality": {
+      "reviewer_a_mean": 4.166666666666667,
+      "reviewer_b_mean": 4.424444444444443,
+      "overall_mean": 4.295555555555555,
+      "overall_std": 0.9766053577015426,
+      "count": 150
+    },
+    "cohens_kappa": {
+      "value": 0.8117604876299749,
+      "interpretation": "高一致性"
+    },
+    "icc": {
+      "icc": 0.8464509529295343,
+      "mean_abs_diff": 0.2977777777777778,
+      "max_abs_diff": 3.0
+    },
+    "formula_verification": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 150
+    }
+  },
+  "rule_based": {
+    "method": "rule_based",
+    "sample_count": 150,
+    "calculation_correctness": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "count": 150
+    },
+    "evidence_alignment": {
+      "mean": 0.06666666666666667,
+      "std": 0.24944382578492943,
+      "count": 150
+    },
+    "caliber_consistency": {
+      "mean": 0.06666666666666667,
+      "std": 0.24944382578492943,
+      "count": 30
+    },
+    "interpretation_quality": {
+      "reviewer_a_mean": 1.048888888888889,
+      "reviewer_b_mean": 1.0,
+      "overall_mean": 1.0244444444444445,
+      "overall_std": 0.09885767297571212,
+      "count": 150
+    },
+    "cohens_kappa": {
+      "value": 0.0,
+      "interpretation": "极低一致性"
+    },
+    "icc": {
+      "icc": 8.81605930249456e-17,
+      "mean_abs_diff": 0.04888888888888889,
+      "max_abs_diff": 1.0
+    }
+  },
+  "single_llm": {
+    "method": "single_llm",
+    "sample_count": 150,
+    "calculation_correctness": {
+      "mean": 0.3675555555555555,
+      "std": 0.24642470615274992,
+      "min": 0.0,
+      "max": 0.9333333333333333,
+      "count": 150
+    },
+    "evidence_alignment": {
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 150
+    },
+    "caliber_consistency": {
+      "mean": 0.14165945165945165,
+      "std": 0.1366303481075298,
+      "count": 30
+    },
+    "interpretation_quality": {
+      "reviewer_a_mean": 4.857777777777779,
+      "reviewer_b_mean": 3.933333333333333,
+      "overall_mean": 4.395555555555555,
+      "overall_std": 0.4633000254481397,
+      "count": 150
+    },
+    "cohens_kappa": {
+      "value": 0.09116175653140635,
+      "interpretation": "极低一致性"
+    },
+    "icc": {
+      "icc": 0.17234868917898544,
+      "mean_abs_diff": 0.9777777777777779,
+      "max_abs_diff": 4.0
+    }
+  },
+  "general_rag": {
+    "method": "general_rag",
+    "sample_count": 150,
+    "calculation_correctness": {
+      "mean": 0.15155555555555555,
+      "std": 0.13854196672203653,
+      "min": 0.0,
+      "max": 0.5333333333333333,
+      "count": 150
+    },
+    "evidence_alignment": {
+      "mean": 0.9221783494240805,
+      "std": 0.11860767418714871,
+      "count": 150
+    },
+    "caliber_consistency": {
+      "mean": 0.025324865910192198,
+      "std": 0.03929031508241426,
+      "count": 30
+    },
+    "interpretation_quality": {
+      "reviewer_a_mean": 4.546666666666667,
+      "reviewer_b_mean": 4.78888888888889,
+      "overall_mean": 4.667777777777777,
+      "overall_std": 0.47120675129834017,
+      "count": 150
+    },
+    "cohens_kappa": {
+      "value": 0.42929613189600513,
+      "interpretation": "中等一致性"
+    },
+    "icc": {
+      "icc": 0.4597066772719525,
+      "mean_abs_diff": 0.34888888888888886,
+      "max_abs_diff": 2.3333333333333335
+    }
+  },
+  "_global": {
+    "cohens_kappa_cross_method": {
+      "value": 0.8937544838137486,
+      "interpretation": "高一致性",
+      "sample_count": 600,
+      "note": "跨所有方法的评审A与评审B综合质量评分的加权Kappa系数"
+    }
+  }
+}
